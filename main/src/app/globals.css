@@ -1,0 +1,626 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: 0, 0%, 31%;
+  --foreground: /* existing value */;
+  --card: /* existing value */;
+
+
+
+
+  --color-primary: #40e0d0;
+  --color-secondary: #008080;
+  --color-tertiary: #000000;
+  --color-complementary: #2F4F4F;
+  --color-white: #FFFFFF;
+  --color-background: #505050;
+  --color-primary-transparent: rgba(117, 219, 209, 0.2)  ;        /* #937D5E */
+  --color-primary-transparent-animals: rgba(147, 125, 94, 0.55);        /* #937D5E */
+  --color-primary-transparent-hero: rgba(147, 125, 94, 0.4);        /* #937D5E */
+  --color-secondary-transparent: rgba(238, 247, 247, 0.5);     /* #F6EDE0 */
+  --color-secondary-transparent-quiz: rgba(246, 237, 224, 0.7);     /* #F6EDE0 */
+  --color-secondary-transparent-cards: rgba(246, 237, 224, 0.3);     /* #F6EDE0 */
+  --color-tertiary-transparent: rgba(111, 147, 94, 0.4);       /* #6F935E */
+  --color-complementary-transparent: rgba(165, 212, 202, 0.25); /* #A9C39C */
+  --color-white-transparent: rgba(255, 255, 255, 0.65);         /* #FFFFFF */
+  --color-background-transparent: rgba(80, 80, 80, 0.7);   /* #505050 */
+  --color-white-transparent-card: rgba(255, 255, 255, 0.3);       
+
+
+
+  --container-width-lg: 86%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
+  --form-width: 50%;
+
+  --transition: all 400ms ease;
+
+
+}
+
+
+
+/* Global styles */
+/* src/index.css or src/App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  position: relative;
+  top: 0 !important;
+}
+
+body {
+  transition: filter 0.3s ease;
+}
+
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+/* Heading Styles */
+
+h1 {
+  font-size: 2.5rem; /* Adjust based on your design */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900; /* Black */
+}
+
+h2 {
+  font-size: 2rem; /* Smaller than h1 */
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 800; /* ExtraBold*/
+}
+
+h3 {
+  font-size: 1.5rem; /* Smaller than h2 */
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700; /* SemiBold*/
+}
+
+h4 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700; /* Bold*/
+  font-size: 1.2rem; 
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 200; /* Extra-Light */
+  font-size: 1rem; 
+}
+
+span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1.2rem; 
+}
+
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Other container styles */
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+/* Other CSS remains the same... */
+
+
+
+.btn {
+  display: inline-block;
+  background: var(--color-secondary);
+  color: var(--color-background);
+  padding: 0.33rem 1.4rem;
+  border: 3px solid transparent;
+  border-radius: 112px;
+  font-weight: 700;
+  font-family: 'Monsterrat Alternates', sans-serif;
+  transition: var(--transition);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust shadow to match the design */
+  text-align: center;
+}
+
+.btn:hover {
+  background: var(--color-secondary);
+  color: var(--color-background);
+  border-color: var(--color-primary);
+}
+
+.btn-primary {
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.btn-primary:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn-secondary {
+  background: var(--color-primary);
+  color: var(--color-background);
+}
+
+.btn-tertiary {
+  background: var(--color-tertiary);
+  color: var(--color-white);
+}
+
+.btn-tertiary:hover {
+  background: var(--color-white);
+  color: var(--color-tertiary);
+  border-color: var(--color-tertiary);
+}
+
+
+
+
+
+
+
+/* ====================== Error Page =============================== */
+
+.center {
+  text-align: center;
+  margin-inline: center;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.center-p {
+  text-align: center;
+  padding: 2rem;
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+
+.margin-top-max {
+  margin-top: 5rem;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.margin-bottom-max {
+  margin-bottom: 5rem;
+}
+
+.error-page h3{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+/* ====================== Loader =============================== */
+
+.loader {
+  position: relative;
+  top:0;
+  left:0;
+  height:100vh;
+  width:100vw;
+  display: grid;
+  place-items: center;
+  opacity: 70%;
+}
+
+
+/*====================  BG  =============================*/
+
+
+.homepage-background {
+  width: 100%;
+  background: url('./../../public/assets/Services BG.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.about-background {
+  width: 100%;
+  background: url('./../../public/assets/Services BG.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+/* Add other backgrounds similarly... */
+.Contact-background {
+  width: 100%;
+  background: url('./../../public/assets/Services BG.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.blog-background {
+  width: 100%;
+  background: url('./../../public/assets/Services BG.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.services-background {
+  width: 100%;
+  background: url('./../../public/assets/Services BG.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+/* ====================== Hero =============================== */
+
+/* Hero section container */
+.hero-container-home {
+  /* background-image: url('../public/assets/Homepage - Hero.jpg');  Replace with your background image path */
+  background-size: cover;
+  background-attachment: fixed; /* Fix the background to create parallax effect */
+  background-position: center;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-container-about {
+   /* background-image: url('../public/assets/About - Hero.jpg'); /* Replace with your background image path */
+  background-size: cover;
+  background-attachment: fixed; /* Fix the background to create parallax effect */
+  background-position: center;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-container-contact {
+   /* background-image: url('../public/assets/Contact - Hero.jpg');  Replace with your background image path */
+  background-size: cover;
+  background-attachment: fixed; /* Fix the background to create parallax effect */
+  background-position: center;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-container-blog {
+  /* background-image: url('../public/assets/Blog - Hero.jpg');  Replace with your background image path */
+  background-size: cover;
+  background-attachment: fixed; /* Fix the background to create parallax effect */
+  background-position: center;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+/* Hide the default checkbox appearance */
+.custom-checkbox-container input[type="checkbox"] {
+  -webkit-appearance: none; /* Safari and Chrome */
+  -moz-appearance: none;    /* Firefox */
+  appearance: none;
+  width: 20px;
+  height: 35px;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  border: 1.5px solid var(--color-primary); /* Use your primary color */
+  border-radius: 50%; /* Make it round */
+  background-color: #fff;
+  transition: var(--transition);
+}
+
+/* Style the checked state */
+.custom-checkbox-container input[type="checkbox"]:checked {
+  background-color: var(--color-primary); /* Fill background when checked */
+}
+
+/* Optional: Add a checkmark or dot inside the checkbox when checked */
+.custom-checkbox-container input[type="checkbox"]:checked::after {
+  content: '✔';
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  width: 1px;
+  height: 12px;
+  color: #fff; /* Color of the inner dot */
+  border-radius: 50%;
+
+  transition: var(--transition);
+}
+
+/* Adjust the label */
+.custom-checkbox-container label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Ensure the checkbox and label text are properly spaced */
+.custom-checkbox-container label > input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.preview-section {
+  margin-top: -100px;
+ }
+
+
+ /* src/index.css */
+
+.clip-path-polygon {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+
+
+/* ====================== Responsive Tablets =============================== */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    padding: 0.4rem 2rem; /* Increases button size */
+  }
+
+  .container, .main-container {
+    padding: 0 20px; /* Adds padding on the sides */
+  }
+  .preview-section {
+    margin-top: -280px;
+   }
+}
+
+/* ====================== Responsive Phones =============================== */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: var(--container-width-sm); /* Uses smaller container width */
+  }
+
+  .btn {
+    padding: 0.4rem 1.5rem; /* Reduces button size for space */
+  }
+
+  /* Increase base text size for readability */
+  body {
+    font-size: 1rem; /* Increases text size */
+  }
+
+  /* Make images and sections adapt to smaller screens */
+  img, .section {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-p {
+    font-size: 12px;
+  }
+  
+  .hero-title {
+    font-size: 50px;
+  }
+
+  .preview-text {
+    margin-top: -150px;
+  }
+
+ .preview-image {
+  top: 300px;
+ }
+
+ .preview-section {
+  top: 400px;
+ }
+
+ .whole-hero-section {
+  margin-top: -100px;
+  margin-bottom: -800px;
+ }
+
+ 
+
+
+  .hero-div h1 {
+    font-size: 2.5rem; /* Adjusts hero text size */
+  }
+
+  .header__container, .about-section, .services-section, .portfolio-section {
+    padding: 0 15px; /* Reduces padding */
+    justify-content: center; /* Center the image container */
+  }
+
+  spline-viewer {
+    height: 500px;
+    pointer-events: none;
+  }
+
+  #spline-container::after {
+    width: 98%; /* Adjust to 70% of the container's width */
+    bottom: 18px; /* Adjusted to position the element at the bottom */
+    right: 0; /* Positions the element to the right */
+  }
+
+  #spline-container:hover::after {
+    box-shadow: none;
+    transform: none;
+  }
+
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px; /* This adds space between your flex items */
+  }
+
+  .header__left, .header__right {
+    width: 100%; /* This ensures each child takes full width */
+    margin-bottom: 20px; /* This adds space between your flex items */
+  }
+
+  .hero-container {
+    width: 100%;
+    background-size: cover;
+  background-attachment: scroll;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+}
+
+
+
+@media screen and (max-width: 305px) {
+
+  #spline-container::after {
+    width: 100%; /* Adjust to 70% of the container's width */
+  }
+  
+}
+
+
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-transparent text-foreground;
+  }
+}

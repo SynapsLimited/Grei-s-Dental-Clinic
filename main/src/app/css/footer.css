@@ -1,0 +1,18 @@
+/* globals.css */
+
+/* Footer Gradient Overlay */
+.footer-gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),          /* Transparent at the top */
+      rgba(64, 224, 208, 0.2)          /* Primary Transparent at the bottom */
+    );
+    pointer-events: none;               /* Allow interactions to pass through */
+    z-index: 0;                          /* Ensure it sits below the footer content */
+  }
+  
