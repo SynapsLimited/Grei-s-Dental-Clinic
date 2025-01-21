@@ -107,22 +107,22 @@ export default function WhoIs() {
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="relative"
+              className="relative z-50" // Increased z-index to 50
             >
               {/* Background Shape */}
-              <div className="absolute left-0 bottom-[47px] w-full h-1/2 bg-gradient-to-br from-primary to-primary rounded-t-[40px] rounded-b-[20px]" />
+              <div className="absolute left-0 bottom-[47px] w-full h-1/2 bg-gradient-to-br from-primary to-primary rounded-t-[40px] rounded-b-[20px] z-0" /> {/* Set z-index to 0 */}
 
               {/* Main Image */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="relative w-[300px] h-[375px] mx-auto z-10"
+                className="relative w-[300px] h-[375px] mx-auto z-50" // Increased z-index to 50
               >
                 <Image
                   src="/assets/dr.grei.svg"
                   alt="Dr. Grei - Dentist"
                   fill
-                  className="object-contain object-center z-[500]"
+                  className="object-contain object-center "
                   priority
                 />
               </motion.div>
