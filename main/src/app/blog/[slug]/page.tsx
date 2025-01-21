@@ -7,11 +7,11 @@ import AnimatedContent from "@/app/blog/[slug]/AnimatedContent";
 import ShareButtons from "@/app/blog/[slug]/ShareButtons";
 import { blogPosts } from "../data/blogposts";
 
-// Define the shape of the route parameters
+// Define the shape of the route parameters as a Promise
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
   searchParams?: {
     [key: string]: string | string[];
   };
@@ -19,7 +19,7 @@ interface PageProps {
 
 // Generate metadata for the blog post page
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = params;
+  const { slug } = await params;
 
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {};
@@ -48,12 +48,15 @@ export async function generateStaticParams() {
   }));
 }
 
-// Main BlogPostPage component
-export default function BlogPostPage({ params }: PageProps) {
-  const { slug } = params;
+// Main BlogPostPage component marked as async to handle asynchronous params
+export default async function BlogPostPage({ params }: PageProps) {
+  // Await the resolution of params
+  const { slug } = await params;
 
+  // Find the corresponding blog post
   const post = blogPosts.find((p) => p.slug === slug);
 
+  // If the post doesn't exist, render the 404 page
   if (!post) {
     notFound();
   }
