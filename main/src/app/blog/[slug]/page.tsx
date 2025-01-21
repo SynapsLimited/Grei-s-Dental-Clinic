@@ -5,15 +5,9 @@ import AnimatedContent from "@/app/blog/[slug]/AnimatedContent" // Adjust path i
 import ShareButtons from "@/app/blog/[slug]/ShareButtons" // Adjust path if needed
 import { blogPosts } from "../data/blogposts"
 
-
-
-interface BlogPostPageProps {
-  params: {
-    slug: string
-  }
-}
-
-export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
+export async function generateMetadata(
+  { params }: { params: { slug: string } }
+): Promise<Metadata> {
   const post = blogPosts.find((p) => p.slug === params.slug)
   if (!post) return {}
 
@@ -34,7 +28,10 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 }
 
-export default async function BlogPostPage({ params }: BlogPostPageProps) {
+// Page Component
+export default async function BlogPostPage(
+  { params }: { params: { slug: string } }
+) {
   const post = blogPosts.find((p) => p.slug === params.slug)
 
   if (!post) {
@@ -80,6 +77,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   )
 }
 
+// SSG for dynamic routes
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
     slug: post.slug,
