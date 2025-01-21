@@ -1,5 +1,3 @@
-// src/app/blog/[slug]/page.tsx
-
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -7,20 +5,10 @@ import AnimatedContent from "@/app/blog/[slug]/AnimatedContent";
 import ShareButtons from "@/app/blog/[slug]/ShareButtons";
 import { blogPosts } from "../data/blogposts";
 
-// Define the shape of the route parameters
-interface PageProps {
-  params: Promise<{
-    slug: string;
-  }>;
-  searchParams?: {
-    [key: string]: string | string[];
-  };
-}
-
-// Generate metadata for the blog post page
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> }
+): Promise<Metadata> {
   const { slug } = await params;
-
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {};
 
@@ -41,22 +29,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-// Generate static parameters for dynamic routing
-export async function generateStaticParams() {
-  return blogPosts.map((post) => ({
-    slug: post.slug,
-  }));
-}
-
-// Main BlogPostPage component marked as async to handle asynchronous params
-export default async function BlogPostPage({ params }: PageProps) {
-  // Await the resolution of params
+// Page Component
+export default async function BlogPostPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
-
-  // Find the corresponding blog post
   const post = blogPosts.find((p) => p.slug === slug);
 
-  // If the post doesn't exist, render the 404 page
   if (!post) {
     notFound();
   }
@@ -76,7 +57,9 @@ export default async function BlogPostPage({ params }: PageProps) {
           <h1 className="text-4xl sm:text-5xl font-medium mb-10 mt-20 text-complementary dark:text-primary-100">
             {post.title}
           </h1>
-          <p className="text-complementary font-medium text-sm mb-6">{post.date}</p>
+          <p className="text-complementary font-medium text-sm mb-6">
+            {post.date}
+          </p>
           <div className="relative h-64 sm:h-80 md:h-96 mb-8 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-[1.02]">
             <Image
               src={post.image || "/placeholder.svg"}
@@ -98,4 +81,11 @@ export default async function BlogPostPage({ params }: PageProps) {
       </article>
     </div>
   );
+}
+
+// SSG for dynamic routes
+export async function generateStaticParams() {
+  return blogPosts.map((post) => ({
+    slug: post.slug,
+  }));
 }
