@@ -122,7 +122,7 @@ export default function WhoIs() {
                   src="/assets/dr.grei.png"
                   alt="Dr. Grei - Dentist"
                   fill
-                  className="object-contain object-center "
+                  className="object-contain object-center pb-[47px] "
                   priority
                 />
               </motion.div>
