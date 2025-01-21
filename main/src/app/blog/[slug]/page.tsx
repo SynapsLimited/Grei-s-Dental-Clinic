@@ -5,9 +5,10 @@ import AnimatedContent from "@/app/blog/[slug]/AnimatedContent"
 import ShareButtons from "@/app/blog/[slug]/ShareButtons"
 import { blogPosts } from "../data/blogposts"
 
-// If typing strictly is causing issues in your current Next.js version,
-// you can revert to 'any' in both functions or remove the param types entirely:
-export async function generateMetadata({ params }: any): Promise<Metadata> {
+export async function generateMetadata(
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  { params }: any
+): Promise<Metadata> {
   const post = blogPosts.find((p) => p.slug === params.slug)
   if (!post) return {}
 
@@ -29,8 +30,10 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
 }
 
 // Page Component
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default async function BlogPostPage({ params }: any) {
   const post = blogPosts.find((p) => p.slug === params.slug)
+
   if (!post) {
     notFound()
   }
