@@ -119,7 +119,7 @@ export default function WhoIs() {
                 className="relative w-[300px] h-[375px] mx-auto z-50"
               >
                 <Image
-                  src="/assets/dr.grei.svg"
+                  src="/assets/dr.grei.png"
                   alt="Dr. Grei - Dentist"
                   fill
                   className="object-contain object-center "
