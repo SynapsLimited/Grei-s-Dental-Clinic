@@ -104,19 +104,19 @@ export default function WhoIs() {
 
           {/* Right Column */}
           <div className="relative">
+            {/* Background Shape */}
+            <div className="absolute left-0 bottom-[47px] w-full h-1/2 bg-gradient-to-br from-primary to-primary rounded-t-[40px] rounded-b-[20px] z-0" />
+
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="relative z-50" // Increased z-index to 50
+              className="relative z-50"
             >
-              {/* Background Shape */}
-              <div className="absolute left-0 bottom-[47px] w-full h-1/2 bg-gradient-to-br from-primary to-primary rounded-t-[40px] rounded-b-[20px] z-0" /> {/* Set z-index to 0 */}
-
               {/* Main Image */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="relative w-[300px] h-[375px] mx-auto z-50" // Increased z-index to 50
+                className="relative w-[300px] h-[375px] mx-auto z-50"
               >
                 <Image
                   src="/assets/dr.grei.svg"
