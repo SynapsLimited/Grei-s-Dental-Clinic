@@ -2,31 +2,34 @@
 
 import { useState, useEffect } from 'react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid'
+import { useTranslation } from 'react-i18next'
 
-const cards = [
-  {
-    title: 'About Us',
-    content: 'We are a passionate team dedicated to innovation and excellence.',
-    bgImage: '/assets/about.jpg',
-  },
-  {
-    title: 'Mission',
-    content: 'Our mission is to empower businesses through cutting-edge technology solutions.',
-    bgImage: '/assets/mission.jpg',
-  },
-  {
-    title: 'Vision',
-    content: 'We envision a world where technology enhances every aspect of human life.',
-    bgImage: '/assets/vision.jpg',
-  },
-  {
-    title: 'Values',
-    content: 'Integrity, innovation, collaboration, and customer-centricity guide our actions.',
-    bgImage: '/assets/values.jpg',
-  },
-]
+const HeroSlider = () => {
+  const { t } = useTranslation()
 
-export default function HeroSlider() {
+  const cards = [
+    {
+      titleKey: 'hero_slider_about_us',
+      contentKey: 'hero_slider_about_us_content',
+      bgImage: '/assets/about.jpg',
+    },
+    {
+      titleKey: 'hero_slider_mission',
+      contentKey: 'hero_slider_mission_content',
+      bgImage: '/assets/mission.jpg',
+    },
+    {
+      titleKey: 'hero_slider_vision',
+      contentKey: 'hero_slider_vision_content',
+      bgImage: '/assets/vision.jpg',
+    },
+    {
+      titleKey: 'hero_slider_values',
+      contentKey: 'hero_slider_values_content',
+      bgImage: '/assets/values.jpg',
+    },
+  ]
+
   const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
@@ -35,7 +38,7 @@ export default function HeroSlider() {
     }, 7000)
 
     return () => clearInterval(timer)
-  }, [])
+  }, [cards.length])
 
   const goToSlide = (index: number) => {
     setCurrentIndex(index)
@@ -76,8 +79,8 @@ export default function HeroSlider() {
               <div className="absolute inset-0 bg-gradient-to-b from-teal-500/30  to-transparent" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="max-w-md text-center text-white">
-                  <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium text-white mb-12 md:mb-16 max-w-3xl">{card.title}</h2>
-                  <p className="text-xl">{card.content}</p>
+                  <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium text-white mb-12 md:mb-16 max-w-3xl">{t(card.titleKey)}</h2>
+                  <p className="text-xl">{t(card.contentKey)}</p>
                 </div>
               </div>
             </div>
@@ -88,7 +91,7 @@ export default function HeroSlider() {
       <button
         onClick={goToPrevious}
         className="absolute left-4 top-1/2 -translate-y-1/2 transform rounded-full bg-white/20 p-2 backdrop-blur-sm transition-all hover:bg-white/30"
-        aria-label="Previous slide"
+        aria-label={t('previous_slide')}
       >
         <ChevronLeftIcon className="h-6 w-6 text-white" />
       </button>
@@ -96,7 +99,7 @@ export default function HeroSlider() {
       <button
         onClick={goToNext}
         className="absolute right-4 top-1/2 -translate-y-1/2 transform rounded-full bg-white/20 p-2 backdrop-blur-sm transition-all hover:bg-white/30"
-        aria-label="Next slide"
+        aria-label={t('next_slide')}
       >
         <ChevronRightIcon className="h-6 w-6 text-white" />
       </button>
@@ -109,7 +112,7 @@ export default function HeroSlider() {
             className={`h-3 w-3 rounded-full transition-all ${
               index === currentIndex ? 'bg-white' : 'bg-white/50'
             }`}
-            aria-label={`Go to slide ${index + 1}`}
+            aria-label={t('go_to_slide', { number: index + 1 })}
           />
         ))}
       </div>
@@ -123,7 +126,7 @@ export default function HeroSlider() {
               className={`group relative h-16 w-24 rounded-lg overflow-hidden transition-all focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 ${
                 index === currentIndex ? 'scale-110 opacity-100' : 'scale-100 opacity-50 hover:opacity-75'
               }`}
-              aria-label={`Preview of ${card.title}`}
+              aria-label={`Anteprima di ${t(card.titleKey)}`}
             >
               <div 
                 className="absolute inset-0 bg-cover bg-center"
@@ -134,7 +137,7 @@ export default function HeroSlider() {
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-b from-teal-500/30 to-transparent" />
-              <span className="sr-only">{card.title}</span>
+              <span className="sr-only">{t(card.titleKey)}</span>
             </button>
           ))}
         </div>
@@ -143,3 +146,4 @@ export default function HeroSlider() {
   )
 }
 
+export default HeroSlider

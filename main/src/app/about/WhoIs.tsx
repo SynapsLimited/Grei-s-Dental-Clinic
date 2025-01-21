@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Star } from "lucide-react"
 import { motion, useInView } from "framer-motion"
 import Image from "next/image"
+import { useTranslation } from 'react-i18next'
 
 // Custom hook for count animation
 function useCountAnimation(end: number, duration: number = 2) {
@@ -36,6 +37,7 @@ function useCountAnimation(end: number, duration: number = 2) {
 }
 
 export default function WhoIs() {
+  const { t } = useTranslation()
   const [isHovered, setIsHovered] = useState(false)
 
   // Use the custom hook for each stat at the top level
@@ -65,7 +67,7 @@ export default function WhoIs() {
               animate={{ opacity: 1, y: 0 }}
               className="text-complementary text-[2.5rem] lg:text-[3rem] font-medium leading-[1.2]"
             >
-              Who is Dr. Grei?
+              {t('who_is_heading')}
             </motion.h1>
 
             {/* Description */}
@@ -74,8 +76,7 @@ export default function WhoIs() {
               animate={{ opacity: 1, y: 0 }}
               className="text-gray-600 text-lg max-w-md mx-auto lg:mx-0"
             >
-              Dr. Grei is a renowned dentist with a personal dental clinic in Albania. She is known for her amazing
-              results and unwavering professionalism, providing top-notch dental care to her patients.
+              {t('who_is_description')}
             </motion.p>
 
             {/* Buttons */}
@@ -86,7 +87,7 @@ export default function WhoIs() {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
-                Call Us
+                {t('call_us')}
               </Link>
               {isHovered && (
                 <motion.p
@@ -95,7 +96,7 @@ export default function WhoIs() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.2 }}
                 >
-                  Click to begin your journey!
+                  {t('begin_journey')}
                 </motion.p>
               )}
             </div>
@@ -137,15 +138,15 @@ export default function WhoIs() {
         >
           <motion.div className="text-center" ref={satisfactionRate.ref}>
             <div className="text-primary text-5xl lg:text-6xl font-bold mb-2">{satisfactionRate.count}%</div>
-            <div className="text-gray-500 text-lg">Satisfaction rate</div>
+            <div className="text-gray-500 text-lg">{t('satisfaction_rate')}</div>
           </motion.div>
           <motion.div className="text-center" ref={yearsExperience.ref}>
             <div className="text-primary text-5xl lg:text-6xl font-bold mb-2">{yearsExperience.count}+</div>
-            <div className="text-gray-500 text-lg">Years of experience</div>
+            <div className="text-gray-500 text-lg">{t('years_experience')}</div>
           </motion.div>
           <motion.div className="text-center" ref={patientsTreated.ref}>
             <div className="text-primary text-5xl lg:text-6xl font-bold mb-2">{patientsTreated.count}+</div>
-            <div className="text-gray-500 text-lg">Patients Treated</div>
+            <div className="text-gray-500 text-lg">{t('patients_treated')}</div>
           </motion.div>
         </motion.div>
       </div>
