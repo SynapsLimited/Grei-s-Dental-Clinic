@@ -1,13 +1,13 @@
 import { notFound } from "next/navigation"
 import { Metadata } from "next"
 import Image from "next/image"
-import AnimatedContent from "@/app/blog/[slug]/AnimatedContent" // Adjust path if needed
-import ShareButtons from "@/app/blog/[slug]/ShareButtons" // Adjust path if needed
+import AnimatedContent from "@/app/blog/[slug]/AnimatedContent"
+import ShareButtons from "@/app/blog/[slug]/ShareButtons"
 import { blogPosts } from "../data/blogposts"
 
-export async function generateMetadata(
-  { params }: { params: { slug: string } }
-): Promise<Metadata> {
+// If typing strictly is causing issues in your current Next.js version,
+// you can revert to 'any' in both functions or remove the param types entirely:
+export async function generateMetadata({ params }: any): Promise<Metadata> {
   const post = blogPosts.find((p) => p.slug === params.slug)
   if (!post) return {}
 
@@ -29,11 +29,8 @@ export async function generateMetadata(
 }
 
 // Page Component
-export default async function BlogPostPage(
-  { params }: { params: { slug: string } }
-) {
+export default async function BlogPostPage({ params }: any) {
   const post = blogPosts.find((p) => p.slug === params.slug)
-
   if (!post) {
     notFound()
   }
