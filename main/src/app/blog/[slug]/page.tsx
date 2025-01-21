@@ -5,14 +5,7 @@ import AnimatedContent from "@/app/blog/[slug]/AnimatedContent" // Adjust path i
 import ShareButtons from "@/app/blog/[slug]/ShareButtons" // Adjust path if needed
 import { blogPosts } from "../data/blogposts"
 
-interface BlogPost {
-  title: string
-  slug: string
-  date: string
-  excerpt: string
-  image: string
-  content: string
-}
+
 
 interface BlogPostPageProps {
   params: {
