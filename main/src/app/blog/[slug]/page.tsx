@@ -1,10 +1,20 @@
 import { notFound } from "next/navigation"
 import { Metadata } from "next"
 import Image from "next/image"
-// Removed `BlogPost` from import because it's not used
-import { blogPosts } from "../data/blogposts"
-import AnimatedContent from "./AnimatedContent"
-import ShareButtons from "./ShareButtons"
+// Removed `BlogPost` import since it was unused.
+// import { BlogPost } from "../../../types" // Example if you had a type
+import { blogPosts } from "@/app/blog/data/blogposts" // Adjust the path as needed
+import AnimatedContent from "@/app/blog/[slug]/AnimatedContent" // Adjust if needed
+import ShareButtons from "@/app/blog/[slug]/ShareButtons" // Adjust if needed
+
+interface BlogPost {
+  title: string
+  slug: string
+  date: string
+  excerpt: string
+  image: string
+  content: string
+}
 
 interface BlogPostPageProps {
   params: {
@@ -62,7 +72,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               alt={post.title}
               fill
               priority
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              sizes="(max-width: 768px) 100vw, 
+                     (max-width: 1200px) 50vw, 
+                     33vw"
               className="object-cover rounded-lg"
             />
           </div>
@@ -77,6 +89,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   )
 }
 
+// Optionally, if you are using static generation:
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
     slug: post.slug,

@@ -1,11 +1,10 @@
-// src/components/Navbar.tsx
-'use client';
+'use client'
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from './../css/navbar.module.css';
 import Image from "next/image";
-import { ChevronDown /*, Menu, X */ } from "lucide-react"; // ❌ remove Menu, X
+import { ChevronDown /*, Menu, X */ } from "lucide-react"; // Removed Menu, X
 import { useTranslation } from "react-i18next";
 
 const languages = [
@@ -72,7 +71,10 @@ const Navbar: React.FC = () => {
     <div className={`${styles.pageWrapper} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={`${styles.navWrapper} ${isScrolled ? styles.scrolled : ""}`}>
         <nav className={styles.navbar}>
-          <div className={`${styles.menuToggle} ${isMobileMenuOpen ? styles.isActive : ""}`} onClick={handleMenuToggle}>
+          <div
+            className={`${styles.menuToggle} ${isMobileMenuOpen ? styles.isActive : ""}`}
+            onClick={handleMenuToggle}
+          >
             <span className={styles.bar}></span>
             <span className={styles.bar}></span>
             <span className={styles.bar}></span>
@@ -123,14 +125,21 @@ const Navbar: React.FC = () => {
                 }}
                 className={styles.languageButton}
               >
-                {currentLanguage.flag} {currentLanguage.code.toUpperCase()} <ChevronDown className={`${styles.dropdownIcon} ${isLanguageDropdownOpen ? styles.open : ""}`} />
+                {currentLanguage.flag} {currentLanguage.code.toUpperCase()}{" "}
+                <ChevronDown
+                  className={`${styles.dropdownIcon} ${isLanguageDropdownOpen ? styles.open : ""}`}
+                />
               </button>
-              <ul className={`${styles.languageMenu} ${isLanguageDropdownOpen ? styles.open : ""}`}>
+              <ul
+                className={`${styles.languageMenu} ${isLanguageDropdownOpen ? styles.open : ""}`}
+              >
                 {languages.map((lang) => (
                   <li key={lang.code}>
                     <button
                       onClick={() => handleLanguageChange(lang)}
-                      className={`${styles.languageOption} ${lang.code === currentLanguage.code ? styles.active : ""}`}
+                      className={`${styles.languageOption} ${
+                        lang.code === currentLanguage.code ? styles.active : ""
+                      }`}
                     >
                       {lang.flag} {lang.name}
                     </button>

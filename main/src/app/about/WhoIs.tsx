@@ -38,7 +38,7 @@ function useCountAnimation(end: number, duration: number = 2) {
 export default function WhoIs() {
   const [isHovered, setIsHovered] = useState(false)
 
-  // Use the custom hook for each stat at top-level
+  // Use the custom hook for each stat at the top level
   const satisfactionRate = useCountAnimation(100)
   const yearsExperience = useCountAnimation(10)
   const patientsTreated = useCountAnimation(800)
@@ -103,7 +103,11 @@ export default function WhoIs() {
 
           {/* Right Column */}
           <div className="relative">
-            <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="relative">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="relative"
+            >
               {/* Background Shape */}
               <div className="absolute left-0 bottom-[47px] w-full h-1/2 bg-gradient-to-br from-primary to-primary rounded-t-[40px] rounded-b-[20px]" />
 
@@ -113,7 +117,13 @@ export default function WhoIs() {
                 animate={{ opacity: 1, y: 0 }}
                 className="relative w-[300px] h-[375px] mx-auto z-10"
               >
-                <Image src="/assets/dr.grei.svg" alt="Dr. Grei - Dentist" fill className="object-contain object-center" priority />
+                <Image
+                  src="/assets/dr.grei.svg"
+                  alt="Dr. Grei - Dentist"
+                  fill
+                  className="object-contain object-center"
+                  priority
+                />
               </motion.div>
             </motion.div>
           </div>

@@ -1,5 +1,3 @@
-// src/components/ui/use-toast.ts
-
 import * as React from "react"
 import type { ToastActionElement, ToastProps } from "@/components/ui/toast"
 
@@ -13,7 +11,6 @@ export type ToasterToast = ToastProps & {
   action?: ToastActionElement
 }
 
-// Instead of creating an unused `actionTypes`, just inline the possible types:
 type Action =
   | {
       type: "ADD_TOAST"

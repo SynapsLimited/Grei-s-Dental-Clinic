@@ -7,6 +7,9 @@ export function useScrollAnimation() {
   const ref = useRef<HTMLElement>(null)
 
   useEffect(() => {
+    const currentRef = ref.current // store in a variable so the cleanup references the same node
+    if (!currentRef) return
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsVisible(entry.isIntersecting)
@@ -18,17 +21,14 @@ export function useScrollAnimation() {
       }
     )
 
-    if (ref.current) {
-      observer.observe(ref.current)
-    }
+    observer.observe(currentRef)
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current)
+      if (currentRef) {
+        observer.unobserve(currentRef)
       }
     }
   }, [])
 
   return { ref, isVisible }
 }
-

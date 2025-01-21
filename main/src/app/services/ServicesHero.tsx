@@ -1,4 +1,3 @@
-// src/components/ServicesHero.tsx
 'use client'
 
 import { motion } from 'framer-motion'
@@ -59,23 +58,20 @@ export default function ServicesHero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="relative h-[300px] sm:h-[400px] md:h-[500px] w-full mt-8 sm:mt-0 pt-8 md:pt-0"
           >
-            {/* Wrapped Image in a div with relative positioning to ensure correct behavior with `fill` */}
             <motion.div
-              animate={{ 
-                y: [0, -10, 0],
-              }}
+              animate={{ y: [0, -10, 0] }}
               transition={{
                 duration: 4,
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
-              className="w-full h-full relative" // Added 'relative' here to ensure parent has correct position
+              className="w-full h-full relative"
             >
               <Image
                 src="/assets/Services Hero.svg"
                 alt="Dental Services Illustration"
                 fill
-                priority // Added priority if this image is above the fold
+                priority
                 className="object-contain"
               />
             </motion.div>

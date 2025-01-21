@@ -1,13 +1,11 @@
-// src/app/home/BlogSection.tsx
 'use client'
 
 import React, { useRef } from "react"
 import Image from "next/image"
 import Link from "next/link"
-// ❌ Remove the unused import
+// Removed the unused import of Button:
 // import { Button } from "@/components/ui/button"
-import { motion } from "framer-motion"
-import { useInView } from "framer-motion"
+import { motion, useInView } from "framer-motion"
 import { useTranslation } from 'react-i18next'
 
 interface BlogPost {
@@ -52,7 +50,7 @@ export default function BlogSection() {
 
   return (
     <section ref={sectionRef} className="py-16 px-12 md:px-6 lg:px-8 max-w-7xl mx-auto">
-      <motion.h1 
+      <motion.h1
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
         variants={fadeInUpVariants}
@@ -61,11 +59,11 @@ export default function BlogSection() {
       >
         {t('read_our_articles')}
       </motion.h1>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
         {blogPosts.map((post, index) => (
           <Link href="/blog" key={index} className="group">
-            <motion.article 
+            <motion.article
               className="flex flex-col h-full"
               initial="hidden"
               animate={isInView ? "visible" : "hidden"}
@@ -91,7 +89,7 @@ export default function BlogSection() {
         ))}
       </div>
 
-      <motion.div 
+      <motion.div
         className="text-center"
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
