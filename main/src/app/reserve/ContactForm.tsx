@@ -1,19 +1,19 @@
-// src/components/ContactSection.jsx
+// src/app/components/ContactSection.tsx
 
-'use client'
+'use client';
 
-import { useState } from 'react'
-import { Phone, MapPin, Link as LucideLink } from 'lucide-react'
-import { useTranslation } from 'react-i18next'
-import Link from 'next/link'
+import { useState } from 'react';
+import { Phone, MapPin } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import Link from 'next/link';
 
-export default function ContactSection() {
-  const { t } = useTranslation('translation')
-  const [isMapLoaded, setIsMapLoaded] = useState(false)
+const ContactSection: React.FC = () => {
+  const { t } = useTranslation('translation');
+  const [isMapLoaded, setIsMapLoaded] = useState(false);
 
   return (
     <div className="px-6 md:-mt-[500px] lg:mt-[40px]">
-      <section className="relative pb-20  align-center">
+      <section className="relative pb-20 align-center">
         {/* Optional: Overlay to enhance text readability */}
         <div className="absolute inset-0 opacity-20"></div>
 
@@ -56,5 +56,7 @@ export default function ContactSection() {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
+
+export default ContactSection;

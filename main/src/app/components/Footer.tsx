@@ -1,18 +1,19 @@
-// src/components/Footer.jsx
-'use client'
+// src/app/components/Footer.tsx
 
-import React, { use } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+'use client';
+
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 import {
   FaLocationArrow,
   FaWhatsapp,
   FaInstagram,
   FaFacebook,
   FaTiktok,
-} from 'react-icons/fa'
-import { BiSolidPhoneCall } from 'react-icons/bi'
-import { TbMailFilled } from 'react-icons/tb'
+} from 'react-icons/fa';
+import { BiSolidPhoneCall } from 'react-icons/bi';
+import { TbMailFilled } from 'react-icons/tb';
 import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
@@ -143,7 +144,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

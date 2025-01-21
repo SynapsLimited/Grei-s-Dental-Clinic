@@ -1,12 +1,24 @@
+// src/app/blog/[slug]/page.tsx
+
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import Image from "next/image";
 import AnimatedContent from "@/app/blog/[slug]/AnimatedContent";
 import ShareButtons from "@/app/blog/[slug]/ShareButtons";
 import { blogPosts } from "../data/blogposts";
-import { useTranslation } from "react-i18next";
 
-export async function generateMetadata({ params }: any): Promise<Metadata> {
+// Define the shape of the route parameters
+interface Params {
+  slug: string;
+}
+
+// Define the shape of the props for the BlogPostPage component
+interface BlogPostPageProps {
+  params: Params;
+}
+
+// Generate metadata for the blog post page
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const post = blogPosts.find((p) => p.slug === params.slug);
   if (!post) return {};
 
@@ -27,6 +39,7 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
   };
 }
 
+// Define static paths for dynamic routing
 export async function getStaticPaths() {
   return {
     paths: blogPosts.map((post) => ({
@@ -36,7 +49,8 @@ export async function getStaticPaths() {
   };
 }
 
-export default function BlogPostPage({ params }: any) {
+// Main BlogPostPage component
+export default function BlogPostPage({ params }: BlogPostPageProps) {
   const post = blogPosts.find((p) => p.slug === params.slug);
 
   if (!post) {
