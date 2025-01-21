@@ -9,14 +9,12 @@ import { blogPosts } from "../data/blogposts";
 
 // Define the shape of the route parameters
 interface Params {
-  slug: string | string[]; // Adjusted to handle both string and string[] types
+  slug: string; // Changed to string
 }
 
 // Generate metadata for the blog post page
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
-  // Ensure slug is a string
-  const slugParam = params?.slug;
-  const slug = Array.isArray(slugParam) ? slugParam[0] : slugParam;
+  const slug = params.slug; // Directly use slug
 
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {};
@@ -41,15 +39,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 // Generate static parameters for dynamic routing
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
-    slug: post.slug,
+    slug: post.slug, // slug is a string
   }));
 }
 
 // Main BlogPostPage component
 export default function BlogPostPage({ params }: { params: Params }) {
-  // Ensure slug is a string
-  const slugParam = params?.slug;
-  const slug = Array.isArray(slugParam) ? slugParam[0] : slugParam;
+  const slug = params.slug; // Directly use slug
 
   const post = blogPosts.find((p) => p.slug === slug);
 
