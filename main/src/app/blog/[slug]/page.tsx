@@ -1,11 +1,9 @@
 import { notFound } from "next/navigation"
 import { Metadata } from "next"
 import Image from "next/image"
-// ❌ Remove or comment out the unused `BlogPost` type if it's causing an error
-// import { BlogPost } from "../../../types" // <-- remove if unused
-import { blogPosts } from "@/app/blog/data/blogposts" // Adjust path as needed
 import AnimatedContent from "@/app/blog/[slug]/AnimatedContent" // Adjust path if needed
 import ShareButtons from "@/app/blog/[slug]/ShareButtons" // Adjust path if needed
+import { blogPosts } from "../data/blogposts"
 
 interface BlogPost {
   title: string
