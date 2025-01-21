@@ -7,7 +7,7 @@ import AnimatedContent from "@/app/blog/[slug]/AnimatedContent";
 import ShareButtons from "@/app/blog/[slug]/ShareButtons";
 import { blogPosts } from "../data/blogposts";
 
-// Define the shape of the route parameters as a Promise
+// Define the shape of the route parameters
 interface PageProps {
   params: Promise<{
     slug: string;
