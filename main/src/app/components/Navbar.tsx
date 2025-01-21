@@ -109,7 +109,7 @@ const Navbar: React.FC = () => {
             </li>
             <li className={styles.navItem}>
               <Link href="/blog" onClick={handleMenuClose}>
-                {t('blog')}
+                {t('blog.title')}
               </Link>
             </li>
             <li className={styles.navItem}>

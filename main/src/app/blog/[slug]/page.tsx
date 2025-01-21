@@ -1,16 +1,14 @@
-import { notFound } from "next/navigation"
-import { Metadata } from "next"
-import Image from "next/image"
-import AnimatedContent from "@/app/blog/[slug]/AnimatedContent"
-import ShareButtons from "@/app/blog/[slug]/ShareButtons"
-import { blogPosts } from "../data/blogposts"
+import { notFound } from "next/navigation";
+import { Metadata } from "next";
+import Image from "next/image";
+import AnimatedContent from "@/app/blog/[slug]/AnimatedContent";
+import ShareButtons from "@/app/blog/[slug]/ShareButtons";
+import { blogPosts } from "../data/blogposts";
+import { useTranslation } from "react-i18next";
 
-export async function generateMetadata(
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  { params }: any
-): Promise<Metadata> {
-  const post = blogPosts.find((p) => p.slug === params.slug)
-  if (!post) return {}
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+  const post = blogPosts.find((p) => p.slug === params.slug);
+  if (!post) return {};
 
   return {
     title: `${post.title} | Your Dental Studio`,
@@ -26,16 +24,24 @@ export async function generateMetadata(
       description: post.excerpt,
       images: [post.image],
     },
-  }
+  };
 }
 
-// Page Component
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default async function BlogPostPage({ params }: any) {
-  const post = blogPosts.find((p) => p.slug === params.slug)
+export async function getStaticPaths() {
+  return {
+    paths: blogPosts.map((post) => ({
+      params: { slug: post.slug },
+    })),
+    fallback: false,
+  };
+}
+
+export default function BlogPostPage({ params }: any) {
+  const post = blogPosts.find((p) => p.slug === params.slug);
 
   if (!post) {
-    notFound()
+    notFound();
+    return null; // Ensure a return statement if post is not found
   }
 
   return (
@@ -74,12 +80,5 @@ export default async function BlogPostPage({ params }: any) {
         </AnimatedContent>
       </article>
     </div>
-  )
-}
-
-// SSG for dynamic routes
-export async function generateStaticParams() {
-  return blogPosts.map((post) => ({
-    slug: post.slug,
-  }))
+  );
 }

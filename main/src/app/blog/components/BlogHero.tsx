@@ -1,12 +1,11 @@
-// app/blog/components/BlogHero.tsx
-
-"use client";
-
+'use client';
 
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const BlogHero = () => {
+  const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -34,7 +33,7 @@ const BlogHero = () => {
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Welcome to Our Blog
+          {t('blog.hero.welcomeTitle')}
         </motion.h1>
         <motion.p 
           className="mb-4 sm:mb-6 text-base sm:text-lg md:text-xl font-medium max-w-2xl mx-auto"
@@ -42,14 +41,14 @@ const BlogHero = () => {
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Stay updated with the latest trends in technology and marketing.
+          {t('blog.hero.welcomeSubtitle')}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          
+          {/* If you have any buttons or links, they can be added here with translations */}
         </motion.div>
       </div>
     </div>

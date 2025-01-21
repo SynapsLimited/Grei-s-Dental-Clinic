@@ -14,7 +14,7 @@ import Image from "next/image"; // <-- Import next/image
 const testimonials = Array.from({ length: 12 }, (_, i) => ({
   id: i + 1,
   imageUrl: `/assets/testimonial${i + 1}.png`,
-  name: `Testimonianza ${i + 1}`,
+  name: `Testimonial ${i + 1}`, // This could also come from translations if needed
 }));
 
 export default function TestimonialSlider() {
@@ -107,7 +107,6 @@ export default function TestimonialSlider() {
               >
                 <div className="p-1">
                   <Card className="relative rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-105">
-                    {/* Updated: Use <Image /> instead of <img> */}
                     <div className="relative w-full h-[500px]">
                       <Image
                         src={testimonial.imageUrl}

@@ -1,4 +1,7 @@
-import React from 'react'
+// src/components/Footer.jsx
+'use client'
+
+import React, { use } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import {
@@ -10,8 +13,18 @@ import {
 } from 'react-icons/fa'
 import { BiSolidPhoneCall } from 'react-icons/bi'
 import { TbMailFilled } from 'react-icons/tb'
+import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation('translation');
+
+  const socialLinks = [
+    { icon: FaWhatsapp, label: t('Footer.socialNetworks.whatsapp'), href: 'https://wa.link' },
+    { icon: FaInstagram, label: t('Footer.socialNetworks.instagram'), href: 'https://www.instagram.com/grei_dental_clinic/' },
+    { icon: FaFacebook, label: t('Footer.socialNetworks.facebook'), href: 'https://www.facebook.com/greidentalclinic' },
+    { icon: FaTiktok, label: t('Footer.socialNetworks.tiktok'), href: 'https://www.tiktok.com/@greidentalclinic' },
+  ];
+
   return (
     <footer className="relative py-12 bg-gradient-to-b from-transparent to-teal-500 backdrop-blur-sm text-white">
       {/* Footer Content */}
@@ -20,14 +33,14 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-center mb-12">
           <Image
             src="/assets/logo.png"
-            alt="Grei&rsquo;s Dental Clinic Logo"
+            alt="Grei’s Dental Clinic Logo"
             width={200}
             height={100}
             priority
             className="mb-5 max-w-[150px]"
           />
           <h2 className="text-2xl font-semibold text-white/80">
-            Grei&rsquo;s Dental Clinic
+            {t('Footer.clinicName')}
           </h2>
         </div>
 
@@ -35,7 +48,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between mb-12">
           {/* Location Section */}
           <div className="mb-8 md:mb-0">
-            <h4 className="text-lg font-semibold mb-5 text-white/80">Location</h4>
+            <h4 className="text-lg font-semibold mb-5 text-white/80">{t('Location')}</h4>
             <div className="flex items-center">
               <FaLocationArrow
                 className="w-6 h-6 mr-3 text-white/80 transition-transform duration-300 hover:scale-110"
@@ -45,14 +58,14 @@ const Footer: React.FC = () => {
                 href="#"
                 className="hover:text-secondary hover:opacity-80 transition-colors duration-300"
               >
-                Bilal Golemi 33, Tirana, Albania
+                {t('Footer.location')}
               </Link>
             </div>
           </div>
 
           {/* Contact Section */}
           <div className="mb-8 md:mb-0">
-            <h4 className="text-lg font-semibold mb-5 text-white/80">Contact</h4>
+            <h4 className="text-lg font-semibold mb-5 text-white/80">{t('Footer.contact.title')}</h4>
             <div className="space-y-4">
               <div className="flex items-center">
                 <BiSolidPhoneCall
@@ -60,10 +73,10 @@ const Footer: React.FC = () => {
                   aria-hidden="true"
                 />
                 <Link
-                  href="tel:+355691234567"
+                  href="tel:+355697563877"
                   className="hover:text-secondary hover:opacity-80 transition-colors duration-300"
                 >
-                  +355 69 123 4567
+                  {t('Footer.contact.phone')}
                 </Link>
               </div>
               <div className="flex items-center">
@@ -75,7 +88,7 @@ const Footer: React.FC = () => {
                   href="mailto:greidentalclinic@gmail.com"
                   className="hover:text-secondary hover:opacity-80 transition-colors duration-300"
                 >
-                  greidentalclinic@gmail.com
+                  {t('Footer.contact.email')}
                 </Link>
               </div>
             </div>
@@ -83,14 +96,9 @@ const Footer: React.FC = () => {
 
           {/* Social Networks Section */}
           <div>
-            <h4 className="text-lg font-semibold mb-5 text-white/80">Social Networks</h4>
+            <h4 className="text-lg font-semibold mb-5 text-white/80">{t('Footer.socialNetworks.whatsapp')}</h4>
             <div className="space-y-4">
-              {[
-                { icon: FaWhatsapp, label: 'WhatsApp', href: 'https://wa.link' },
-                { icon: FaInstagram, label: 'Instagram', href: 'https://www.instagram.com/grei_dental_clinic/' },
-                { icon: FaFacebook, label: 'Facebook', href: 'https://www.facebook.com/greidentalclinic' },
-                { icon: FaTiktok, label: 'TikTok', href: 'https://www.tiktok.com/@greidentalclinic' },
-              ].map((social, index) => (
+              {socialLinks.map((social, index) => (
                 <div key={index} className="flex items-center">
                   <social.icon
                     className="w-6 h-6 mr-3 text-white/80 transition-transform duration-300 hover:scale-110"
@@ -112,9 +120,9 @@ const Footer: React.FC = () => {
 
         {/* Footer Bottom */}
         <div className="text-center text-sm opacity-80">
-          <p>© Grei&rsquo;s Dental Clinic. All rights reserved.</p>
+          <p>{t('Footer.rightsReserved')}</p>
           <p className="mt-2">
-            Designed by{' '}
+            {t('Footer.designedBy')}
             <Link
               href="http://www.synapslimited.eu"
               className="text-white text-lg underline hover:text-secondary transition-colors duration-300"
@@ -130,7 +138,7 @@ const Footer: React.FC = () => {
             href="/privacypolicy"
             className="text-white opacity-50 hover:text-secondary transition-colors duration-300 text-sm"
           >
-            Privacy Policy
+            {t('Footer.privacyPolicy')}
           </Link>
         </div>
       </div>

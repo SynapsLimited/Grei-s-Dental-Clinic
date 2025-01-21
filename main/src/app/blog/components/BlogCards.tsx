@@ -1,11 +1,10 @@
-// app/blog/components/BlogCards.tsx
-
-"use client";
+'use client';
 
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 interface BlogPost {
   id: number;
@@ -22,6 +21,8 @@ interface BlogCardsProps {
 }
 
 const BlogCards: React.FC<BlogCardsProps> = ({ filteredPosts }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 px-4 sm:px-6 lg:px-8">
       {filteredPosts.map((post, index) => (
@@ -55,7 +56,7 @@ const BlogCards: React.FC<BlogCardsProps> = ({ filteredPosts }) => {
               href={`/blog/${post.slug}`}
               className="text-complementary hover:text-secondary font-medium transition-colors duration-200"
             >
-              Read More
+              {t('blog.page.readMore')}
             </Link>
           </div>
         </motion.div>

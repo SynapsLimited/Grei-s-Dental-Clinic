@@ -96,7 +96,7 @@ export default function WhoIs() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.2 }}
                 >
-                  {t('begin_journey')}
+                  {t('who_is_begin_journey')}
                 </motion.p>
               )}
             </div>
@@ -122,7 +122,7 @@ export default function WhoIs() {
                   src="/assets/dr.grei.svg"
                   alt="Dr. Grei - Dentist"
                   fill
-                  className="object-contain object-center"
+                  className="object-contain object-center z-[500]"
                   priority
                 />
               </motion.div>
@@ -138,15 +138,15 @@ export default function WhoIs() {
         >
           <motion.div className="text-center" ref={satisfactionRate.ref}>
             <div className="text-primary text-5xl lg:text-6xl font-bold mb-2">{satisfactionRate.count}%</div>
-            <div className="text-gray-500 text-lg">{t('satisfaction_rate')}</div>
+            <div className="text-gray-500 text-lg">{t('who_is_satisfaction_rate')}</div>
           </motion.div>
           <motion.div className="text-center" ref={yearsExperience.ref}>
             <div className="text-primary text-5xl lg:text-6xl font-bold mb-2">{yearsExperience.count}+</div>
-            <div className="text-gray-500 text-lg">{t('years_experience')}</div>
+            <div className="text-gray-500 text-lg">{t('who_is_years_experience')}</div>
           </motion.div>
           <motion.div className="text-center" ref={patientsTreated.ref}>
             <div className="text-primary text-5xl lg:text-6xl font-bold mb-2">{patientsTreated.count}+</div>
-            <div className="text-gray-500 text-lg">{t('patients_treated')}</div>
+            <div className="text-gray-500 text-lg">{t('who_is_patients_treated')}</div>
           </motion.div>
         </motion.div>
       </div>

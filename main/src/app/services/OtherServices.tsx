@@ -1,9 +1,9 @@
-// src/pages/ServicesPage.tsx
 'use client'
 
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 
 interface Service {
   id: number
@@ -12,27 +12,74 @@ interface Service {
   image: string
 }
 
-const services: Service[] = [
-  { id: 1, title: "Endodontics", description: "Custom website solutions tailored to your needs.", image: "/assets/s1.jpg" },
-  { id: 2, title: "Professional Whitening", description: "Innovative mobile applications for iOS and Android.", image: "/assets/s2.jpg" },
-  { id: 3, title: "Implantology", description: "Creating intuitive and visually appealing user interfaces.", image: "/assets/s6.jpg" },
-  { id: 4, title: "Prophylaxis", description: "Scalable cloud infrastructure and migration services.", image: "/assets/s4.jpg" },
-  { id: 5, title: "Hypersensitivity Treatment", description: "Transforming your data into actionable insights.", image: "/assets/s5.jpg" },
-  { id: 6, title: "Therapy", description: "Protecting your digital assets from threats.", image: "/assets/s7.jpg" },
-  { id: 7, title: "Composite Veneers", description: "Implementing intelligent solutions for your business.", image: "/assets/s10.jpg" },
-  { id: 8, title: "Orthodontics", description: "Connecting devices for smarter operations.", image: "/assets/skelet.jpg" },
-  { id: 9, title: "Fluoridation", description: "Leveraging blockchain for secure and transparent systems.", image: "/assets/s9.jpg" },
-]
-
 export default function ServicesPage() {
+  const { t } = useTranslation()
   const [visibleServices, setVisibleServices] = useState<number[]>([])
+
+  // Build the services array from translation keys
+  const services: Service[] = [
+    {
+      id: 1,
+      title: t('servicesPage.cardList.1.title'),
+      description: t('servicesPage.cardList.1.description'),
+      image: "/assets/s1.jpg"
+    },
+    {
+      id: 2,
+      title: t('servicesPage.cardList.2.title'),
+      description: t('servicesPage.cardList.2.description'),
+      image: "/assets/s2.jpg"
+    },
+    {
+      id: 3,
+      title: t('servicesPage.cardList.3.title'),
+      description: t('servicesPage.cardList.3.description'),
+      image: "/assets/s6.jpg"
+    },
+    {
+      id: 4,
+      title: t('servicesPage.cardList.4.title'),
+      description: t('servicesPage.cardList.4.description'),
+      image: "/assets/s4.jpg"
+    },
+    {
+      id: 5,
+      title: t('servicesPage.cardList.5.title'),
+      description: t('servicesPage.cardList.5.description'),
+      image: "/assets/s5.jpg"
+    },
+    {
+      id: 6,
+      title: t('servicesPage.cardList.6.title'),
+      description: t('servicesPage.cardList.6.description'),
+      image: "/assets/s7.jpg"
+    },
+    {
+      id: 7,
+      title: t('servicesPage.cardList.7.title'),
+      description: t('servicesPage.cardList.7.description'),
+      image: "/assets/s10.jpg"
+    },
+    {
+      id: 8,
+      title: t('servicesPage.cardList.8.title'),
+      description: t('servicesPage.cardList.8.description'),
+      image: "/assets/skelet.jpg"
+    },
+    {
+      id: 9,
+      title: t('servicesPage.cardList.9.title'),
+      description: t('servicesPage.cardList.9.description'),
+      image: "/assets/s9.jpg"
+    }
+  ]
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           setVisibleServices((prev) => [...prev, Number(entry.target.id)])
-          observer.unobserve(entry.target) // Optional: Stop observing once it's visible
+          observer.unobserve(entry.target) // stop observing once visible
         }
       })
     }, { threshold: 0.1 })
@@ -62,7 +109,7 @@ export default function ServicesPage() {
                   src={service.image}
                   alt={service.title}
                   fill
-                  priority={service.image === "/assets/s4.jpg"} // Added priority for LCP image
+                  priority={service.image === "/assets/s4.jpg"} // example for LCP image
                   className="object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
                 />
               </div>
@@ -73,9 +120,10 @@ export default function ServicesPage() {
             </div>
           ))}
         </div>
+
         <div className="mt-8 flex justify-center">
           <Link href="/reserve" className="btn btn-primary">
-            Get in Contact
+            {t('servicesPage.getInContactCta')}
           </Link>
         </div>
       </div>

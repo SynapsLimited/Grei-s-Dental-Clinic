@@ -3,38 +3,11 @@
 import React, { useRef } from "react"
 import Image from "next/image"
 import Link from "next/link"
-// Removed the unused import of Button:
-// import { Button } from "@/components/ui/button"
 import { motion, useInView } from "framer-motion"
 import { useTranslation } from 'react-i18next'
 
-interface BlogPost {
-  title: string
-  date: string
-  image: string
-  alt: string
-}
-
-const blogPosts: BlogPost[] = [
-  {
-    title: "Comprendere i Canali Radicolari: Cosa Aspettarsi",
-    date: "4 Settembre 2024",
-    image: "/assets/blog1.jpg",
-    alt: "Scopri il processo del trattamento del canale radicolare e come può salvare i tuoi denti naturali."
-  },
-  {
-    title: "Le 5 Migliori Procedure di Odontoiatria Estetica per Migliorare il Tuo Sorriso",
-    date: "5 Settembre 2024",
-    image: "/assets/blog2.jpg",
-    alt: "Esplora le opzioni di odontoiatria estetica più popolari per ottenere un sorriso più brillante e sicuro."
-  },
-  {
-    title: "L'Importanza dei Controlli Dentali Regolari",
-    date: "16 Settembre 2024",
-    image: "/assets/blog3.jpg",
-    alt: "Scopri perché le visite dentistiche di routine sono fondamentali per mantenere una salute orale ottimale."
-  }
-]
+// Example import: Adjust the path to match your project structure
+import { blogPosts } from "@/app/blog/data/blogposts"
 
 const fadeInUpVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -57,23 +30,35 @@ export default function BlogSection() {
         transition={{ duration: 0.6 }}
         className="text-4xl md:text-5xl lg:text-6xl font-medium text-complementary mb-12 md:mb-16 max-w-3xl"
       >
+        {/* Using i18n for the heading */}
         {t('read_our_articles')}
       </motion.h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-        {blogPosts.map((post, index) => (
-          <Link href="/blog" key={index} className="group">
+        {/* 
+          Only show the first 3 blog posts. 
+          Remove .slice(0, 3) if you want to display more (or all).
+        */}
+        {blogPosts.slice(0, 3).map((post, index) => (
+          <Link
+            href={`/blog/${post.slug}`}
+            key={post.id}
+            className="group"
+          >
             <motion.article
               className="flex flex-col h-full"
               initial="hidden"
               animate={isInView ? "visible" : "hidden"}
               variants={fadeInUpVariants}
-              transition={{ duration: 0.6, delay: (index + 1) * staggerDelay }}
+              transition={{
+                duration: 0.6,
+                delay: (index + 1) * staggerDelay
+              }}
             >
               <div className="relative aspect-[4/3] overflow-hidden rounded-lg mb-4">
                 <Image
                   src={post.image}
-                  alt={post.alt}
+                  alt={post.title}
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -82,7 +67,11 @@ export default function BlogSection() {
                 {post.title}
               </h2>
               <time className="text-gray-500 text-sm mt-auto">
-                {post.date}
+                {new Date(post.date).toLocaleDateString("en-US", {
+                  day: "numeric",
+                  month: "long",
+                  year: "numeric",
+                })}
               </time>
             </motion.article>
           </Link>
@@ -94,9 +83,13 @@ export default function BlogSection() {
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
         variants={fadeInUpVariants}
-        transition={{ duration: 0.6, delay: (blogPosts.length + 1) * staggerDelay }}
+        transition={{
+          duration: 0.6,
+          delay: (blogPosts.length + 1) * staggerDelay
+        }}
       >
         <Link href="/blog" className="btn btn-primary">
+          {/* Using i18n for the button text */}
           {t('see_more_blog')}
         </Link>
       </motion.div>

@@ -3,8 +3,11 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useTranslation } from 'react-i18next'
 
 export default function ServicesHero() {
+  const { t } = useTranslation()
+
   return (
     <section 
       className="w-full min-h-screen bg-gradient-to-br from-[#E6F7F5] to-white overflow-hidden relative pt-[90px]"
@@ -16,6 +19,7 @@ export default function ServicesHero() {
     >
       <div className="container px-4 md:px-6 py-8 md:py-24 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -27,31 +31,32 @@ export default function ServicesHero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-medium text-complementary mb-12 md:mb-16 max-w-3xl "
+              className="text-4xl md:text-5xl lg:text-6xl font-medium text-complementary mb-12 md:mb-16 max-w-3xl"
             >
-              Professional Dental Services
+              {t('servicesHero.title')}
             </motion.h1>
+
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-base sm:text-lg md:text-xl text-gray-600 max-w-[600px]"
             >
-              Experience exceptional dental care with our comprehensive range of services. 
-              Our expert team is dedicated to providing you with the highest quality treatments.
+              {t('servicesHero.description')}
             </motion.p>
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
             >
               <Link href="/reserve" className="btn btn-primary">
-                Reserve now
+                {t('servicesHero.reserveCta')}
               </Link>
             </motion.div>
           </motion.div>
 
-          {/* Right Content - SVG Illustration */}
+          {/* Right Content - SVG / Image Illustration */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
