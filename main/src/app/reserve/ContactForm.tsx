@@ -7,7 +7,7 @@ export default function ContactSection() {
   const [isMapLoaded, setIsMapLoaded] = useState(false)
 
   return (
-    <section className="relative pb-20 md:-mt-[40px] allign-center">
+    <section className="relative pb-20 md:-mt-[40px] allign-center sm:-px-[100px] ">
       {/* Optional: Overlay to enhance text readability */}
       <div className="absolute inset-0 opacity-20"></div>
 

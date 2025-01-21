@@ -168,7 +168,7 @@ export default function DentalServicesSection() {
     <section ref={ref} className="py-16 overflow-hidden">
       <div className="container mx-auto px-4">
         <motion.h2 
-          className="text-center text-4xl md:text-5xl lg:text-6xl font-medium text-complementary mb-12 md:mb-16 max-w-3xl"
+          className="text-center text-4xl md:text-5xl lg:text-6xl font-medium text-complementary mb-12 md:mb-16 max-w-3xl mx-auto"
           initial={{ opacity: 0, y: -20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
           transition={{ duration: 0.5 }}
@@ -181,7 +181,7 @@ export default function DentalServicesSection() {
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
         >
-          {services.map((service, index) => (
+          {services.map((service /* , index */) => (
             <motion.div
               key={service.nameKey}
               variants={itemVariants}
