@@ -39,14 +39,11 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
-// Define static paths for dynamic routing
-export async function getStaticPaths() {
-  return {
-    paths: blogPosts.map((post) => ({
-      params: { slug: post.slug },
-    })),
-    fallback: false,
-  };
+// Generate static parameters for dynamic routing
+export async function generateStaticParams() {
+  return blogPosts.map((post) => ({
+    slug: post.slug,
+  }));
 }
 
 // Main BlogPostPage component
