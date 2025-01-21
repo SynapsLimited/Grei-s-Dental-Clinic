@@ -8,13 +8,18 @@ import ShareButtons from "@/app/blog/[slug]/ShareButtons";
 import { blogPosts } from "../data/blogposts";
 
 // Define the shape of the route parameters
-interface Params {
-  slug: string; // Changed to string
+interface PageProps {
+  params: {
+    slug: string;
+  };
+  searchParams?: {
+    [key: string]: string | string[];
+  };
 }
 
 // Generate metadata for the blog post page
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
-  const slug = params.slug; // Directly use slug
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = params;
 
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {};
@@ -39,19 +44,18 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 // Generate static parameters for dynamic routing
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
-    slug: post.slug, // slug is a string
+    slug: post.slug,
   }));
 }
 
 // Main BlogPostPage component
-export default function BlogPostPage({ params }: { params: Params }) {
-  const slug = params.slug; // Directly use slug
+export default function BlogPostPage({ params }: PageProps) {
+  const { slug } = params;
 
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
     notFound();
-    return null; // Ensure a return statement if post is not found
   }
 
   return (
