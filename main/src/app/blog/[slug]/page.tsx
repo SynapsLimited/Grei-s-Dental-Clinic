@@ -12,11 +12,6 @@ interface Params {
   slug: string;
 }
 
-// Define the shape of the props for the BlogPostPage component
-interface BlogPostPageProps {
-  params: Params;
-}
-
 // Generate metadata for the blog post page
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const post = blogPosts.find((p) => p.slug === params.slug);
@@ -47,7 +42,7 @@ export async function generateStaticParams() {
 }
 
 // Main BlogPostPage component
-export default function BlogPostPage({ params }: BlogPostPageProps) {
+export default function BlogPostPage({ params }: { params: Params }) {
   const post = blogPosts.find((p) => p.slug === params.slug);
 
   if (!post) {
