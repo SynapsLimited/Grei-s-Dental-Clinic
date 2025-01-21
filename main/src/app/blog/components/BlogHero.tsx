@@ -49,12 +49,7 @@ const BlogHero = () => {
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          <Link 
-            href="#categories" 
-            className="inline-block btn btn-primary px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base font-medium rounded-full transition-all duration-300 ease-in-out hover:bg-teal-500 hover:text-white hover:scale-105"
-          >
-            See More
-          </Link>
+          
         </motion.div>
       </div>
     </div>

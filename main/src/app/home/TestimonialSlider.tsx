@@ -1,4 +1,3 @@
-// src/components/TestimonialSlider.tsx
 'use client'
 
 import React, { useRef, useCallback, useState, useEffect } from "react";
@@ -9,6 +8,7 @@ import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Image from "next/image"; // <-- Import next/image
 
 // Array of 12 testimonials
 const testimonials = Array.from({ length: 12 }, (_, i) => ({
@@ -18,7 +18,7 @@ const testimonials = Array.from({ length: 12 }, (_, i) => ({
 }));
 
 export default function TestimonialSlider() {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
@@ -106,12 +106,20 @@ export default function TestimonialSlider() {
                 variants={itemVariants}
               >
                 <div className="p-1">
-                  <Card className="rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-105">
-                    <img
-                      src={testimonial.imageUrl}
-                      alt={`${t('testimonial')} ${testimonial.id}`}
-                      className="w-full h-[500px] object-cover"
-                    />
+                  <Card className="relative rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-105">
+                    {/* Updated: Use <Image /> instead of <img> */}
+                    <div className="relative w-full h-[500px]">
+                      <Image
+                        src={testimonial.imageUrl}
+                        alt={`${t('testimonial')} ${testimonial.id}`}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        priority={index === 0}
+                      />
+                    </div>
+
+                    {/* The name badge can remain absolutely positioned. */}
                     <div className="absolute bottom-4 left-1/2 -translate-x-1/2">
                       <div className="bg-secondary text-white px-6 py-2 rounded-full text-sm font-medium">
                         {testimonial.name}

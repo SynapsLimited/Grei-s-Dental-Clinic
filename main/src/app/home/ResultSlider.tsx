@@ -1,4 +1,3 @@
-// src/components/ResultSlider.tsx
 'use client'
 
 import React, { useRef, useCallback, useState, useEffect } from "react";
@@ -9,8 +8,9 @@ import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Image from 'next/image'; // <-- Import next/image
 
-// Array of 15 testimonials
+// Array of 15 "results"
 const testimonials = Array.from({ length: 15 }, (_, i) => ({
   id: i + 1,
   imageUrl: `/assets/result${i + 1}.jpeg`,
@@ -18,7 +18,7 @@ const testimonials = Array.from({ length: 15 }, (_, i) => ({
 }));
 
 export default function ResultSlider() {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
@@ -107,11 +107,17 @@ export default function ResultSlider() {
               >
                 <div className="p-1">
                   <Card className="rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-105">
-                    <img
-                      src={testimonial.imageUrl}
-                      alt={`${t('testimonial')} ${testimonial.id}`}
-                      className="w-full h-[400px] object-cover"
-                    />
+                    {/* Updated: Use <Image /> instead of <img> */}
+                    <div className="relative w-full h-[400px]">
+                      <Image
+                        src={testimonial.imageUrl}
+                        alt={`${t('testimonial')} ${testimonial.id}`}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        priority={index === 0} 
+                      />
+                    </div>
                   </Card>
                 </div>
               </motion.div>

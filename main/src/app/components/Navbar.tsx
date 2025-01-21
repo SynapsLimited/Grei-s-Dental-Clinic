@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from './../css/navbar.module.css';
 import Image from "next/image";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { ChevronDown /*, Menu, X */ } from "lucide-react"; // ❌ remove Menu, X
 import { useTranslation } from "react-i18next";
 
 const languages = [
@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
               src="/assets/logo.png"
               width={200}
               height={100}
-              alt="Grei's Dental Clinic Logo"
+              alt="Grei’s Dental Clinic Logo"
               priority
               className={isScrolled ? styles.scrolled : ""}
             />

@@ -22,13 +22,13 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-center mb-12">
           <Image
             src="/assets/logo.png"
-            alt="Grei's Dental Clinic Logo"
+            alt="Grei&apos;s Dental Clinic Logo"
             width={200}
             height={100}
             priority
             className="mb-5 max-w-[150px]"
           />
-          <h2 className="text-2xl font-semibold text-white/80">Grei's Dental Clinic</h2>
+          <h2 className="text-2xl font-semibold text-white/80">Grei&apos;s Dental Clinic</h2>
         </div>
 
         {/* Footer Sections */}
@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
 
         {/* Footer Bottom */}
         <div className="text-center text-sm opacity-80">
-          <p>© Grei's Dental Clinic. All rights reserved.</p>
+          <p>© Grei&apos;s Dental Clinic. All rights reserved.</p>
           <p className="mt-2">
             Designed by{' '}
             <Link

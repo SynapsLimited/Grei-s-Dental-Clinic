@@ -1,23 +1,20 @@
-// app/blog/[slug]/page.tsx
-
-// Removed 'use client'
-
-import { notFound } from 'next/navigation';
-import { Metadata } from 'next';
-import Image from 'next/image';
-import { blogPosts, BlogPost } from '../data/blogposts';
-import AnimatedContent from './AnimatedContent';
-import ShareButtons from './ShareButtons';
+import { notFound } from "next/navigation"
+import { Metadata } from "next"
+import Image from "next/image"
+// Removed `BlogPost` from import because it's not used
+import { blogPosts } from "../data/blogposts"
+import AnimatedContent from "./AnimatedContent"
+import ShareButtons from "./ShareButtons"
 
 interface BlogPostPageProps {
   params: {
-    slug: string;
-  };
+    slug: string
+  }
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
-  const post = blogPosts.find((p) => p.slug === params.slug);
-  if (!post) return {};
+  const post = blogPosts.find((p) => p.slug === params.slug)
+  if (!post) return {}
 
   return {
     title: `${post.title} | Your Dental Studio`,
@@ -28,19 +25,19 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       images: [{ url: post.image }],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
       images: [post.image],
     },
-  };
+  }
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  const post = blogPosts.find((p) => p.slug === params.slug);
+  const post = blogPosts.find((p) => p.slug === params.slug)
 
   if (!post) {
-    notFound();
+    notFound()
   }
 
   return (
@@ -48,9 +45,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       className="pt-[80px] min-h-screen bg-gradient-to-b from-primary-50 to-primary-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-500"
       style={{
         backgroundImage: `url('/assets/Services BG.png')`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
       }}
     >
       <article className="max-w-4xl mx-auto px-12 sm:px-15 lg:px-8">
@@ -64,9 +61,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               src={post.image || "/placeholder.svg"}
               alt={post.title}
               fill
-              priority // Added priority to improve LCP
+              priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              className="object-cover rounded-lg" // Replaced inline style with className
+              className="object-cover rounded-lg"
             />
           </div>
           <div
@@ -77,11 +74,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </AnimatedContent>
       </article>
     </div>
-  );
+  )
 }
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
     slug: post.slug,
-  }));
+  }))
 }

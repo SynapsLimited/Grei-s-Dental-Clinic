@@ -1,10 +1,11 @@
-// src/components/BlogSection.tsx
+// src/app/home/BlogSection.tsx
 'use client'
 
 import React, { useRef } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
+// ❌ Remove the unused import
+// import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useTranslation } from 'react-i18next'
