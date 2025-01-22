@@ -33,11 +33,11 @@ const CookieConsent: React.FC = () => {
   }
 
   return (
-    <div className="cookie-consent">
+    <div className="cookie-consent text-white">
       <div className="cookie-consent__content">
         <p>
           {t('CookieConsent.message')}
-          <Link href="/privacypolicy" className="cookie-consent__link text-whitecd">
+          <Link href="/privacypolicy" className="cookie-consent__link">
             {t('CookieConsent.privacyPolicy')}
           </Link>.
         </p>

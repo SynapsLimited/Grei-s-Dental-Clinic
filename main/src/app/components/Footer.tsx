@@ -55,12 +55,15 @@ const Footer: React.FC = () => {
                 className="w-6 h-6 mr-3 text-white/80 transition-transform duration-300 hover:scale-110"
                 aria-hidden="true"
               />
-              <Link
-                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.7844253669264!2d19.804813276047724!3d41.31355310057184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135030f89ce18d59%3A0x975a181a866ad42e!2sGrei%27s%20Dental%20Clinic!5e0!3m2!1sen!2sbe!4v1735216425147!5m2!1sen!2sbe"
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Grei's%20Dental%20Clinic%2C%20Tirana%2C%20Albania"
                 className="hover:text-secondary hover:opacity-80 transition-colors duration-300"
+                aria-label="Grei's Dental Clinic Location on Google Maps"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {t('Footer.location')}
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -105,14 +108,13 @@ const Footer: React.FC = () => {
                     className="w-6 h-6 mr-3 text-white/80 transition-transform duration-300 hover:scale-110"
                     aria-hidden="true"
                   />
-                  <Link
+                  <a
                     href={social.href}
                     className="hover:text-secondary hover:opacity-80 transition-colors duration-300"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    aria-label={social.label}
                   >
                     {social.label}
-                  </Link>
+                  </a>
                 </div>
               ))}
             </div>
@@ -124,14 +126,13 @@ const Footer: React.FC = () => {
           <p>{t('Footer.rightsReserved')}</p>
           <p className="mt-2">
             {t('Footer.designedBy')}
-            <Link
+            <a
               href="http://www.synapslimited.eu"
               className="text-white text-lg underline hover:text-secondary transition-colors duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
+              aria-label="Designed by Synaps"
             >
               Synaps
-            </Link>
+            </a>
           </p>
         </div>
         <div className="text-center mt-10">

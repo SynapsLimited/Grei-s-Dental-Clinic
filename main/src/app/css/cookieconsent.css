@@ -7,7 +7,7 @@
     right: 20px;
     background-color: var(--color-background-transparent);
     backdrop-filter: blur(8px);
-    color: var(--color-secondary);
+    color: var(--color-white);
     padding: 30px 30px;
     border-radius: 22px;
     z-index: 1000;
@@ -24,7 +24,7 @@
   }
   
   .cookie-consent__link {
-    color: var(--color-complementary);
+    color: var(--color-white);
     margin-left: 5px;
     text-decoration: underline;
   }
@@ -36,7 +36,7 @@
   
   .cookie-consent__button {
     background-color: var(--color-secondary);
-    color: var(--color-tertiary);
+    color: var(--color-white);
     border: none;
     padding: 8px 15px;
     border-radius: 22px;
@@ -47,7 +47,7 @@
   
   .cookie-consent__button.decline {
     background-color: var(--color-secondary);
-    color: var(--color-primary);
+    color: var(--color-white);
   }
   
   .cookie-consent__button:hover {
