@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
   const { t } = useTranslation('translation');
 
   const socialLinks = [
-    { icon: FaWhatsapp, label: t('Footer.socialNetworks.whatsapp'), href: 'https://wa.link' },
+    { icon: FaWhatsapp, label: t('Footer.socialNetworks.whatsapp'), href: 'https://wa.link/38yea3' },
     { icon: FaInstagram, label: t('Footer.socialNetworks.instagram'), href: 'https://www.instagram.com/grei_dental_clinic/' },
     { icon: FaFacebook, label: t('Footer.socialNetworks.facebook'), href: 'https://www.facebook.com/greidentalclinic' },
     { icon: FaTiktok, label: t('Footer.socialNetworks.tiktok'), href: 'https://www.tiktok.com/@greidentalclinic' },
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
                 aria-hidden="true"
               />
               <Link
-                href="#"
+                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.7844253669264!2d19.804813276047724!3d41.31355310057184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135030f89ce18d59%3A0x975a181a866ad42e!2sGrei%27s%20Dental%20Clinic!5e0!3m2!1sen!2sbe!4v1735216425147!5m2!1sen!2sbe"
                 className="hover:text-secondary hover:opacity-80 transition-colors duration-300"
               >
                 {t('Footer.location')}
