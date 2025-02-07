@@ -1,9 +1,356 @@
 {
-  "home": "Kryesore",
+  "home": "Ballina",
   "about": "Rreth Nesh",
   "services": "Shërbimet",
-  "blog": "Blog",
   "reserve": "Rezervo Tani",
-  "title": "Klinika Dentale Grei",
-  "subtitle": "Buzëqeshja juaj unike, kujdesi ynë i personalizuar"
+  "subtitle": "Buzëqeshja juaj unike, kujdesi ynë i personalizuar",
+  
+  "about_us_title": "Rreth Nesh",
+  "about_us_description": "Në Kliniken Dentare Grei, ne kombinojmë ekspertizën me teknologjinë e avancuar për të ofruar kujdes dentar të shkëlqyer. Ekipi ynë me përvojë është i dedikuar për të siguruar trajtim të personalizuar që të garantojë që çdo buzëqeshje të jetë e shëndetshme dhe e ndritshme.",
+  "see_more": "Shiko më shumë",
+  
+  "read_our_articles": "Lexoni artikujt tanë dhe gjeni përgjigje për pyetjet tuaja",
+  "blog_post1_title": "Të kuptuarit e Kanaleve Radikulare: Çfarë të prisni",
+  "blog_post1_description": "Zbuloni procesin e trajtimit të kanaleve radikulare dhe se si mund të shpëtojë dhëmbët tuaj natyralë.",
+  "blog_post2_title": "Top 5 Procedurat e Dentarisë Kozmetike për të Përmirësuar Buzëqeshjen Tuaj",
+  "blog_post2_description": "Eksploroni opsionet më të njohura të dentarisë kozmetike për të arritur një buzëqeshje më të ndritshme dhe më të sigurt.",
+  "blog_post3_title": "Rëndësia e Kontrollit të Rregullt Dentar",
+  "blog_post3_description": "Mësoni pse vizitat e rregullta te dentisti janë thelbësore për të ruajtur shëndetin optimal oral.",
+  "see_more_blog": "Shiko më shumë",
+  
+  "our_dental_services": "Shërbimet Tona Dentare",
+  "service_prosthetics": "Protetika",
+  "service_endodontics": "Endodontia",
+  "service_professional_whitening": "Zbardhje Profesionale",
+  "service_implantology": "Implantologjia",
+  "service_prophylaxis": "Profilaksia",
+  "service_hypersensitivity_treatment": "Trajtimi i Hiperndjeshmërisë",
+  "service_therapy": "Protetika Fikse",
+  "service_composite_veneers": "Faseta Kompozite",
+  "service_orthodontics": "Ortodoncia",
+  "service_fluoridation": "Fluorizimi",
+  
+  "previous_slide": "Slajdi i mëparshëm",
+  "next_slide": "Slajdi i ardhshëm",
+  "go_to_slide": "Shko te slajdi {{number}}",
+  "testimonial": "Testimoni",
+  
+  "see_more_services": "Shiko më shumë",
+  "see_more_testimonials": "Shiko më shumë Testimoniale",
+  "read_more": "Lexo më shumë",
+  "learn_more": "Mëso më shumë",
+  "contact_us": "Na Kontaktoni",
+  "get_in_touch": "Lidhu me Ne",
+  "schedule_appointment": "Cakto një Takim",
+  "our_team": "Ekipi Ynë",
+  "patient_reviews": "Rishikimet e Pacientëve",
+  "gallery": "Galeria",
+  "faq": "Pyetjet e Shpeshta",
+  "location": "Lokacioni",
+  "hours_of_operation": "Orari i Operimit",
+  "call_us": "Na Telefononi",
+  "email_us": "Na Dërgo Email",
+  "follow_us": "Na Ndiq",
+  
+  "about_us_section_title": "Rreth Nesh",
+  "about_us_section_description": "Jemi një ekip i apasionuar, i dedikuar inovacionit dhe ekselencës. Misioni ynë është të ofrojmë kujdes dentar të shkëlqyer, i përshtatur nevojave unike të çdo pacienti, duke siguruar një përvojë të rehatshme dhe efektive të trajtimit.",
+  
+  "hero_slider_about_us": "Rreth Nesh",
+  "hero_slider_mission": "Misioni",
+  "hero_slider_vision": "Vizioni",
+  "hero_slider_values": "Vlerat",
+  "hero_slider_about_us_content": "Jemi një ekip i apasionuar, i dedikuar inovacionit dhe ekselencës.",
+  "hero_slider_mission_content": "Misioni ynë është të fuqizojmë bizneset përmes zgjidhjeve të teknologjisë së avancuar.",
+  "hero_slider_vision_content": "Ne imagjinojmë një botë ku teknologjia përmirëson çdo aspekt të jetës njerëzore.",
+  "hero_slider_values_content": "Integriteti, inovacioni, bashkëpunimi dhe orientimi drejt klientit udhëheqin veprimet tona.",
+  
+  "who_is_heading": "Kush është Dr. Grei?",
+  "who_is_description": "Dr. Grei është një dentist e njohur me një klinikë personale dentare në Shqipëri. Ajo njihet për rezultatet e saj të jashtëzakonshme dhe profesionalizmin e pandryshueshëm, duke ofruar kujdes dentar të shkëlqyer për pacientët e saj.",
+  "who_is_call_us": "Na Telefononi",
+  "who_is_begin_journey": "Kliko për të filluar udhëtimin tuaj!",
+  "who_is_satisfaction_rate": "Norma e Kënaqësisë",
+  "who_is_years_experience": "Vjet Eksperience",
+  "who_is_patients_treated": "Pacientët e Trajtuar",
+  
+  "servicesHero": {
+    "title": "Shërbime Dentare Profesionale",
+    "description": "Përjetoni kujdes dentar të jashtëzakonshëm me gamën tonë të plotë të shërbimeve. Ekipi ynë ekspert është i dedikuar për t'ju ofruar trajtime me cilësi të lartë.",
+    "reserveCta": "Rezervo tani"
+  },
+  
+  "expandingSlider": {
+    "sectionTitle": "Shërbimet Tona",
+    "sectionSubtitle": "Protetika",
+    "sectionDescription": "Zbuloni gamën tonë të plotë të zgjidhjeve të dizajnuara për të ndihmuar biznesin tuaj të rritet dhe të ketë sukses në epokën dixhitale.",
+    "slides": {
+      "1": {
+        "title": "Kurona metal-porcelanike",
+        "subtitle": "Një kuronë dentare me bazë metalike e mbuluar me porcelan për t'u përshtatur me ngjyrën natyrale të dhëmbit."
+      },
+      "2": {
+        "title": "Kurona zirkonia",
+        "subtitle": "Një kuronë e bërë nga dioksidi i zirkonit, e njohur për forcën dhe pamjen e saj natyrale."
+      },
+      "3": {
+        "title": "Kurona e plotë zirkonia",
+        "subtitle": "Një kuronë krejtësisht prej zirkonisë, që ofron qëndrueshmëri dhe estetikë të përmirësuar."
+      },
+      "4": {
+        "title": "Kurona Emax",
+        "subtitle": "Një kuronë e përpunuar nga qeramika e disilikatit të litiumit, e vlerësuar për transparencën dhe forcën e saj."
+      },
+      "5": {
+        "title": "Pasta pjesore të heqshme (skeletike/elastike)",
+        "subtitle": "Pasta të dizajnuara për të zëvendësuar dhëmbët e shumtë të munguar, të disponueshme në versionin skeletik (kornizë metalike) ose fleksibël (elastike)."
+      },
+      "6": {
+        "title": "Pasta totale elastike",
+        "subtitle": "Pasta të plota të bërë nga materiale fleksibël, që ofrojnë rehatësi dhe përshtatshmëri."
+      }
+    }
+  },
+  
+  "servicesPage": {
+    "cardList": {
+      "1": {
+        "title": "Endodontia",
+        "description": "Trajtimi i kanaleve radikulare për rastet e infeksioneve dhe cistave (Grup IV dhe Grup III)."
+      },
+      "2": {
+        "title": "Zbardhje Profesionale",
+        "description": "Një procedurë zbardhjeje të dhëmbëve e kryer në klinikë me llampë, që zgjat rreth një ore."
+      },
+      "3": {
+        "title": "Implantologjia",
+        "description": "Vendosja e implanteve është një zgjidhje efektive për dhëmbët e munguar, e kryer nga një kirurg profesionist."
+      },
+      "4": {
+        "title": "Profilaksia",
+        "description": "Vizitat periodike çdo 6 muaj për kontrolle dhe pastrim të gurëzave janë mënyra më e mirë për të ruajtur dhëmbët tuaj."
+      },
+      "5": {
+        "title": "Trajtimi i Hiperndjeshmërisë",
+        "description": "Trajtim i kryer në rastet e ndjeshmërisë së theksuar ndaj të ftohtit."
+      },
+      "6": {
+        "title": "Protetika Fikse",
+        "description": "Një zgjidhje për rastet e mungesës së dhëmbëve, e ofruar përmes punimeve protetike fikse ose të heqshme, në varësi të rastit dhe mundësive financiare të pacientit."
+      },
+      "7": {
+        "title": "Faseta Kompozite",
+        "description": "Një zgjidhje estetike e ofruar me përdorimin e materialeve të teknologjisë së fundit për të rikthyer një buzëqeshje të bukur pa dëmtuar dhëmbët."
+      },
+      "8": {
+        "title": "Ortodoncia",
+        "description": "Vendosja e pajisjeve fikse dhe të heqshme të përshtatura sipas gjendjes së pacientit, e ofruar nga profesionistë të specializuar."
+      },
+      "9": {
+        "title": "Fluorizimi",
+        "description": "Një proces për ruajtjen e shëndetit dentar dhe parandalimin e prishjes së dhëmbëve."
+      }
+    },
+    "getInContactCta": "Lidhu me Ne"
+  },
+  
+  "site": {
+    "name": "Studio Dentar Juaj",
+    "getInContactCta": "Lidhu me Ne"
+  },
+  
+  "blog": {
+    "title": "Blog",
+    "page": {
+      "readMore": "Lexo më shumë",
+      "share": "Ndaj",
+      "notFoundTitle": "Faqja nuk u gjet",
+      "notFoundDescription": "Postimi në blog që kërkoni nuk ekziston."
+    },
+    "shareButtons": {
+      "shareOnFacebook": "Ndaj në Facebook",
+      "shareOnTwitter": "Ndaj në Twitter",
+      "shareOnLinkedin": "Ndaj në LinkedIn"
+    },
+    "hero": {
+      "welcomeTitle": "Mirësevini në Blogun Tonë",
+      "welcomeSubtitle": "Qëndroni të informuar me trendet e fundit në teknologji dhe marketing."
+    },
+    "categoriesSection": {
+      "allCategories": "Të gjitha kategoritë"
+    },
+    "blogPosts": [
+      {
+        "id": 1,
+        "title": "Të kuptuarit e Kanaleve Radikulare: Çfarë të prisni",
+        "slug": "understanding-root-canals",
+        "date": "2024-09-04",
+        "excerpt": "Zbuloni procesin e trajtimit të kanaleve radikulare dhe se si mund të shpëtojë dhëmbët tuaj natyralë.",
+        "image": "/assets/blog1.jpg",
+        "content": "<h2>Çfarë është një Kanal Radikular?</h2><p>Nje kanal radikular është një procedurë dentare e përdorur për të trajtuar infeksionin në qendër të një dhëmbi (sistemi i kanalit radikular). Ajo është dizajnuar për të eliminuar bakteret nga kanali i infektuar, për të parandaluar reinfeksionin e dhëmbit dhe për të shpëtuar dhëmbin natyral.</p><h2>Shenjat që Mund të Të Kërkojnë një Kanal Radikular</h2><ul><li>Dhembje e fortë gjatë këmbimit ose aplikimit të presionit</li><li>Ndiçësi e zgjatur ndaj temperaturave të nxehta ose të ftohta</li><li>Ndryshim në ngjyrën e dhëmbit</li><li>Inflamacion dhe ndjeshmëri në mishrat përreth</li></ul><h2>Procedura e Kanalit Radikular</h2><p>Procedura përfshin heqjen e pulpës së infektuar, pastrimin dhe dezinfektimin e brendshëm të dhëmbit, dhe më pas mbushjen dhe mbylljen e tij. Shpesh vendoset një kuronë për ta mbrojtur dhe rikthyer funksionin e plotë.</p><h2>Këshilla për Kujdes Pas Procedurës</h2><p>Pasi të kryhet një kanal radikular, është thelbësore të mbani një higjienë të mirë orale dhe të ndiqni udhëzimet e dentistit tuaj për të siguruar shërim të duhur. Shmangni këmbimin e ushqimeve të forta derisa dhëmbi të rikthehet në gjendje të plotë.</p><h2>Pyetjet më të Shpeshta</h2><p><strong>A është e dhimbshme një kanal radikular?</strong> Procedurat moderne të kanaleve radikulare janë pothuajse pa dhimbje falë avancimeve në teknologjinë dentare. Anestezia lokale siguron rehati gjatë procedurës.</p><p>Për më shumë informacion ose për të caktuar një konsultim, kontaktoni klinikën tonë sot.</p>"
+      },
+      {
+        "id": 2,
+        "title": "Top 5 Procedurat e Dentarisë Kozmetike për të Përmirësuar Buzëqeshjen Tuaj",
+        "slug": "top-5-cosmetic-dentistry-procedures",
+        "date": "2025-09-05",
+        "excerpt": "Eksploroni opsionet më të njohura të dentarisë kozmetike për të arritur një buzëqeshje më të ndritshme dhe më të sigurt.",
+        "image": "/assets/blog2.jpg",
+        "content": "<h2>1. Zbardhja e Dhëmbëve</h2><p>Zbardhja e dhëmbëve është një nga mënyrat më të thjeshta dhe efektive për të ndriçuar buzëqeshjen tuaj. Trajtimet profesionale mund të zbardhin ndjeshëm dhëmbët e njolla nga ushqimi, pija ose plakja.</p><h2>2. Fasetat Porcelanike</h2><p>Fasetat janë shtresa të holla porcelanike që mbulojnë sipërfaqen e përparme të dhëmbëve. Ato janë ideale për korrigjimin e dhëmbëve të çarë, të njolla ose të parregullta, duke ofruar një zgjidhje natyrale dhe të qëndrueshme.</p><h2>3. Bashkimi Dentar</h2><p>Bashkimi dentar përfshin aplikimin e një rezine me ngjyrë dhëmbi për të riparuar dhëmbët e deminuar, të çarë ose të thyera. Është një mënyrë e shpejtë dhe me kosto efektive për të përmirësuar pamjen e buzëqeshjes tuaj.</p><h2>4. Invisalign</h2><p>Invisalign përdor një seri qafëzash të qarta dhe të heqshme për të drejtë dhëmbët gradualisht. Ato janë një alternativë diskrete ndaj pajisjeve tradicionale, të përshtatshme për të rinjtë dhe të rriturit.</p><h2>5. Implantet Dentare</h2><p>Implantet dentare janë një zgjidhje përhershme për zëvendësimin e dhëmbëve të munguar. Ato ofrojnë pamje dhe ndjesi të dhëmbëve natyralë, duke përmirësuar funksionin dhe estetikën.</p><p>Konsultohuni me specialistët tanë të dentarisë kozmetike për të përcaktuar cilat procedura janë më të përshtatshme për qëllimet e buzëqeshjes tuaj.</p>"
+      },
+      {
+        "id": 3,
+        "title": "Rëndësia e Kontrollit të Rregullt Dentar",
+        "slug": "importance-of-regular-dental-checkups",
+        "date": "2024-09-04",
+        "excerpt": "Mësoni pse vizitat e rregullta te dentisti janë thelbësore për të ruajtur shëndetin optimal oral.",
+        "image": "/assets/blog3.jpg",
+        "content": "<h2>Parandalimi i Problemeve Dentare</h2><p>Vizitat e rregullta te dentisti ndihmojnë në zbulimin dhe parandalimin e hershëm të problemeve dentare si kariesi, sëmundjet e mishrave dhe kanceri oral. Ndërhyrja e hershme mund t'ju shpëtojë nga trajtime më të gjera dhe më të kushtueshme më vonë.</p><h2>Ruajtja e Shëndetit të Përgjithshëm</h2><p>Shëndeti oral është ngushtë i lidhur me shëndetin e përgjithshëm. Higjiena e dobët dentare mund të çojë në gjendje serioze shëndetësore si sëmundjet e zemrës, diabeti dhe infeksionet respiratore.</p><h2>Pastrimi Profesional</h2><p>Edhe me larjen dhe fërkimin e rregullt, plaku dhe gurëzat mund të grumbullohen me kalimin e kohës. Pastrimet profesionale i largojnë këto depozita, duke reduktuar rrezikun e kariesit dhe sëmundjeve të mishrave.</p><h2>Këshilla të Personalizuara për Kujdes Oral</h2><p>Gjatë kontrollit, dentisti juaj mund t'ju ofrojë këshilla të personalizuara për ruajtjen e higjienës orale, rekomandime dietike dhe këshilla për parandalimin e problemeve dentare.</p><h2>Rikthimi i Buzëqeshjes Suaj</h2><p>Vizitat e rregullta i lejojnë dentistit tuaj të monitorojë estetikën e buzëqeshjes suaj, duke ofruar trajtime kozmetike që mund të përmirësojnë pamjen tuaj dhe të rrisin besimin në vetvete.</p><p>Caktoni kontrollin tuaj të radhës te dentisti për të siguruar që buzëqeshja juaj të mbetet e shëndetshme dhe e ndritshme.</p>"
+      },
+      {
+        "id": 4,
+        "title": "Implantet Dentare vs. Pasta Dentare: Cila është Zgjedhja e Duarë për Ju?",
+        "slug": "dental-implants-vs-dentures",
+        "date": "2024-09-16",
+        "excerpt": "Krahaso implantet dentare dhe pastat për të përcaktuar zgjidhjen më të mirë për mungesën e dhëmbëve.",
+        "image": "/assets/blog4.jpg",
+        "content": "<h2>Implantet Dentare</h2><p>Implantet dentare janë shtylla prej titani që vendosen kirurgjikisht në kockën e nofullës për të shërbyer si bazë e fortë për dhëmbët e zëvendësuar. Ato ofrojnë një zgjidhje përhershme që duket dhe ndjehet si dhëmbët natyralë.</p><h3>Avantazhet e Implanteve Dentare</h3><ul><li>Qëndrueshmëri dhe jetëgjatësi</li><li>Përmirësim i të folurit dhe rehati</li><li>Parandalimi i humbjes së kockës</li><li>Përmirësim i aftësisë së përtypjes</li></ul><h2>Pasta Dentare</h2><p>Pasta dentare janë pajisje të heqshme që zëvendësojnë dhëmbët e munguar dhe indet përreth tyre. Ato janë një opsion më ekonomik krahasuar me implantet dhe mund të personalizohen për rehatësi dhe estetikë.</p><h3>Avantazhet e Pastave Dentare</h3><ul><li>Kosto-efektive</li><li>Procedurë jo-invazive</li><li>Zgjidhje e shpejtë për zëvendësimin e dhëmbëve</li><li>E lehtë për t'u rregulluar ose zëvendësuar</li></ul><h2>Bëni Zgjedhjen e Duarë</h2><p>Vendimi midis implantit dentar dhe pastës varet nga faktorë të ndryshëm, duke përfshirë shëndetin tuaj oral, buxhetin dhe preferencat personale. Implantet ofrojnë një zgjidhje më të përhershme dhe natyrale, ndërsa pasta ofrojnë një alternativë ekonomikë dhe jo-invazive.</p><p>Konsultohuni me specialistët tanë dentar për të përcaktuar cilën opsion është më i përshtatshëm për nevojat dhe stilin tuaj të jetës.</p>"
+      },
+      {
+        "id": 5,
+        "title": "Ortodoncia për të Rritur: Avantazhet dhe Opsionet",
+        "slug": "orthodontics-for-adults",
+        "date": "2025-01-04",
+        "excerpt": "Zbuloni avantazhet e trajtimeve ortodontike për të rriturit dhe opsionet në dispozicion.",
+        "image": "/assets/blog5.jpg",
+        "content": "<h2>Pse Ortodoncia për të Rritur?</h2><p>Trajtimet ortodontike nuk janë vetëm për fëmijë dhe adoleshentë. Të rriturit mund të përfitojnë nga dhëmbët më të drejtë dhe një shëndet oral i përmirësuar, duke rritur pamjen dhe funksionin.</p><h2>Avantazhet e Ortodoncisë për të Rritur</h2><ul><li>Përmirësimi i shëndetit dentar duke lehtësuar pastrimin e dhëmbëve</li><li>Rritja e estetikës së fytyrës dhe besimit në vetvete</li><li>Funksion më i mirë i përtypjes dhe reduktimi i rrezikut të problemeve dentare</li><li>Mirëmbajtje afatgjatë e shëndetit oral</li></ul><h2>Opsionet e Disponueshme Ortodontike</h2><h3>Pajisjet Tradicionale</h3><p>Pajisjet metalike janë një opsion i besueshëm për korrigjimin e një game të gjerë të çështjeve ortodontike. Avancimet moderne i kanë bërë ato më të rehatshme dhe më estetikë.</p><h3>Invisalign</h3><p>Invisalign përdor qafëza të qarta dhe të heqshme për të drejtë dhëmbët gradualisht. Ato janë një alternativë diskrete ndaj pajisjeve tradicionale, të përshtatshme për të rinjtë dhe të rriturit.</p><h3>Ortodoncia Linguale</h3><p>Ortodoncia linguale vendoset prapa dhëmbëve, duke e bërë të padukshme nga para. Ato ofrojnë efektivitetin e pajisjeve tradicionale pa ndikimin vizual.</p><h2>Zgjedhja e Trajtimit të Duarë</h2><p>Trajtimi më i përshtatshëm ortodontik varet nga nevojat individuale, stili i jetës dhe preferencat. Specialistët tanë ortodontik do të punojnë me ju për të përcaktuar opsionin më të përshtatshëm për të arritur rezultatet e dëshiruara.</p><p>Caktoni një konsultim për të eksploruar opsionet tuaja ortodontike dhe filloni udhëtimin drejt një buzëqeshjeje më të shëndetshme dhe më të sigurt.</p>"
+      },
+      {
+        "id": 6,
+        "title": "Pediatria Dentare: Kujdesi për Shëndetin Oral të Fëmijës Tuaj",
+        "slug": "pediatric-dentistry",
+        "date": "2025-01-02",
+        "excerpt": "Këshilla dhe praktika më të mira për ruajtjen e shëndetit dentar të fëmijës tuaj që nga moshat e hershme.",
+        "image": "/assets/blog6.jpg",
+        "content": "<h2>Rëndësia e Kujdesit të Hershëm Dentare</h2><p>Krijimi i zakoneve të mira të higjienës orale që nga moshat e hershme është thelbësor për parandalimin e problemeve dentare dhe sigurimin e dhëmbëve dhe mishrave të shëndetshme ndërsa fëmija rritet.</p><h2>Vizita e Parë te Dentisti</h2><p>Fëmijët duhet të vizitojnë dentistin deri në ditëlindjen e parë ose kur del dhëmbi i parë. Vizitat e hershme ndihmojnë në monitorimin e zhvillimit dentar dhe adresimin e shqetësimeve në kohë.</p><h2>Teknika të Duhura për Larje dhe Fërkim të Dhëmbëve</h2><p>Mësoni fëmijën tuaj teknikat e duhura për larje dhe fërkim të dhëmbëve për të larguar plakun dhe parandalimin e kavitetit. Përdorni furçëza të përshtatshme për moshën dhe pastë me fluor për të mbrojtur dhëmbët në zhvillim.</p><h2>Ushqimi i Shëndetshëm për Dhëmbë të Fortë</h2><p>Një dietë e balancuar, e pasur me kalcium dhe vitamina, ndihmon në mbështetjen e dhëmbëve të fortë dhe shëndetit të përgjithshëm. Kufizoni konsumimin e ushqimeve dhe pijeve të plota me sheqer që mund të kontribuojnë në karies.</p><h2>Trajtimet Parandaluese</h2><ul><li>Sigilime dentare për të mbrojtur molarët nga kariesi</li><li>Trajtime me fluor për forcuar smaltin</li><li>Vizita të rregullta te dentisti për zbulim të hershëm të problemeve</li></ul><h2>Menaxhimi i Ankthit Dentar</h2><p>Disa fëmijë mund të ndjehen të shqetësuar gjatë vizitave te dentisti. Krijoni një përvojë pozitive duke shpjeguar procedurat në mënyrë të përshtatshme për ta dhe duke shpërblyer sjelljen e mirë.</p><p>Specialistët tanë të pediatrisë dentare janë të përkushtuar për të ofruar kujdes me ndjeshmëri, duke siguruar që fëmija juaj të ketë një buzëqeshje të shëndetshme dhe të lumtur.</p>"
+      },
+      {
+        "id": 7,
+        "title": "Menaxhimi i Sëmundjes së Mishrave: Parandalimi dhe Trajtimi",
+        "slug": "managing-gum-disease",
+        "date": "2024-12-31",
+        "excerpt": "Kuptoni shkaqet e sëmundjes së mishrave dhe strategjitë efektive për parandalim dhe trajtim.",
+        "image": "/assets/blog7.jpg",
+        "content": "<h2>Çfarë është Sëmundja e Mishrave?</h2><p>Sëmundja e mishrave, ose sëmundja periodontale, është një infeksion i indeve që mbajnë dhëmbët në vend. Ajo zakonisht shkaktohet nga praktikat e këqija të larjes dhe fërkimit, të cilat lejojnë formimin e plaket – një shtresë ngjitëse bakteriale – që ngurtësohet mbi dhëmbët.</p><h2>Fazat e Sëmundjes së Mishrave</h2><h3>Gingiviti</h3><p>Kjo është faza më e hershme e sëmundjes, e karakterizuar nga mishrat e kuq dhe të fryrë që mund të hembohen lehtë. Kjo fazë është e kthyeshme me kujdes të duhur.</p><h3>Periodontiti</h3><p>Nëse nuk trajtohet, gingiviti mund të përparojë në periodontit, duke çuar në shkatërrimin e kockës mbështetëse dhe indeve, gjë që mund të rezultojë në humbje të dhëmbëve.</p><h2>Shkaqet e Sëmundjes së Mishrave</h2><ul><li>Higjiena e dobët dentare</li><li>Përdorimi i duhanit ose produkteve të tjera të tymosura</li><li>Paraparësia gjenetike</li><li>Ndryshime hormonale</li><li>Medikamente që reduktojnë prodhimin e pështymës</li><li>Sëmundje kronike si diabeti</li></ul><h2>Strategjitë e Parandalimit</h2><ul><li>Lani dhëmbët të paktën dy herë në ditë me pastë me fluor</li><li>Përdorni fije dhëmbësh çdo ditë për të hequr plakun mes dhëmbëve</li><li>Merrni një dietë të balancuar dhe kufizoni ushqimet me sheqer</li><li>Shmangni përdorimin e produkteve të tymosura</li><li>Vizitoni dentistin rregullisht për kontrolle dhe pastrim profesional</li></ul><h2>Opsionet e Trajtimit</h2><h3>Pastrimi i Thellë (Scaling and Root Planing)</h3><p>Kjo është një metodë e thellë pastrimi që largon plakun dhe gurëzat poshtë vijës së mishrave dhe zbërthen rrënjët e dhëmbëve për të ndihmuar mishrat të rikthehen në vend.</p><h3>Medikamentet</h3><p>Antibiotikët mund të përshkruhen për të kontrolluar infeksionin bakterial, qoftë përmes aplikimit lokal apo oral.</p><h3>Trajtimet Kirurgjikë</h3><p>Në rastet e avancuara, procedurat kirurgjikale si kirurgjia me flap ose transplantimi i kockës dhe indeve mund të jenë të nevojshme për të rikthyer inde mbështetëse.</p><p>Zbulimi dhe menaxhimi në kohë janë çelësi për parandalimin e përparimit të sëmundjes së mishrave. Caktoni një konsultim për të vlerësuar shëndetin e mishrave tuaja dhe për të diskutuar opsionet e trajtimit të personalizuar.</p>"
+      },
+      {
+        "id": 8,
+        "title": "Roli i Ushqimit në Shëndetin Oral",
+        "slug": "nutrition-and-oral-health",
+        "date": "2024-12-29",
+        "excerpt": "Eksploroni se si dieta juaj ndikon në shëndetin dentar dhe cilat ushqime promovojnë dhëmbë të fortë.",
+        "image": "/assets/blog8.jpg",
+        "content": "<h2>Si Ndikon Ushqimi në Shëndetin Oral</h2><p>Dieta juaj luan një rol të rëndësishëm në ruajtjen e dhëmbëve dhe mishrave të shëndetshme. Marrja e lëndëve ushqyese të duhura mund të forcojë strukturat tuaja orale, ndërsa zgjedhjet e këqija ushqimore mund të çojnë në probleme dentare.</p><h2>Lëndët Ushqyese Thelbësore për Dhëmbë të Fortë</h2><h3>Kalciumi</h3><p>Kalciumi është thelbësor për ndërtimin dhe ruajtjen e dhëmbëve dhe kockëve të forta. Produktet qumështore, perimet me gjethe të gjelbra dhe alternativa të fortifikuara janë burime të mira të kalciumit.</p><h3>Vitamina D</h3><p>Vitamina D ndihmon në absorbimin e kalciumit dhe shëndetin e kockës. Ajo merret kryesisht nga ekspozimi ndaj diellit, por edhe nga peshku i yndyrshëm, vezët dhe ushqimet e fortifikuara.</p><h3>Fosfori</h3><p>Fosfori punon së bashku me kalciumin për të ndërtuar kockë dhe dhëmbë të fortë. Ai gjendet në mish, pule, peshk, vezë, arra dhe legume.</p><h3>Vitamina C</h3><p>Vitamina C është thelbësore për shëndetin e mishrave, pasi ndihmon në prodhimin e kolagjenit, një proteinë që forcon indele e mishrave. Frutat e agrumeve, mollët, specat dhe brokoli janë burime të shkëlqyera.</p><h2>Ushqimet që Përmirësojnë Shëndetin Oral</h2><ul><li><strong>Djathi:</strong> I pasur me kalcium dhe fosfat që ndihmojnë në mbrojtjen e smaltit të dhëmbëve.</li><li><strong>Perimet me Gjethe:</strong> Të pasura me vitamina dhe minerale, përfshirë kalciumin dhe acidin folik.</li><li><strong>Frutat dhe Perimet të Kërcyera:</strong> Mollët, karrota dhe selino ndihmojnë në pastrimin e dhëmbëve dhe stimulimin e mishrave.</li><li><strong>Çajt Jeshil dhe Zi:</strong> Përmbajnë përbërës që mund të ulin rritjen e baktereve dhe rrezikun e kavitetit.</li><li><strong>Uji:</strong> Largon pjesët ushqyese dhe ndihmon në ruajtjen e prodhimit të pështymës, thelbësore për neutralizimin e acideve.</li></ul><h2>Ushqimet për të Kufizuar për një Shëndet Oral më të Mirë</h2><ul><li><strong>Ushqimet dhe Pijet me Sheqer:</strong> Inkurajojnë rritjen e baktereve që shkaktojnë kariesin.</li><li><strong>Ushqimet Ngjitëse:</strong> Si karamele dhe çokollata, të cilat mund të ngjiten në dhëmbë dhe të kontribuojnë në demin.</li><li><strong>Ushqimet dhe Pijet Acipe:</strong> Frutat e agrumeve dhe pijet e gazuara mund të erodojnë smaltin me kalimin e kohës.</li><li><strong>Alkooli dhe Duhanit:</strong> Rrisin rrezikun e sëmundjeve të mishrave dhe kancerit oral.</li></ul><p>Ruajtja e një diete të balancuar e pasur me lëndë ushqyese thelbësore, ndërkohë që kufizoni ushqimet e dëmshme, mund të përmirësojë ndjeshëm shëndetin tuaj oral. Konsultohuni me specialistët tanë të ushqyerjes dentare për të krijuar një plan të personalizuar për një buzëqeshje më të shëndetshme.</p>"
+      },
+      {
+        "id": 9,
+        "title": "Zbardhja e Dhëmbëve: Praktika të Sigurta dhe Trajtime Efektive",
+        "slug": "teeth-whitening-safe-practices",
+        "date": "2024-12-27",
+        "excerpt": "Mësoni rreth metodave të sigurta të zbardhjes së dhëmbëve dhe trajtimeve profesionale për një buzëqeshje të ndritshme.",
+        "image": "/assets/blog9.jpg",
+        "content": "<h2>Të Kuptuarit e Ndryshimit të Ngjyrës së Dhëmbëve</h2><p>Dhëmbët mund të ndryshojnë ngjyrën për shkak të faktorëve të ndryshëm, përfshirë plakjen, zakonet ushqimore, përdorimin e duhanit dhe disa medikamente. Të kuptuarit e shkakut të ndryshimit të ngjyrës është thelbësor për zgjedhjen e metodës më efektive të zbardhjes.</p><h2>Praktika të Sigurta të Zbardhjes së Dhëmbëve</h2><ul><li><strong>Konsultohuni me një Dentist:</strong> Gjithmonë kërkoni këshilla profesionale para se të filloni ndonjë trajtim zbardhjeje për të siguruar se është i përshtatshëm për shëndetin tuaj oral.</li><li><strong>Shmangni Përdorimin e Tepruar të Produkteve Zbardhëse:</strong> Përdorimi i tepruar mund të çojë në ndjeshmëri të dhëmbëve dhe erozion të smaltit.</li><li><strong>Mbani një Higjienë të Mirë Orale:</strong> Larja dhe fërkimi i rregullt ndihmojnë në parandalimin e njollave dhe ruajtjen e rezultateve të zbardhjes.</li><li><strong>Kufizoni Konsumin e Ushqimeve dhe Pijeve që Ngjasin Dhëmbët:</strong> Kufizoni konsumimin e kafesë, çajit, verës së kuqe dhe pijeve të ngjyrosura për të parandaluar formimin e njollave të reja.</li></ul><h2>Trajtimet Profesionale të Zbardhjes së Dhëmbëve</h2><h3>Zbardhja në Klinikë</h3><p>Kjo metodë kryhet nga profesionistët e dentarisë dhe përdor agjentë zbardhues me koncentrim të lartë për të arritur rezultate të dukshme në një vizitë të vetme.</p><h3>Setet për Zbardhje në Shtëpi</h3><p>Traytë të përshtatura nga dentisti juaj lejojnë përdorimin e agjentëve zbardhues me cilësi profesionale në komoditetin e shtëpisë, zakonisht gjatë një periudhe prej një deri në dy javë.</p><h2>Produktet Zbardhëse Pa Recetë</h2><p>Edhe pse janë më të përballueshme, produktet zbardhëse pa recetë si rripa dhe xhelat kanë koncentrime më të ulëta të agjentëve zbardhues dhe mund të kërkojnë më shumë kohë për të treguar rezultate. Gjithmonë ndiqni udhëzimet e prodhuesit për të minimizuar rreziqet.</p><h2>Remediet Natyrale për Zbardhje të Dhëmbëve</h2><ul><li><strong>Fërkimi me Soda Buke:</strong> Vepron si një abrivi i lehtë për të hequr njollat sipërfaqësore.</li><li><strong>Hidrogjen Peroksidi:</strong> Ka veti natyrale zbardhëse, por duhet përdorur me kujdes për të shmangur irritimin.</li><li><strong>Larja me Vaj:</strong> Përfshin shpëlarjen e gojës me vaj për të ulur bakteret dhe plakën, duke çuar potencialisht në një buzëqeshje më të bardhë.</li></ul><h2>Ruajtja e Rezultateve të Zbardhjes</h2><p>Për të zgjatur efektet e zbardhjes së dhëmbëve, praktikoni higjienë të mirë orale, përdorni pastë zbardhëse dhe kufizoni konsumimin e ushqimeve dhe pijeve që shkaktojnë njolla.</p><p>Eksploroni opsionet tona të sigurta dhe efektive të zbardhjes së dhëmbëve për të arritur buzëqeshjen e ndritshme që keni dëshiruar gjithmonë. Caktoni një konsultim sot!</p>"
+      },
+      {
+        "id": 10,
+        "title": "Parandalimi i Prishjes së Dhëmbëve: Këshilla Thelbësore për të Gjitha Moshat",
+        "slug": "preventing-tooth-decay",
+        "date": "2024-12-25",
+        "excerpt": "Strategji thelbësore për të parandaluar prishjen e dhëmbëve dhe për të ruajtur dhëmbë të shëndetshëm gjatë gjithë jetës.",
+        "image": "/assets/blog10.jpg",
+        "content": "<h2>Çfarë është Prishja e Dhëmbëve?</h2><p>Prishja e dhëmbëve, e njohur gjithashtu si karies dentar, është shkatërrimi i smaltit të dhëmbëve shkaktuar nga acide të prodhuara nga bakteret në gojë. Ajo mund të çojë në kavitete, infeksione dhe madje edhe humbje të dhëmbëve nëse nuk trajtohet.</p><h2>Shkaqet e Prishjes së Dhëmbëve</h2><ul><li><strong>Higjiena e Dobët Orale:</strong> Larja dhe fërkimi i pamjaftueshëm lejojnë grumbullimin e plaket.</li><li><strong>Konsum i Lartë i Sheqerit:</strong> Ushqimet dhe pijet e plota me sheqer ofrojnë karburant për bakteret që prodhojnë acide shkaktuese të prishjes.</li><li><strong>Goja e Thartë:</strong> Pështyma ndihmon në neutralizimin e acideve dhe largimin e pjesëve ushqyese. Një prodhim i ulët i pështymës rrit rrezikun e prishjes.</li><li><strong>Faktorët Gjenetikë:</strong> Disa individë mund të jenë më të prirur ndaj kariesit për shkak të predispozitave gjenetike.</li><li><strong>Mosha:</strong> Fëmijët dhe të moshuarit janë më të prekshëm për shkak të smaltit më të hollë dhe faktorëve të tjerë moshorë.</li></ul><h2>Këshilla Thelbësore për Parandalim</h2><h3>Mbastroni Higjienën Orale</h3><p>Lani dhëmbët tuaj të paktën dy herë në ditë me pastë me fluor dhe përdorni fije dhëmbësh çdo ditë për të larguar plakun nga zona të paarritshme nga furçëza.</p><h3>Kufizoni Ushqimet dhe Pijet e Sheqerosura</h3><p>Kufizoni konsumimin e ëmbëlsirave, karameleve dhe pijeve acide për të minimizuar prodhimin e acideve në gojë.</p><h3>Përdorni Fluor</h3><p>Fluori forcon smaltin e dhëmbëve dhe ndihmon në parandalimin e kariesit. Përdorni pastë me fluor dhe konsideroni trajtime me fluor sipas rekomandimeve të dentistit tuaj.</p><h3>Vizitat e Rregullta te Dentisti</h3><p>Caktoni kontrolla të rregullta për pastrim profesional dhe zbulim të hershëm të problemeve dentare. Sigilimet dentare mund të përdoren për të mbrojtur zonat e ndjeshme.</p><h3>Mbetuni të Hidruar</h3><p>Pini mjaftueshëm ujë gjatë ditës për të larguar pjesët ushqyese dhe për të mbajtur prodhimin e pështymës.</p><h3>Dieta e Shëndetshme</h3><p>Konsumoni një dietë të balancuar, e pasur me vitamina dhe minerale, veçanërisht kalcium dhe vitaminë D, për të mbështetur dhëmbë dhe kockë të forta.</p><h3>Kufizoni Përdorimin e Produkteve të Duhanit</h3><p>Përdorimi i duhanit dhe produkteve të tjera të tymosura rrit rrezikun e sëmundjeve të mishrave dhe kariesit. Lënia e tyre mund të përmirësojë shëndetin tuaj oral.</p><h2>Konsiderata të Veçanta për Fëmijë dhe të Moshuar</h2><p>Fëmijët kërkojnë udhëzime mbi teknikat e duhura të larjes së dhëmbëve dhe rëndësinë e një diete të shëndetshme. Të moshuarit mund të përballen me probleme të gojës së thatë dhe duhet të sigurojnë që të mbajnë higjienën e duhur, pavarësisht sfidave moshore.</p><p>Zbatimi i këtyre këshillave parandaluese mund të ndihmojë në ruajtjen e shëndetit të dhëmbëve dhe mishrave për një jetë të gjatë. Caktoni një takim me ekipin tonë dentar për të zhvilluar një plan të personalizuar për parandalimin e kariesit.</p>"
+      }
+    ]
+  },
+  
+  "ContactSection": {
+    "title": "Na Kontaktoni",
+    "phoneLabel": "+355 69 123 4567",
+    "addressLabel": "Bilal Golemi 33, Tiranë, Shqipëri"
+  },
+  "Hero": {
+    "title": "Rezervo",
+    "description": "Zbuloni fuqinë e zgjidhjeve tona inovative që do të transformojnë biznesin tuaj dhe do të rrisin produktivitetin tuaj.",
+    "button": "Na Telefononi",
+    "buttonHoverText": "Kliko për të filluar udhëtimin tuaj!"
+  },
+  "PrivacyPolicy": {
+    "title": "Politika e Privatësisë",
+    "sections": {
+      "introduction": "Hyrje",
+      "introText": "Mirësevini në Kliniken Dentare Grei, e vendosur në Tiranë, Shqipëri. Jemi të përkushtuar për të mbrojtur privatësinë tuaj dhe për të siguruar sigurinë e informacionit tuaj personal. Kjo Politikë e Privatësisë përshkruan se si mbledhim, përdorim, ndajmë dhe mbrojmë të dhënat tuaja kur vizitoni faqen tonë ose përdorni shërbimet tona.",
+      "informationWeCollect": "Informacioni që Mbledhim",
+      "informationWeCollectText": "Ne mund të mbledhim llojet e mëposhtme të informacionit për të ofruar dhe përmirësuar shërbimet tona:",
+      "informationList": [
+        "Informacion Identifikimi Personal: Emri, adresa e emailit, numri i telefonit, etj.",
+        "Të dhëna të përdorimit: Informacion rreth mënyrës se si hyni dhe përdorni faqen tonë.",
+        "Cookies dhe Teknologjitë e Gjurmëzimit: Për të përmirësuar përvojën tuaj dhe për të analizuar trafikun e faqes.",
+        "Informacioni i Pagesës: Nëse kryeni blerje ose takime, mbledhim informacionet e pagesave në mënyrë të sigurtë."
+      ],
+      "howWeUseYourInformation": "Si Përdorim Informacionin Tuaj",
+      "howWeUseYourInformationText": "Informacioni që mbledhim përdoret për qëllime të ndryshme, duke përfshirë:",
+      "useList": [
+        "Të ofrojmë dhe mbajmë shërbimet tona dentare.",
+        "Të përpunojmë transaksionet dhe të menaxhojmë takimet ose pagesat tuaja.",
+        "Të komunikojmë me ju, përfshirë dërgimin e përditësimeve dhe materialeve promocionale.",
+        "Të përmirësojmë faqen tonë dhe shërbimet bazuar në reagimet dhe modelet e përdorimit tuaj.",
+        "Të sigurojmë përputhshmërinë me kërkesat ligjore."
+      ],
+      "informationSharing": "Ndaj Informacionin",
+      "informationSharingText": "Ne nuk e shesim, nuk e tregtojmë, ose nuk e transferojmë informacionin tuaj personal te palët e jashtme përveç rasteve të mëposhtme:",
+      "sharingList": [
+        "Me pëlqimin tuaj.",
+        "Tek ofruesit e besueshëm të shërbimeve të palëve të treta që na ndihmojnë në operimin e faqes sonë, kryerjen e biznesit tonë, ose shërbimin ndaj jush, me kusht që ata ta mbajnë informacionin tuaj konfidencial.",
+        "Për t'iu përmbushur kërkesave ligjore, si përgjigje ndaj thirrjeve ose urdhrave gjyqësorë.",
+        "Për të mbrojtur të drejtat, pronën, ose sigurinë e Klinikes Dentare Grei, përdoruesve tanë, ose të tjerëve."
+      ],
+      "cookies": "Cookies",
+      "cookiesText1": "Ne përdorim cookies dhe teknologji të ngjashme për të ndjekur aktivitetin në faqen tonë dhe për të ruajtur informacion të caktuar. Cookies na ndihmojnë të përmirësojmë përvojën tuaj të shfletimit duke mbajtur mend preferencat dhe historinë e vizitave.",
+      "cookiesText2": "Ju mund të caktoni që shfletuesi juaj të refuzojë të gjitha cookies ose të tregojë kur një cookie po dërgohet. Megjithatë, nëse nuk i pranoni cookies, disa pjesë të faqes mund të mos funksionojnë si duhet.",
+      "dataSecurity": "Siguria e Të Dhënave",
+      "dataSecurityText": "Ne zbatojmë një sërë masash sigurie për të ruajtur sigurinë e informacionit tuaj personal. Të dhënat tuaja ruhen në servera të sigurta dhe janë të mbrojtura kundër qasjes, ndryshimit, zbulimit ose shkatërrimit pa autorizim.",
+      "yourRights": "Të Drejtat Tuaja",
+      "yourRightsText": "Ju keni të drejtën të qaseni, korrigjoni ose fshini informacionin tuaj personal që ne ruajmë. Gjithashtu, mund të kërkoni të kufizoni ose të kundërshtoni përpunimin e caktuar të të dhënave tuaja. Për të ushtruar këto të drejta, ju lutemi na kontaktoni duke përdorur informacionin e dhënë më poshtë.",
+      "policyChanges": "Ndryshimet e Politikës",
+      "policyChangesText": "Ne mund të përditësojmë Politikën tonë të Privatësisë nga koha në kohë. Çdo ndryshim do të publikohet në këtë faqe, dhe do t'ju njoftojmë përmes emailit ose një njoftimi të dukshëm në faqen tonë nëse ndryshimet janë të rëndësishme. Ju inkurajojmë të rishikoni këtë politikë periodikisht për të qenë të informuar mbi mënyrën se si e mbrojmë informacionin tuaj.",
+      "contactUs": "Na Kontaktoni",
+      "contactUsText": "Nëse keni ndonjë pyetje ose shqetësim rreth kësaj Politike të Privatësisë ose praktikave tona të të dhënave, ju lutemi na kontaktoni duke përdorur informacionin e mëposhtëm:",
+      "contactList": [
+        "Email: greidentalclininc@gmail.com",
+        "Telefon: +355 69 756 3877",
+        "Adresa: Rruga Bilal Golemi 33, Tiranë, Shqipëri"
+      ]
+    }
+  },
+  "CookieConsent": {
+    "message": "Ne përdorim cookies dhe teknologji të ngjashme për të përmirësuar përvojën tuaj në faqen tonë, për të analizuar përdorimin e faqes dhe për të ndihmuar në përpjekjet tona të marketingut. Duke vazhduar të shfletoni faqen tonë, ju jepni pëlqimin tuaj për përdorimin e këtyre teknologjive. Ju mund të menaxhoni preferencat për cookies ose të mësoni më shumë rreth përdorimit tonë të cookies duke vizituar",
+    "privacyPolicy": "Politika e Privatësisë",
+    "accept": "Prano",
+    "decline": "Refuzo"
+  },
+  "Footer": {
+    "location": "Bilal Golemi 33, Tiranë, Shqipëri",
+    "contact": {
+      "title": "Kontakti",
+      "phone": "+355 69 756 3877",
+      "email": "greidentalclinic@gmail.com"
+    },
+    "socialNetworks": {
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "tiktok": "TikTok"
+    },
+    "rightsReserved": "© Klinika Dentare Grei. Të gjitha të drejtat e rezervuara.",
+    "designedBy": "Dizajnuar nga ",
+    "privacyPolicy": "Politika e Privatësisë"
+  }
 }
