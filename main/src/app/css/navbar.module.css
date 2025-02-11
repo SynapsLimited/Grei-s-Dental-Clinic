@@ -46,7 +46,7 @@
 }
 
 .navItem a {
-  color: var(--color-secondary);
+  color: var(--color-complementary);
   transition: color 0.3s ease;
 }
 

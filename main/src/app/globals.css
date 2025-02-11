@@ -101,9 +101,10 @@ h4 {
 }
 
 p {
-  font-family: 'Outfit', sans-serif;
+  font-family: '', sans-serif;
   font-weight: 200; /* Extra-Light */
   font-size: 1rem; 
+  opacity: 80;
 }
 
 span {
