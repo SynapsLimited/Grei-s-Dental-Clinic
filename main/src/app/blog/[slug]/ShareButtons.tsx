@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { motion } from 'framer-motion';
 import { BlogPost } from '../data/blogposts';
@@ -12,6 +12,9 @@ interface ShareButtonsProps {
 export default function ShareButtons({ post }: ShareButtonsProps) {
   const { t } = useTranslation();
   const shareUrl = `https://yourdomain.com/blog/${post.slug}`;
+  
+  // Ensure post.title is a string
+  const postTitle = post.title.en; // Adjust based on your structure
 
   return (
     <div className="flex space-x-4 mt-8">
@@ -27,7 +30,7 @@ export default function ShareButtons({ post }: ShareButtonsProps) {
         <Facebook size={24} />
       </motion.a>
       <motion.a
-        href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(post.title)}`}
+        href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(postTitle)}`}
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}
@@ -38,7 +41,7 @@ export default function ShareButtons({ post }: ShareButtonsProps) {
         <Twitter size={24} />
       </motion.a>
       <motion.a
-        href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(post.title)}`}
+        href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(postTitle)}`}
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1 }}

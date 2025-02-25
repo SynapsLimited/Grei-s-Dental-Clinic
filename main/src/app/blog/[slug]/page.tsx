@@ -13,17 +13,17 @@ export async function generateMetadata(
   if (!post) return {};
 
   return {
-    title: `${post.title} | Your Dental Studio`,
-    description: post.excerpt,
+    title: `${post.title.en} | Your Dental Studio`, // Accessing English title
+    description: post.excerpt.en, // Accessing English excerpt
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
+      title: post.title.en,
+      description: post.excerpt.en,
       images: [{ url: post.image }],
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
-      description: post.excerpt,
+      title: post.title.en,
+      description: post.excerpt.en,
       images: [post.image],
     },
   };
@@ -55,7 +55,7 @@ export default async function BlogPostPage({
       <article className="max-w-4xl mx-auto px-12 sm:px-15 lg:px-8">
         <AnimatedContent>
           <h1 className="text-4xl sm:text-5xl font-medium mb-10 mt-20 text-complementary dark:text-primary-100">
-            {post.title}
+            {post.title.en} {/* Accessing English title */}
           </h1>
           <p className="text-complementary font-medium text-sm mb-6">
             {post.date}
@@ -63,7 +63,7 @@ export default async function BlogPostPage({
           <div className="relative h-64 sm:h-80 md:h-96 mb-8 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-[1.02]">
             <Image
               src={post.image || "/placeholder.svg"}
-              alt={post.title}
+              alt={post.title.en} // Accessing English title for alt text
               fill
               priority
               sizes="(max-width: 768px) 100vw,
@@ -74,7 +74,7 @@ export default async function BlogPostPage({
           </div>
           <div
             className="prose prose-lg dark:prose-invert max-w-none mb-8"
-            dangerouslySetInnerHTML={{ __html: post.content }}
+            dangerouslySetInnerHTML={{ __html: post.content.en }} // Accessing English content
           />
           <ShareButtons post={post} />
         </AnimatedContent>
