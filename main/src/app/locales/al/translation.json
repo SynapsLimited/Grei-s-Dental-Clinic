@@ -1,5 +1,5 @@
 {
-  "home": "Ballina",
+  "home": "Kreu",
   "about": "Rreth Nesh",
   "services": "Shërbimet",
   "reserve": "Rezervo Tani",
@@ -53,17 +53,17 @@
   "follow_us": "Na Ndiq",
   
   "about_us_section_title": "Rreth Nesh",
-  "about_us_section_description": "Jemi një ekip i apasionuar, i dedikuar inovacionit dhe ekselencës. Misioni ynë është të ofrojmë kujdes dentar të shkëlqyer, i përshtatur nevojave unike të çdo pacienti, duke siguruar një përvojë të rehatshme dhe efektive të trajtimit.",
-  
+  "about_us_section_description": "Dr. Grei është një dentiste e njohur me një klinikë dentare personale në Shqipëri. Ajo është e njohur për rezultatet e saj të jashtëzakonshme dhe profesionalizmin e palëkundur, duke ofruar kujdes dentar të nivelit më të lartë për pacientët e saj.",
+
   "hero_slider_about_us": "Rreth Nesh",
   "hero_slider_mission": "Misioni",
   "hero_slider_vision": "Vizioni",
   "hero_slider_values": "Vlerat",
-  "hero_slider_about_us_content": "Jemi një ekip i apasionuar, i dedikuar inovacionit dhe ekselencës.",
-  "hero_slider_mission_content": "Misioni ynë është të fuqizojmë bizneset përmes zgjidhjeve të teknologjisë së avancuar.",
-  "hero_slider_vision_content": "Ne imagjinojmë një botë ku teknologjia përmirëson çdo aspekt të jetës njerëzore.",
-  "hero_slider_values_content": "Integriteti, inovacioni, bashkëpunimi dhe orientimi drejt klientit udhëheqin veprimet tona.",
-  
+  "hero_slider_about_us_content": "Dr. Grei është një dentiste me përvojë të madhe, e përkushtuar për të ofruar kujdes dentar cilësor me profesionalizëm dhe përkushtim.",
+  "hero_slider_mission_content": "Misioni ynë është të përmirësojmë buzëqeshjet dhe shëndetin oral përmes trajtimeve dentare cilësore dhe të personalizuara.",
+  "hero_slider_vision_content": "Ne imagjinojmë një të ardhme ku kujdesi dentar i avancuar është i aksesueshëm për të gjithë, duke siguruar buzëqeshje të shëndetshme dhe plot vetëbesim.",
+  "hero_slider_values_content": "Ekselenca, profesionalizmi, kujdesi ndaj pacientit dhe inovacioni janë shtyllat tona kryesore.",
+
   "who_is_heading": "Kush është Dr. Grei?",
   "who_is_description": "Dr. Grei është një dentist e njohur me një klinikë personale dentare në Shqipëri. Ajo njihet për rezultatet e saj të jashtëzakonshme dhe profesionalizmin e pandryshueshëm, duke ofruar kujdes dentar të shkëlqyer për pacientët e saj.",
   "who_is_call_us": "Na Telefononi",
