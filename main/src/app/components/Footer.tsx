@@ -100,7 +100,7 @@ const Footer: React.FC = () => {
 
           {/* Social Networks Section */}
           <div>
-            <h4 className="text-lg font-semibold mb-5 text-white/80">{t('Footer.socialNetworks.whatsapp')}</h4>
+            <h4 className="text-lg font-semibold mb-5 text-white/80">{t('Footer.socialNetworks.title')}</h4>
             <div className="space-y-4">
               {socialLinks.map((social, index) => (
                 <div key={index} className="flex items-center">
