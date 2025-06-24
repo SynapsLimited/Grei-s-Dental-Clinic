@@ -21,6 +21,15 @@ const Reserve: React.FC = () => {
         <meta name="twitter:title" content="Reserve - Your Website" />
         <meta name="twitter:description" content="Reserve your spot with Your Website. Contact us today to get started with our services." />
         <meta name="twitter:image" content="https://www.yourwebsite.com/images/reserve-twitter-image.jpg" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17021825144"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17021825144');
+          `}
+        </script>
       </Head>
       <div
         className="bg-cover bg-center"
