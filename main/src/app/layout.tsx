@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import './globals.css';
+import Script from 'next/script';
 import React from 'react';
 import ClientWrapper from './components/ClientWrapper';
 import I18nProvider from './components/i18nProvider';
@@ -67,6 +68,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Footer />
           </ClientWrapper>
         </I18nProvider>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17021825144"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17021825144');
+          `}
+        </Script>
       </body>
     </html>
   );
