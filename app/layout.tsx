@@ -42,7 +42,8 @@ export const metadata: Metadata = {
     default: "Grei's Dental Clinic | Premium Dental Care in Tirana",
     template: "%s | Grei's Dental Clinic", 
   },
-  description: "Experience world-class dental care in Tirana, Albania. Dr. Grei Shehaj and our expert team specialize in Implantology, Orthodontics, Veneers, and Composite Bonding.",
+  // OPTIMIZED: Exactly 158 characters. Hits keywords: premium dental care, Tirana, advanced technology, perfect lasting smile.
+  description: "Experience premium dental care at Grei's Dental Clinic in Tirana. We combine advanced technology with artistic precision to craft your perfect, lasting smile.",
   keywords: [
     "Dentist Tirana", 
     "Dental Clinic Albania", 
@@ -65,8 +66,8 @@ export const metadata: Metadata = {
     url: baseUrl,
     siteName: "Grei's Dental Clinic",
     title: "Grei's Dental Clinic | Premium Dental Care in Tirana",
-    description: "Your unique smile, our personalized care. Premium dental services in Tirana, Albania.",
-    // FIX: Force the ABSOLUTE URL for the image so WhatsApp doesn't guess
+    // OPTIMIZED to match the main description
+    description: "Experience premium dental care at Grei's Dental Clinic in Tirana. We combine advanced technology with artistic precision to craft your perfect, lasting smile.",
     images: [
       {
         url: `${baseUrl}/opengraph-image.jpg`, 
@@ -77,10 +78,10 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: "summary_large_image", // This forces the large banner layout
+    card: "summary_large_image",
     title: "Grei's Dental Clinic | Premium Dental Care in Tirana",
-    description: "Your unique smile, our personalized care. Premium dental services in Tirana, Albania.",
-    // FIX: Force the ABSOLUTE URL here as well
+    // OPTIMIZED to match the main description
+    description: "Experience premium dental care at Grei's Dental Clinic in Tirana. We combine advanced technology with artistic precision to craft your perfect, lasting smile.",
     images: [`${baseUrl}/opengraph-image.jpg`],
   },
   robots: {
