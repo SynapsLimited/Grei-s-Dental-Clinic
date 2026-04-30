@@ -141,7 +141,10 @@
     "bookSubtitle": "Programoni një vizitë për",
     "today": "sot.",
     "bookAppt": "Rezervo një Takim",
-    "whatsapp": "Na shkruani në WhatsApp"
+    "whatsapp": "Na shkruani në WhatsApp",
+    "exploreOthers": "Eksploro Shërbime të Tjera",
+    "backToServices": "Kthehu te të Gjitha Shërbimet",
+    "backToHome": "Kthehu në Fillim"
   },
   "services": {
     "title": "Shërbimet Tona",

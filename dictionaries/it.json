@@ -141,7 +141,10 @@
     "bookSubtitle": "Fissa una visita per",
     "today": "oggi stesso.",
     "bookAppt": "Prenota Appuntamento",
-    "whatsapp": "Scrivici su WhatsApp"
+    "whatsapp": "Scrivici su WhatsApp",
+    "exploreOthers": "Esplora Altri Servizi",
+    "backToServices": "Torna a Tutti i Servizi",
+    "backToHome": "Torna alla Home"
   },
   "services": {
     "title": "I Nostri Servizi",

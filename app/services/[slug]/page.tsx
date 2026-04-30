@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect, useCallback, useRef } from "react";
 import { AnimatedSection } from "@/components/animated-section";
-import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, X, ArrowLeft, Home } from "lucide-react";
 import { servicesData } from "@/lib/services-data";
 import { useLanguage } from "@/components/language-provider";
 
@@ -78,11 +78,17 @@ export default function ServiceDetailPage() {
   const shortDesc = t(`servicesData.${slug}.shortDesc`);
   const overview = t(`servicesData.${slug}.overview`);
 
+  // Get the other 8 services for bottom navigation
+  const otherServices = Object.keys(servicesData).filter(key => key !== slug);
+
   return (
     <div className="container mx-auto px-6 md:px-12 py-24 transition-colors">
       <AnimatedSection className="mb-12">
-        <Link href="/services" className="text-brand-blue text-sm font-semibold mb-4 inline-block hover:underline">
-          {t("serviceDetail.allServices")}
+        <Link 
+          href="/services" 
+          className="inline-flex items-center justify-center gap-2 px-6 py-3 mb-8 rounded-full font-bold transition-all border border-gray-300 dark:border-gray-700 hover:border-brand-blue hover:text-brand-blue text-sm"
+        >
+          <ArrowLeft className="w-4 h-4" /> {t("serviceDetail.backToServices")}
         </Link>
         <h1 className="text-4xl md:text-6xl font-display font-bold mb-4">{title}</h1>
         <p className="text-lg text-gray-500 max-w-2xl">{shortDesc}</p>
@@ -106,7 +112,6 @@ export default function ServiceDetailPage() {
           <AnimatedSection>
             <h2 className="text-2xl font-bold mb-6">{t("serviceDetail.aboutTitle")}</h2>
             <div className="prose prose-lg dark:prose-invert max-w-none text-gray-600 dark:text-gray-400">
-              {/* String split correctly operates on the fetched translation string */}
               {overview.split('\n').map((p, i) => <p key={i} className="mb-4">{p}</p>)}
             </div>
           </AnimatedSection>
@@ -153,6 +158,43 @@ export default function ServiceDetailPage() {
         </div>
       </div>
 
+      {/* BOTTOM NAVIGATION SECTION */}
+      <AnimatedSection className="mt-32 pt-16 border-t border-gray-200 dark:border-gray-800">
+        <div className="max-w-4xl mx-auto text-center">
+          <h3 className="text-2xl font-display font-bold mb-8">{t("serviceDetail.exploreOthers")}</h3>
+          
+          {/* Other Services Pills */}
+          <div className="flex flex-wrap justify-center gap-3 mb-16">
+            {otherServices.map((otherSlug) => (
+              <Link 
+                key={otherSlug} 
+                href={`/services/${otherSlug}`} 
+                className="px-6 py-3 rounded-full border border-gray-200 dark:border-gray-800 hover:border-brand-blue hover:text-brand-blue dark:hover:border-brand-blue transition-colors text-sm font-medium bg-gray-50 dark:bg-gray-900/50"
+              >
+                {t(`servicesData.${otherSlug}.title`)}
+              </Link>
+            ))}
+          </div>
+
+          {/* Primary Fallback Navigation */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link 
+              href="/services" 
+              className="flex items-center justify-center gap-2 w-full sm:w-auto px-8 py-4 rounded-full font-bold transition-all border border-gray-300 dark:border-gray-700 hover:border-brand-blue hover:text-brand-blue text-sm"
+            >
+              <ArrowLeft className="w-4 h-4" /> {t("serviceDetail.backToServices")}
+            </Link>
+            <Link 
+              href="/" 
+              className="flex items-center justify-center gap-2 w-full sm:w-auto px-8 py-4 rounded-full font-bold transition-all bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-sm"
+            >
+              <Home className="w-4 h-4" /> {t("serviceDetail.backToHome")}
+            </Link>
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* LIGHTBOX MODAL */}
       {lightboxIdx !== null && (
         <div 
           className="fixed inset-0 z-[100] flex flex-col items-center justify-between bg-white/80 dark:bg-brand-dark/90 backdrop-blur-2xl overflow-hidden"

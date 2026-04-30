@@ -141,7 +141,10 @@
     "bookSubtitle": "Schedule a visit for",
     "today": "today.",
     "bookAppt": "Book Appointment",
-    "whatsapp": "WhatsApp Us"
+    "whatsapp": "WhatsApp Us",
+    "exploreOthers": "Explore Other Services",
+    "backToServices": "Back to All Services",
+    "backToHome": "Back to Home"
   },
   "services": {
     "title": "Our Services",
