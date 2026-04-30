@@ -1,0 +1,474 @@
+{
+  "navbar": {
+    "about": "Rreth Nesh",
+    "services": "Shërbimet",
+    "testimonials": "Dëshmitë",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "reserveNow": "Rezervo",
+    "whatsapp": "WhatsApp",
+    "reserveWebsiteMobile": "Rezervo në Website",
+    "reserveWhatsappMobile": "Rezervo në WhatsApp"
+  },
+  "about": {
+    "title": "Rreth Grei's",
+    "subtitle": "Ku ekspertiza takon teknologjinë e avancuar për të ofruar kujdes të jashtëzakonshëm dentar.",
+    "historyTitle": "Historia dhe Filozofia Jonë",
+    "historyText1": "E themeluar me vizionin për të ripërcaktuar përvojën dentare në Tiranë, Grei's Dental Clinic u ka shërbyer me krenari pacientëve me mbi një dekadë përvojë të besuar. Ajo që filloi si një përkushtim ndaj buzëqeshjeve të shëndetshme është rritur në një destinacion kryesor për kujdesin gjithëpërfshirës oral.",
+    "historyText2": "Ne besojmë se një vizitë te dentisti duhet të jetë një përvojë pozitive dhe fuqizuese. Filozofia jonë përqendrohet në edukimin e pacientit, teknikat minimalisht invazive dhe përdorimin e mjeteve më të fundit të stomatologjisë dixhitale për të siguruar saktësi dhe rehati absolute.",
+    "doctorLabel": "Dentistja Kryesore & Themeluesja",
+    "doctorText1": "Me mbi 10 vjet përvojë klinike, Dr.Grei ka ndërtuar një reputacion për përsosmëri, saktësi, dhe dedikim ndaj pacientit.",
+    "doctorText2": "Ekspertiza e saj e gjerë përfshin të gjitha aspektet e stomatologjisë moderne duke përfshirë Kompozit Bonding, Zbardhje profesionale, Protetikë, Ortodonci, Endodonti, Profilaksi, Terapi, dhe Piercing Dentar.",
+    "doctorText3": "Për tu siguruar që pacientët e saj të marrin standardin më të lartë të kujdesit, ajo është gjithmonë në koherencë të teknikave inovative, duke ndjekur trajnime të shumta si në Shqipëri dhe në Europë.",
+    "tourLabel": "Bëni një Tur",
+    "galleryTitle": "Galeria e Klinikës"
+  },
+  "blog": {
+    "title": "Të Rejat Dentare",
+    "subtitle": "Lajme, këshilla dhe opinione nga profesionistët tanë dentarë.",
+    "backToAll": "← Kthehu te të gjithë artikujt",
+    "ctaTitle": "Gati për të transformuar buzëqeshjen tuaj?",
+    "ctaSubtitle": "Mos prisni. Programoni një vlerësim me specialistët tanë sot dhe merrni buzëqeshjen që meritoni.",
+    "ctaButton": "Rezervoni një takim tek Grei's"
+  },
+  "contact": {
+    "title": "Na Kontaktoni",
+    "subtitle": "Jemi këtu për t'iu përgjigjur pyetjeve tuaja dhe për të planifikuar vizitën tuaj të radhës. Zgjidhni se si dëshironi të na kontaktoni.",
+    "reserveNow": "Rezervo Tani",
+    "reserveWhatsapp": "Rezervo në WhatsApp",
+    "infoTitle": "Informacione të Klinikës",
+    "location": "Vendndodhja",
+    "phone": "Telefoni",
+    "email": "E-maili",
+    "hours": "Orari",
+    "hoursText": "Hën-Pre: 09:00 - 19:00\nSht: 09:00 - 14:00"
+  },
+  "faq": {
+    "title": "Si mund t'ju ndihmojmë?",
+    "subtitle": "Shfletoni pyetjet tona më të shpeshta për të mësuar më shumë rreth trajtimeve, procedurave tona dhe se si të kujdeseni për buzëqeshjen tuaj."
+  },
+  "insurance": {
+    "title": "Sigurimet dhe Financimi",
+    "subtitle": "Ne besojmë se kujdesi dentar premium duhet të jetë i aksesueshëm.",
+    "acceptedTitle": "Sigurimet e Pranuara",
+    "acceptedText": "Ne punojmë me ofruesit kryesorë të sigurimeve për t'ju ndihmuar të maksimizoni përfitimet tuaja. Ju lutemi na kontaktoni për të verifikuar mbulimin tuaj specifik.",
+    "flexibleTitle": "Plane Fleksibël Pagese",
+    "zeroInterestTitle": "Financim me 0% Interes",
+    "zeroInterestText": "Shpërndani koston e trajtimit tuaj gjatë disa muajve me planet tona të pagesës pa interes. Në varësi të miratimit.",
+    "learnMore": "Mëso Më Shumë",
+    "methodsText": "Gjithashtu pranojmë të gjitha kartat kryesore të kreditit, debitit dhe pagesat me para në dorë."
+  },
+  "home": {
+    "accepting": "Pranojmë Pacientë të Rinj",
+    "heroTitle1": "Buzëqeshja juaj ",
+    "heroTitle2": "unike",
+    "heroTitle3": ",\nkujdesi ",
+    "heroTitle4": "ynë.",
+    "heroSubtitle": "Përjetoni kujdes dentar premium në Tiranë. Ne kombinojmë teknologjinë e avancuar me saktësinë artistike për të krijuar buzëqeshjen tuaj të përsosur.",
+    "reserveNow": "Rezervo Tani",
+    "whatsapp": "Na shkruani në WhatsApp",
+    "exploreServices": "Eksploro Shërbimet",
+    "happyPatients": "200+ Pacientë të Kënaqur",
+    "excellence": "Përsosmëri në Stomatologji",
+    "comprehensive": "Trajtime gjithëpërfshirëse për një buzëqeshje të qëndrueshme.",
+    "viewAllServices": "Shiko të Gjitha Shërbimet",
+    "philosophy": "Filozofia Jonë",
+    "whereExpertise": "Ku ekspertiza takon teknologjinë e avancuar.",
+    "philosophyText1": "Në Grei's Dental Clinic, ne besojmë se çdo buzëqeshje është një kryevepër në pritje për t'u zbuluar. Qasja jonë është thellësisht e personalizuar, duke siguruar që nevojat tuaja unike të diktojnë planin tonë të kujdesit.",
+    "philosophyText2": "Ne përdorim teknologjinë më të fundit dentare për të ofruar trajtime që nuk janë vetëm shumë efektive, por edhe të rehatshme dhe minimalisht invazive.",
+    "discoverStory": "Zbuloni Historinë Tonë",
+    "yearsExp": "10+ Vite\nPërvojë",
+    "patientStories": "Historitë e Pacientëve",
+    "smilesSpeak": "Buzëqeshje që flasin vetë.",
+    "viewAllReviews": "Shiko të gjitha vlerësimet",
+    "ctaTitle": "Gati për t'i dhënë përparësi buzëqeshjes suaj?",
+    "ctaSubtitle": "Rezervoni konsultën tuaj sot. Ekipi ynë është i gatshëm t'ju ofrojë standardin më të lartë të kujdesit dentar në një mjedis të rehatshëm dhe modern.",
+    "bookAppt": "Rezervo një Takim"
+  },
+  "myths": {
+    "title": "Hedhja poshtë e Miteve Dentare",
+    "subtitle": "Ka shumë keqinformime atje jashtë në lidhje me shëndetin oral. Jemi këtu për të sqaruar të vërtetën në mënyrë që të merrni vendime të sigurta dhe të informuara për buzëqeshjen tuaj."
+  },
+  "privacy": {
+    "title": "Politika e Privatësisë",
+    "lastUpdated": "Përditësimi i fundit:",
+    "intro": "Në Grei's Dental Clinic, ne e marrim seriozisht privatësinë tuaj. Kjo Politikë Privatësie shpjegon se si ne mbledhim, përdorim, zbulojmë dhe ruajmë informacionin tuaj kur vizitoni faqen tonë të internetit ose përdorni shërbimet tona.",
+    "collectTitle": "Informacioni që Ne Mbledhim",
+    "collectText": "Ne mund të mbledhim informacione personale që ju na i jepni vullnetarisht kur regjistroheni në faqen e internetit, shprehni interes për të marrë informacione rreth nesh ose produkteve dhe shërbimeve tona, kur merrni pjesë në aktivitete në faqen e internetit, ose ndryshe kur na kontaktoni.",
+    "useTitle": "Si e Përdorim Informacionin Tuaj",
+    "useText": "Ne përdorim informacionin personal të mbledhur nëpërmjet faqes sonë të internetit për një sërë qëllimesh biznesi të përshkruara më poshtë. Ne përpunojmë informacionin tuaj personal për këto qëllime duke u mbështetur në interesat tona legjitime të biznesit, në mënyrë që të hyjmë ose të kryejmë një kontratë me ju, me pëlqimin tuaj, dhe/ose për pajtueshmëri me detyrimet tona ligjore.",
+    "contactTitle": "Na Kontaktoni",
+    "contactText": "Nëse keni pyetje ose komente në lidhje me këtë njoftim, mund të na dërgoni email në greidentalclinic@gmail.com ose me postë në:"
+  },
+  "terms": {
+    "title": "Kushtet e Shërbimit",
+    "lastUpdated": "Përditësimi i fundit:",
+    "intro": "Këto Kushte të Shërbimit përbëjnë një marrëveshje ligjërisht të detyrueshme të bërë midis jush, qoftë personalisht ose në emër të një subjekti (\"ju\") dhe Grei's Dental Clinic (\"ne\" ose \"yni\"), në lidhje me qasjen tuaj dhe përdorimin e faqes sonë të internetit, si dhe çdo formë tjetër medie, kanal mediatik, faqe interneti celular ose aplikacion celular të lidhur ose të lidhur ndryshe me të.",
+    "disclaimerTitle": "Mohim i Përgjegjësisë Mjekësore",
+    "disclaimerText": "Informacioni i dhënë në këtë faqe interneti është vetëm për qëllime informative dhe nuk ka për qëllim të jetë një zëvendësim për këshillat nga mjeku juaj ose profesionistë të tjerë të kujdesit shëndetësor. Nuk duhet të përdorni informacionin në këtë faqe interneti për diagnostikimin ose trajtimin e ndonjë problemi shëndetësor.",
+    "apptTitle": "Takimet dhe Anulimet",
+    "apptText": "Kur rezervoni një takim, ne rezervojmë atë kohë posaçërisht për ju. Nëse keni nevojë të anuloni ose të riplanifikoni, ju kërkojmë të paktën 24 orë njoftim në mënyrë që t'ia ofrojmë atë kohë një pacienti tjetër.",
+    "contactTitle": "Na Kontaktoni",
+    "contactText": "Për të zgjidhur një ankesë në lidhje me Faqen ose për të marrë informacione të mëtejshme në lidhje me përdorimin e Faqes, ju lutemi na kontaktoni në: greidentalclinic@gmail.com."
+  },
+  "reserve": {
+    "title": "Rezervoni Vizitën Tuaj",
+    "subtitle": "Bëni hapin e parë drejt buzëqeshjes suaj të përsosur.",
+    "step1Title": "Zgjidhni Shërbimin dhe Datën",
+    "reasonLabel": "Arsyeja e vizitës",
+    "dateLabel": "Data e Preferuar",
+    "timeLabel": "Orari i Preferuar",
+    "continue": "Vazhdoni me Detajet",
+    "step2Title": "Detajet Tuaja",
+    "namePlaceholder": "Emri i Plotë",
+    "phonePlaceholder": "Numri i Telefonit (psh. +355 69 ...)",
+    "emailPlaceholder": "Adresa e E-mail-it",
+    "back": "Kthehu",
+    "confirm": "Konfirmo Rezervimin",
+    "processing": "Duke përpunuar...",
+    "successTitle": "Kërkesa u Pranua!",
+    "successText1": "Faleminderit,",
+    "successText2": ". Kemi dërguar një email konfirmimi në",
+    "successText3": "Koordinatori i klinikës sonë do t'ju kontaktojë së shpejti për të konfirmuar takimin tuaj të",
+    "successText4": "në datën",
+    "reserveAnother": "Bëni një rezervim tjetër"
+  },
+  "serviceDetail": {
+    "allServices": "← TË GJITHA SHËRBIMET",
+    "aboutTitle": "Rreth Trajtimit",
+    "caseResults": "Rezultatet e Rasteve",
+    "bookTitle": "Rezervoni Konsultën Tuaj",
+    "bookSubtitle": "Programoni një vizitë për",
+    "today": "sot.",
+    "bookAppt": "Rezervo një Takim",
+    "whatsapp": "Na shkruani në WhatsApp"
+  },
+  "services": {
+    "title": "Shërbimet Tona",
+    "subtitle": "Trajtime dentare gjithëpërfshirëse të përshtatura për nevojat tuaja unike.",
+    "explore": "Eksploro Trajtimin"
+  },
+  "testimonials": {
+    "title": "Historitë e Pacientëve",
+    "subtitle": "Profesionalizmi dhe kujdesi përmes syve të pacientëve tanë.",
+    "starRating": "VLERËSIM 5-YJE"
+  },
+  "reviewForm": {
+    "submittedTitle": "Vlerësimi u Dërgua!",
+    "submittedText": "Faleminderit që ndatë përvojën tuaj me ne.",
+    "submitAnother": "Dërgoni një vlerësim tjetër",
+    "shareTitle": "Ndani Përvojën Tuaj",
+    "shareText": "Ndihmoni të tjerët të zbulojnë kujdesin dentar premium në Tiranë.",
+    "namePlaceholder": "Emri Juaj",
+    "selectService": "Zgjidhni Shërbimin",
+    "textPlaceholder": "Na tregoni për vizitën tuaj (opsionale)...",
+    "posting": "Duke dërguar...",
+    "postReview": "Dërgo Vlerësimin"
+  },
+  "notFound": {
+    "title": "Ups! Me sa duket kjo faqe mungon.",
+    "text": "Ashtu si një dhëmb i humbur, një faqe që mungon mund të jetë e bezdisshme. Le t'ju kthejmë te një buzëqeshje e plotë.",
+    "returnHome": "Kthehu në Fillim"
+  },
+  "floating": {
+    "callNow": "Telefono Tani",
+    "whatsapp": "Na shkruani në WhatsApp",
+    "reserve": "Rezervo Tani"
+  },
+  "footer": {
+    "description": "Përjetoni kujdes dentar të klasit botëror në zemër të Tiranës. Buzëqeshja juaj është prioriteti ynë.",
+    "quickLinksTitle": "Lidhje të Shpejta",
+    "legalTitle": "Ligjore",
+    "servicesTitle": "Shërbimet",
+    "locationTitle": "Vendndodhja Jonë",
+    "locationAddress": "Bilal Golemi 33, Tiranë, Shqipëri",
+    "designedBy": "Dizenjuar nga",
+    "rights": "© 2024 Grei's Dental Clinic. Të gjitha të drejtat e rezervuara.",
+    "links": {
+      "about": "Rreth Nesh",
+      "services": "Shërbimet",
+      "testimonials": "Dëshmitë",
+      "blog": "Blog",
+      "reserve": "Rezervo",
+      "contact": "Kontakt",
+      "faq": "Pyetjet e Shpeshta",
+      "myths": "Mite vs Fakte",
+      "insurance": "Sigurimet",
+      "terms": "Kushtet",
+      "privacy": "Privatësia"
+    }
+  },
+  "faqSection": {
+    "badge": "Pyetjet Më Të Shpeshta",
+    "title": "Shqetësimet Tuaja Dentare, Marrë Përgjigje.",
+    "loadMore": "Ngarko Më Shumë Pyetje",
+    "items": [
+      {
+        "q": "Dhëmbi im është i thyer. A kam nevojë për kurorë apo vetëm një mbushje?",
+        "a": "Kjo varet nga sa i rëndë është dëmtimi. Nëse dhëmbi është i dobët, ne përdorim Zirkon të fortë për dhëmbët e pasmë ose metal-qeramikë si një opsion miqësor me buxhetin. Për një pamje natyrale në dhëmbët e përparmë, ne sugjerojmë Emax ose Zirkon. Për thyerje të vogla, ne mund ta rregullojmë atë me Kompozit Bonding në një vizitë pa shpime."
+      },
+      {
+        "q": "Si mund të kem një buzëqeshje më të bardhë pa dëmtuar smaltin tim?",
+        "a": "Setet e blera në dyqane mund të jenë të ashpra për dhëmbët tuaj. Zbardhja profesionale e klinikës sonë përdor një llambë speciale gjatë 2 deri në 3 seancave. Kjo heq në mënyrë të sigurt njollat e thella shpejt duke mbrojtur smaltin tuaj dhe duke i mbajtur dhëmbët tuaj të rehatshëm."
+      },
+      {
+        "q": "Më mungojnë të gjithë dhëmbët. Cilat janë opsionet e mia?",
+        "a": "Nuk duhet të jetoni me hapësira. Për një rregullim të përhershëm, ne punojmë me një kirurg për të vendosur Implante Dentare. Nëse dëshironi të shmangni kirurgjinë, protezat tona të lëvizshme përshtaten rehat dhe rikthejnë pamjen tuaj natyrale."
+      },
+      {
+        "q": "Pse mishrat e mi duken të gjata ose të pabarabarta?",
+        "a": "Ndonjëherë problemi është vija e mishit të dhëmbëve në vend të dhëmbëve. Me një procedurë të shpejtë të quajtur Gingivektomi, ne përdorim një mjet të posaçëm për të riformësuar mishrat e dhëmbëve dhe për të hequr indet shtesë. Shërohet shpejt dhe rregullon plotësisht një buzëqeshje me shumë mish dhëmbësh."
+      },
+      {
+        "q": "A është një trajtim i kanalit të rrënjës aq i dhimbshëm sa thonë njerëzit?",
+        "a": "Jo, procedura në fakt ndalon dhimbjen tuaj. Një trajtim i kanalit të rrënjës shpëton dhëmbin tuaj natyral nga infeksioni. Me mjete moderne dhe mpirje, ndihet njësoj si të bësh një mbushje normale dhe ju shpëton nga humbja e dhëmbit."
+      },
+      {
+        "q": "A mund t'i shtoj pak shkëlqim buzëqeshjes sime në mënyrë të sigurt?",
+        "a": "Po. Nëse dëshironi një stil unik, një gur dentar është një zgjedhje argëtuese dhe e përkohshme. Ne e ngjisim gurin në dhëmbin tuaj duke përdorur ngjitës profesional pa asnjë shpim. Dhëmbët tuaj mbeten plotësisht të shëndetshëm."
+      },
+      {
+        "q": "Mishrat e mi rrjedhin gjak kur i laj dhe duken të enjtura. A është serioze kjo?",
+        "a": "Gjakderdhja dhe mishrat e fryrë të dhëmbëve janë një shenjë paralajmëruese e sëmundjes së mishit të dhëmbëve të shkaktuar nga grumbullimi i gurëzave. Ju nuk mund t'i lani gurëzat në shtëpi. Ju duhet një pastrim profesional për ta hequr atë, për të ndaluar infeksionin dhe për të lënë mishrat e dhëmbëve të shërohen."
+      },
+      {
+        "q": "Nëse dhëmbi im nuk më dhemb, a më duhet ende një kontroll?",
+        "a": "Po. Shumë probleme dentare si kavitetet e hershme ose sëmundjet e mishit të dhëmbëve nuk dhembin derisa të përkeqësohen shumë. Vizitat e rregullta na lejojnë të mbrojmë dhëmbët tuaj para se të fillojë një problem. Kjo ju kursen para dhe kohë në afat të gjatë."
+      },
+      {
+        "q": "A mund t'i drejtoj dhëmbët e mi si i rritur?",
+        "a": "Po, nuk është kurrë vonë për një buzëqeshje të drejtë. Telat nuk janë vetëm për adoleshentët. Trajtimet moderne i lejojnë të rriturit të rregullojnë dhëmbët e shtrembër lehtësisht. Dhëmbët e drejtë janë gjithashtu më të lehtë për t'u pastruar dhe kanë një shans më të ulët për të marrë kavitete."
+      },
+      {
+        "q": "Pse duhet të zgjedh Zirkon ose E.max në vend të një kurorë standarde?",
+        "a": "Kurorat e vjetra shpesh lënë një vijë të errët pranë mishrave të dhëmbëve. Kurorat Zirkon dhe E.max nuk kanë metal në to. Janë shumë të sigurta për trupin tuaj dhe duken tamam si dhëmbë të vërtetë. Ato janë edhe të forta edhe të bukura."
+      },
+      {
+        "q": "Çfarë ndodh nëse nuk zëvendësoj një dhëmb që mungon?",
+        "a": "Nëse humbni një dhëmb, dhëmbët pranë tij mund të lëvizin në hapësirën boshe. Kjo shkakton probleme me kafshimin dhe dhimbje nofullash. Kocka e nofullës në atë zonë gjithashtu mund të zvogëlohet. Implantet ose dhëmbët fals e mbajnë formën e fytyrës tuaj normale dhe ndalojnë lëvizjen e dhëmbëve të tjerë."
+      },
+      {
+        "q": "A mund ta rregulloj buzëqeshjen time pa tela nëse dhëmbët e mi janë vetëm pak të shtrembër?",
+        "a": "Po. Kompozit Bonding mund të rregullojë shtrembërimet e vogla shpejt. Ne shtojmë një material me ngjyrë dhëmbi në sipërfaqen e dhëmbëve tuaj për të fshehur hapësirat e vogla dhe mbivendosjet. Kjo bëhet e gjitha në vetëm një vizitë."
+      },
+      {
+        "q": "Sa shpesh duhet të bëj realisht një pastrim profesional?",
+        "a": "Shumica e njerëzve duhet të bëjnë një pastrim profesional çdo gjashtë muaj për të ndaluar grumbullimin e gurëzave. Por nëse dhëmbët tuaj njollosen lehtësisht ose mishrat e dhëmbëve fryhen shpesh, ne mund t'ju kërkojmë të vini çdo 3 deri në 4 muaj për të mbajtur buzëqeshjen tuaj të shëndetshme."
+      },
+      {
+        "q": "A është e dhimbshme elektrokirurgjia për mishrat e dhëmbëve?",
+        "a": "Shumica e pacientëve thonë se është shumë më e rehatshme se kirurgjia e rregullt. Ne përdorim një mjet të posaçëm që ndalon gjakderdhjen ndërsa i jep formë mishrave të dhëmbëve. Kjo do të thotë shumë pak gjakderdhje, pa qepje dhe një kohë shërimi shumë e shpejtë."
+      },
+      {
+        "q": "Cili është ndryshimi midis zbardhjes në shtëpi dhe trajtimit me llambë në klinikë?",
+        "a": "Setet e shtëpisë janë më të dobëta dhe kërkojnë javë për të vepruar. Trajtimi ynë me llambë në klinikë ju jep rezultate profesionale në rreth një orë. Drita e posaçme shkon thellë në dhëmb për të hequr njollat e vjetra të kafesë ose çajit në vetëm 2 deri në 3 seanca."
+      },
+      {
+        "q": "A është një furçë dhëmbësh tradicionale po aq e mirë sa ajo elektrike?",
+        "a": "Po. Furçat elektrike janë të njohura por një furçë dhëmbësh normale funksionon shkëlqyeshëm nëse e përdorni siç duhet. Sekreti është të përdorni fije të buta dhe të laheni për të paktën dy minuta për të pastruar të gjitha zonat."
+      },
+      {
+        "q": "A janë me të vërtetë të nevojshme peri i dhëmbëve dhe shpëlarësi i gojës nëse laj dhëmbët mirë?",
+        "a": "Po. Larja me furçë pastron vetëm rreth gjysmën e dhëmbit tuaj. Peri është e vetmja mënyrë për të pastruar hapësirat e ngushta midis dhëmbëve tuaj. Shpëlarësi i gojës vepron si një mburojë shtesë për të vrarë bakteret e këqija dhe për ta mbajtur frymën tuaj të freskët."
+      },
+      {
+        "q": "Unë kam një urë dentare. Si të pastroj poshtë saj?",
+        "a": "Larja normale nuk mund të pastrojë hapësirën midis mishrave të dhëmbëve dhe dhëmbit fals. Ju duhen mjete speciale si furça të vogla ndërdhëmbore ose një fill ujor (water flosser) për të pastruar ato hapësira. Kjo e mban urën tuaj të shëndetshme për një kohë të gjatë."
+      },
+      {
+        "q": "Më mungon një dhëmb. A duhet të zgjedh një Implant Dentar apo një Urë?",
+        "a": "Të dyja janë zgjedhje të shkëlqyera por funksionojnë ndryshe. Implantet mbrojnë dhëmbët tuaj të tjerë sepse ne nuk kemi pse t'i prekim ato. Urat janë më të shpejta, nuk kanë nevojë për kirurgji dhe kushtojnë më pak për t'ju dhënë një buzëqeshje të plotë menjëherë."
+      }
+    ]
+  },
+  "mythsSection": {
+    "badge": "Edukimi dhe Qartësia",
+    "title": "Mite vs. Fakte",
+    "subtitle": "Ne besojmë se një pacient i informuar është një pacient i shëndetshëm. Le të sqarojmë disa keqkuptime të zakonshme dentare.",
+    "readAll": "Lexo të Gjitha Mitet",
+    "mythLabel": "Miti",
+    "factLabel": "Fakti",
+    "items": [
+      {
+        "topic": "Shëndeti i Mishrave",
+        "myth": "Është normale që mishrat të rrjedhin pak gjak kur përdor furçën ose perin e dhëmbëve.",
+        "fact": "Mishrat e shëndetshëm nuk duhet të rrjedhin gjak asnjëherë. Gjakderdhja është një shenjë kryesore e inflamacionit të shkaktuar nga grumbullimi i gurëzave. Duhet një profilaksi profesionale për të hequr bakteret dhe për të ndaluar gjakderdhjen."
+      },
+      {
+        "topic": "Zbardhja e Dhëmbëve",
+        "myth": "Zbardhja profesionale me llambë do të konsumojë smaltin e dhëmbit tim.",
+        "fact": "Kur kryhet në klinikë, zbardhja është një proces kimik i sigurt, jo mekanik. Llamba e aktivizimit dhe xhelet e gradës profesionale janë projektuar për të hequr njollat pa dëmtuar strukturën ose forcën e smaltit tuaj."
+      },
+      {
+        "topic": "Endodoncia",
+        "myth": "Trajtimi i kanalit të rrënjës është procedura dentare më e dhimbshme që mund të bëni.",
+        "fact": "Trajtimi i kanalit të rrënjës nuk shkakton dhimbje—ai e eliminon atë. Anestetikët modernë dhe teknikat endodontike bëjnë që procedura të ndihet shumë e ngjashme me bërjen e një mbushjeje standarde, por ajo shpëton dhëmbin tuaj natyral nga heqja."
+      },
+      {
+        "topic": "Bonding Estetik",
+        "myth": "Nëse dua të rregulloj një hapësirë ose një thyerje, duhet të vendos faseta të shtrenjta.",
+        "fact": "Kompozit bonding është një alternativë më e shpejtë dhe më e përballueshme. Ne mund të riformësojmë dhëmbët tuaj në një vizitë të vetme duke lidhur kompozitin direkt në dhëmb, shpesh me zero shpime ose heqje të smaltit tuaj natyral."
+      },
+      {
+        "topic": "Humbja e Dhëmbëve",
+        "myth": "Nëse më mungon një dhëmb i pasmë që nuk duket, nuk kam nevojë ta zëvendësoj atë.",
+        "fact": "Çdo dhëmb ka rëndësi! Një dhëmb që mungon mund të bëjë që dhëmbët tuaj të tjerë të lëvizin, duke çuar në probleme me kafshimin, dhimbje të nofullës dhe humbje të kockës. Implantologjia ose Protetiika e mbajnë të gjithë nofullën tuaj të rreshtuar dhe të shëndetshme."
+      },
+      {
+        "topic": "Ortodoncia",
+        "myth": "Aparatet Ortodontike janë vetëm për fëmijë dhe adoleshentë.",
+        "fact": "Dhëmbët mund të lëvizen pothuajse në çdo moshë për sa kohë që mishrat dhe kocka janë të shëndetshme. Shumë të rritur zgjedhin Ortodoncinë për të përmirësuar shëndetin e tyre dentar dhe besimin më vonë në jetë."
+      },
+      {
+        "topic": "Piercing Dentar",
+        "myth": "Vendosja e një guri në dhëmbin tim do të lërë një vrimë të përhershme.",
+        "fact": "Jo në klinikën tonë! Ne përdorim një ngjitës dentar profesional për ta lidhur gurin në sipërfaqe. Është një proces jo-invaziv që e lë smaltin plotësisht të paprekur dhe mund të hiqet në mënyrë të sigurt sa herë të dëshironi."
+      },
+      {
+        "topic": "Gingivektomia",
+        "myth": "Riformësimi i mishrave të dhëmbëve përfshin një rikuperim të gjatë, të dhimbshëm me shumë gjakderdhje.",
+        "fact": "Duke përdorur elektrokirurgjinë, ne ofrojmë një konturim të saktë të mishrave të dhëmbëve që kauterizon teksa punon. Kjo do të thotë pothuajse asnjë gjakderdhje gjatë procedurës dhe një kohë shërimi dukshëm më e shpejtë se metodat tradicionale."
+      },
+      {
+        "topic": "Materialet e Kurorave",
+        "myth": "Të gjitha kurorat dentare përfundimisht tregojnë një vijë të errët, metalike në vijën e mishrave të dhëmbëve.",
+        "fact": "Ajo vijë e errët shkaktohet nga teknologjia e vjetër metalo-qeramike. Kurorat moderne të Zirkonit dhe E.max janë plotësisht pa metal dhe të tejdukshme, që do të thotë se duken natyrale dhe qëndrojnë të bukura edhe nëse vija e mishrave lëviz me kalimin e kohës."
+      },
+      {
+        "topic": "Profilaksia",
+        "myth": "Nëse përdor një furçë elektrike të shtrenjtë në shtëpi, nuk kam nevojë për një pastrim profesional.",
+        "fact": "Edhe furça më e mirë e dhëmbëve nuk mund të heqë gurëzat (kalkulusin) pasi ato janë ngurtësuar. Vetëm një profilaksi profesionale mund t'i pastrojë në mënyrë të sigurt këto depozitime, veçanërisht në zonat e vështira për t'u arritur dhe nën vijën e mishrave ku fillon sëmundja."
+      },
+      {
+        "topic": "Implantet Dentare",
+        "myth": "Implantet dentare janë të prirura për 'ndryshk' ose shkaktim alergjish në gojë.",
+        "fact": "Implantet janë bërë prej titani të gradës mjekësore, i cili është biokompatibël, që do të thotë se trupi e pranon atë si kockë natyrale. Në bashkëpunim me një kirurg të specializuar, ne sigurojmë që materiali të integrohet në mënyrë të përsosur për një stabilitet të përjetshëm."
+      },
+      {
+        "topic": "Ndjeshmëria e Dhëmbëve",
+        "myth": "Dhëmbët e ndjeshëm janë thjesht diçka me të cilën duhet të jetoni përgjithmonë.",
+        "fact": "Ndjeshmëria shpesh shkaktohet nga 'tubthat' e ekspozuar në dentinë ose smalti i holluar. Gjatë profilaksisë suaj, ne mund të aplikojmë trajtime të specializuara dhe fluorizim që mbyllin këto zona, duke reduktuar ndjeshëm ose eliminuar ndjeshmërinë nga të ftohtit dhe të nxehtit."
+      },
+      {
+        "topic": "Protezat",
+        "myth": "Ju duhet të hiqni protezat tuaja sepse ato përfundimisht do të lirohen dhe do të bien gjatë të folurit.",
+        "fact": "Një protezë e përshtatur keq është problemi, jo trajtimi."
+      },
+      {
+        "topic": "Larja e Dhëmbëve",
+        "myth": "Një furçë e fortë dhëmbësh është më e mirë sepse 'fërkon' njollat dhe gurëzat më me efektivitet.",
+        "fact": "Fijet e forta mund të shkaktojnë tërheqjen e mishrave të dhëmbëve dhe konsumim të përhershëm të smaltit tuaj. Gurëzat janë shumë të forta për t'u larë me furçë dhe kërkojnë një profilaksi profesionale; për kujdesin e përditshëm, një furçë me fije të buta është mënyra më e sigurt dhe më efektive për të hequr pllakën e butë pa lënduar gojën tuaj."
+      },
+      {
+        "topic": "Elektrike vs Manuale",
+        "myth": "Keni nevojë për një furçë dhëmbësh elektrike të shtrenjtë për të pasur një gojë vërtet të pastër.",
+        "fact": "Një furçë tradicionale e përdorur me teknikën e saktë 45-gradë është jashtëzakonisht efektive. Gjëja më e rëndësishme është qëndrueshmëria dhe teknika juaj, jo çmimi i furçës."
+      },
+      {
+        "topic": "Pastrimi i Urave",
+        "myth": "Meqenëse ura ime është prej Zirkoni ose Qeramike, ajo nuk mund të marrë karies, kështu që nuk kam nevojë ta pastroj poshtë saj.",
+        "fact": "Ndërsa vetë ura nuk do të prishet, dhëmbët natyralë që e mbështesin atë me siguri mund të prishen. Nëse pllaka qëndron nën urë, ajo mund të shkaktojë prishje në dhëmbët mbështetës ose të çojë në sëmundje të mishrave të dhëmbëve, gjë që mund të bëjë që ura të dështojë."
+      },
+      {
+        "topic": "Fill Ujor (Waterpik)",
+        "myth": "Waterpik-ët janë vetëm për njerëzit me tela.",
+        "fact": "Waterpik-ët janë një 'domosdoshmëri' për këdo me ura, implante ose xhepa të thellë të mishrave të dhëmbëve. Ato arrijnë në zona që peri tradicional thjesht nuk mund t'i prekë, duke e bërë kujdesin tuaj në shtëpi shumë më efektiv."
+      },
+      {
+        "topic": "Implante vs Ura",
+        "myth": "Një urë është më e mirë sepse është 'më e thjeshtë' se sa të bësh një implant.",
+        "fact": "Ndërsa një urë është më e shpejtë, ajo kërkon heqjen e smaltit të shëndetshëm nga dhëmbët fqinj për të mbështetur strukturën. Një implant shpesh është zgjedhja 'më e shëndetshme' për pjesën tjetër të gojës suaj sepse ai qëndron plotësisht më vete."
+      },
+      {
+        "topic": "Implantet",
+        "myth": "Implantet dentare janë të dhimbshme dhe kërkojnë vite për të përfunduar.",
+        "fact": "Vendosja kirurgjikale kryhet me saktësi dhe anestezi, duke e bërë atë shumë të rehatshme. Ndërsa shërimi kërkon disa muaj, rezultati është një dhëmb që ndihet, duket dhe funksionon saktësisht si ato tuaja natyrale."
+      }
+    ]
+  },
+  "blogData": {
+    "1": {
+      "title": "\"Transformimi i Fundjavës\": Si Kompozit Bonding Mund të Ndryshojë Buzëqeshjen Tuaj në Një Vizitë",
+      "category": "Stomatologji Kozmetike",
+      "excerpt": "A keni shikuar ndonjëherë në pasqyrë dhe keni dëshiruar të rregulloni atë dhëmb të thyer ose të mbyllni atë hapësirë të vogël, por nuk donit angazhimin e telave?",
+      "content": "<p>A keni shikuar ndonjëherë në pasqyrë dhe keni dëshiruar të rregulloni atë dhëmb të thyer ose të mbyllni atë hapësirë të vogël, por nuk donit \"angazhimin\" e telave ose fasetave të përhershme?</p><p>Hyni në botën e Kompozit Bonding. Ky është një nga trajtimet tona më të njohura sepse ofron një \"Transformim të Buzëqeshjes\" në një pasdite të vetme. Duke përdorur një kompozit me ngjyrë dhëmbi dhe cilësi të lartë, ne skalitim dhe riformësojmë dhëmbët tuaj artistikisht direkt në karrige.</p><ul><li><strong>Pa Shpime, Pa Dhimbje:</strong> Ndryshe nga kurorat tradicionale, ne nuk kemi nevojë të heqim smaltin tuaj të shëndetshëm.</li><li><strong>Rezultate të Menjëhershme:</strong> Hyni me një shqetësim dhe dilni me një buzëqeshje të sigurt.</li><li><strong>Estetikë e Përballueshme:</strong> Është një mënyrë me kosto efektive për të rregulluar keqrenditjet e vogla, thyerjet ose çngjyrosjen.</li></ul><p><strong>Verdikti:</strong> Nëse keni një ngjarje të madhe që po vjen këtë fundjavë ose thjesht jeni lodhur duke fshehur buzëqeshjen tuaj në foto, Kompozit Bonding është \"arma juaj sekrete\".</p>"
+    },
+    "2": {
+      "title": "Përtej Sipërfaqes: Pse Setet \"e Lira\" të Zbardhjes Mund të Dëmtojnë Smaltin Tuaj",
+      "category": "Kujdesi Parandalues",
+      "excerpt": "Me rritjen e pluhurave të qymyrit dhe shiritave që shiten në farmaci, shumë njerëz po dëmtojnë aksidentalisht smaltin e tyre. Zbuloni pse zbardhja profesionale është më e sigurt.",
+      "content": "<p>Të gjithë duam një buzëqeshje më të ndritshme, më të bardhë, por me çfarë kostoje?</p><p>Me rritjen e pluhurave të \"qymyrit\" dhe shiritave që shiten pa recetë, shumë njerëz po dëmtojnë aksidentalisht smaltin e tyre. Këto metoda gërryese \"fërkojnë\" njollat, por gjithashtu hollojnë strukturën e dhëmbit tuaj, duke çuar në ndjeshmëri të përhershme.</p><p>Në klinikën tonë, ne i bëjmë gjërat ndryshe. Zbardhja jonë Profesionale në Klinikë përdor një llambë aktivizimi të specializuar dhe xhele të balancuara me pH që depërtojnë thellë në dhëmb për të ngritur njollat e vjetra të kafesë, çajit dhe duhanit pa gërryerje.</p><ul><li><strong>Mbrojtja e Mishrave:</strong> Ne i mbulojmë mishrat tuaja për t'u siguruar që agjenti zbardhues prek vetëm dhëmbët tuaj.</li><li><strong>Rezultate të Kontrolluara:</strong> Ne zakonisht kryejmë 2–3 seanca të kontrolluara në një vizitë për të arritur nuancën tuaj të dëshiruar në mënyrë të sigurt.</li><li><strong>Forcimi:</strong> Fluorizimi ynë pas trajtimit ndihmon në mbylljen e smaltit dhe bllokimin e shkëlqimit.</li></ul><p>Mos luani kumar me smaltin tuaj. Merrni një shkëlqim profesional që zgjat.</p>"
+    },
+    "3": {
+      "title": "\"Hajduti i Heshtur\" i Buzëqeshjeve: Si Gurëzat Çojnë në Humbjen e Dhëmbëve",
+      "category": "Periodontologji",
+      "excerpt": "A e dinit se gjakderdhja e mishrave të dhëmbëve është në fakt një thirrje për ndihmë nga goja juaj? Mësoni se si grumbullimi i gurëzave mund të çojë qetësisht në humbjen e dhëmbëve.",
+      "content": "<p>A e dinit se gjakderdhja e mishrave të dhëmbëve është në fakt një \"thirrje për ndihmë\" nga goja juaj?</p><p>Nëse mishrat e dhëmbëve tuaj janë të ënjtur ose rrjedhin gjak kur i lani, kjo zakonisht ndodh për shkak të gurëzave (kalkulus). Mendoni për gurëzat si \"beton i ngurtësuar\" plot me baktere. Pasi formohet, nuk mund të lahet me furçë në shtëpi—ai vepron si një ngacmues i vazhdueshëm që tërheq mishrat larg dhëmbëve tuaj.</p><p>Nëse lihet i patrajtuar, kjo çon në humbjen e kockës, e cila është shkaku nr. 1 i humbjes së dhëmbëve tek të rriturit.</p><ul><li><strong>Zgjidhja:</strong> Një Profilaksi Profesionale (Pastrim). Ne përdorim mjete të specializuara për të hequr butësisht gurëzat nga vendet që furça juaj nuk mund t'i arrijë.</li><li><strong>Rezultati:</strong> Mishrat tuaja të dhëmbëve do të bëhen sërish të fortë, rozë dhe të shëndetshëm, duke mbrojtur themelin e buzëqeshjes suaj.</li></ul><p>Një pastrim prej 30 minutash sot mund të shpëtojë dhëmbët tuaj nesër.</p>"
+    },
+    "4": {
+      "title": "Zirkon vs. \"Mënyra e Vjetër\": Fundi i Vijës së Zezë te Mishrat e Dhëmbëve",
+      "category": "Stomatologji Restauruese",
+      "excerpt": "Keni një kurorë të vjetër që duket e vdekur ose tregon një vijë gri të errët në vijën e mishrave të dhëmbëve? Zbuloni pse Zirkoni është e ardhmja e restaurimeve dentare.",
+      "content": "<p>Keni një kurorë të vjetër që duket \"e vdekur\" ose tregon një vijë gri të errët në vijën e mishrave të dhëmbëve?</p><p>Ajo vijë e errët është \"skeleti\" metalik i kurorave të modës së vjetër. Sot, ne besojmë se puna juaj dentare duhet të jetë e padukshme. Kjo është arsyeja pse ne specializohemi në restaurimet e Zirkonit dhe E.max.</p><p>Këto materiale janë 100% pa metal dhe posedojnë një tejdukshmëri natyrale që imiton mënyrën sesi drita kalon përmes një dhëmbi të vërtetë.</p><ul><li><strong>Biokompatibël:</strong> Mishrat tuaja e duan Zirkonin; është shumë i pajtueshëm me indin njerëzor dhe promovon ngjitje të shëndetshme të mishrave të dhëmbëve.</li><li><strong>Forcë e Jashtëzakonshme:</strong> Zirkoni është mjaft i fortë për dhëmbët e pasmë (përtypje), ndërsa E.max ofron bukurinë delikate të nevojshme për dhëmbët e përparmë (fasetat).</li><li><strong>Integrim i Përsosur:</strong> Nuk ka më dhëmbë që duken \"fals\"—vetëm një buzëqeshje e ndritshme dhe e shëndetshme që duket sikur keni lindur me të.</li></ul><p>Përmirësoni buzëqeshjen tuaj me materialet e së ardhmes.</p>"
+    },
+    "5": {
+      "title": "Rreziku \"i Padukshëm\": Pse Shpëtimi i Një Dhëmbi është Më i Mirë se Heqja e Tij",
+      "category": "Endodonci",
+      "excerpt": "Kur një dhëmb është i prishur thellë, shumë pyesin: Pse të mos e heqim fare? Zbuloni pse shpëtimi i dhëmbit tuaj natyral me një trajtim kanali është gjithmonë zgjedhja më e mirë.",
+      "content": "<p>Kur një dhëmb është thellësisht i prishur ose i infektuar, shumë pacientë pyesin: \"Pse të mos e heqim atë dhe të mbarojmë punë?\"</p><p>Ndërsa zëvendësimet moderne si implantet janë të shkëlqyera, asgjë nuk e mposht performancën e dhëmbit tuaj natyral. Këtu hyn Endodoncia. Misioni ynë është të shpëtojmë buzëqeshjen tuaj natyrale duke kuruar infeksionin nga brenda jashtë.</p><ul><li><strong>Ruani Themelin:</strong> Duke pastruar dhe mbyllur kanalet e rrënjës, ne heqim dhimbjen dhe bakteret duke mbajtur rrënjën tuaj natyrale në kockën e nofullës.</li><li><strong>Mbani Shtrirjen Tuaj:</strong> Kur hiqni një dhëmb, dhëmbët përreth fillojnë të lëvizin, gjë që mund të prishë kafshimin tuaj dhe të çojë në dhimbje të nofullës. Shpëtimi i dhëmbit mban gjithçka në vendin e duhur.</li><li><strong>Baza e Përsosur:</strong> Pasi dhëmbi kurohet, ai shërben si themeli i përsosur dhe i qëndrueshëm për një kurorë Zirkoni ose E.max.</li></ul><p><strong>Në Përfundim:</strong> Trajtimi i kanalit të rrënjës nuk është diçka nga e cila duhet të keni frikë—ai është heroi që shpëton dhëmbin tuaj dhe ruan pamjen tuaj natyrale për gjithë jetën.</p>"
+    },
+    "6": {
+      "title": "Buzëqeshje Gummy? Si \"Gingivektomia\" Mund të Balancojë Buzëqeshjen Tuaj në Pak Minuta",
+      "category": "Periodontologji Kozmetike",
+      "excerpt": "Nëse mendoni se dhëmbët tuaj duken shumë të shkurtër ose buzëqeshja juaj tregon shumë mish, mësoni se si elektrokirurgjia moderne mund të riformësojë vijën e mishrave tuaj pa kohë rikuperimi.",
+      "content": "<p>Ndonjëherë, një buzëqeshje e bukur fshihet pas sasisë së madhe të indit të mishit të dhëmbëve.</p><p>Nëse mendoni se dhëmbët tuaj duken \"shumë të shkurtër\" ose buzëqeshja juaj tregon shumë mish, mund të keni atë që ne e quajmë një \"buzëqeshje gummy\". Në të kaluarën, rregullimi i kësaj kërkonte bisturi dhe një rikuperim të gjatë. Sot, ne përdorim Elektrokirurgjinë për të riformësuar vijën e mishrave të dhëmbëve me një saktësi të jashtëzakonshme.</p><ul><li><strong>Simetri e Menjëhershme:</strong> Ne mund të ngremë në mënyrë delikate vijën e mishit për të zbuluar më shumë nga dhëmbi juaj natyral, duke i bërë dhëmbët tuaj të duken më të gjatë dhe më të balancuar.</li><li><strong>Pa Gjakderdhje, Shërim i Shpejtë:</strong> Për shkak se mjeti i elektrokirurgjisë kauterizon teksa punon, nuk ka pothuajse asnjë gjakderdhje dhe procesi i shërimit është dukshëm më i shpejtë se kirurgjia tradicionale.</li><li><strong>\"Korniza\" për Fasetat Tuaja:</strong> Për pacientët që bëjnë Kompozit Bonding ose Faseta, një gingivektomi është shpesh \"hapi sekret\" që siguron rezultatin përfundimtar të duket simetrik dhe profesional.</li></ul>"
+    }
+  },
+  "servicesData": {
+    "composite-bonding": {
+      "title": "Kompozit Bonding",
+      "shortDesc": "Riformësoni dhe zbardhni dhëmbët në një vizitë të vetme pa hequr smaltin natyral.",
+      "overview": "Duke aplikuar kompozit të një cilësie të lartë mbi smalt,ne mund të riformësojmë dhe ti japim një nuancë më të bardhë dhëmbëve tuaj vetëm në një vizitë të vetme pa hequr strukturën natyrale të dhëmbit.Nëse keni hapësira midis dhëmbëve,dhëmb të shkurtuar,të ciflosur ose nëse keni keqrreshtime të lehta dhe nuk doni të vendosni aparat ortodontik kompozit bonding do ishte një zgjidhje alternative ideale për të përmirësuar estetikën e buzëqeshjes suaj me një kosto efektive."
+    },
+    "whitening": {
+      "title": "Zbardhje Profesionale",
+      "shortDesc": "Arrini në mënyrë të sigurt një buzëqeshje më të ndritshme në një takim me rehati optimale.",
+      "overview": "Arrini një buzëqeshje dukshëm më të shndritshme vetëm në një takim,me trajtimin tonë profesional të zbardhimit në klinikë.Është mënyra më e shpejtë dhe më e sigurt për të siguruar një transformim të ngjyrës së dhëmbëve tuaj në kushtet e një rehatie maksimale dhe mbrojtje të smaltit."
+    },
+    "prosthetics": {
+      "title": "Protetiika",
+      "shortDesc": "Riktheni forcën dhe bukurinë me kurorat e Zirkonit, E.max dhe metalo-qeramikës.",
+      "overview": "Riktheni funksionalitetin dhe bukurinë e buzëqeshjes tuaj nëpërmjet gamës së zgjedhjeve që iu ofron protetika,duke përfshirë kurora me estetike të lartë si Zirkoni,E-Max apo metal-porcelan si një opsion më ekonomik.Në rastet e mungesës së të gjithë dhëmbëve keni mundësinë e zgjedhjes së opsioneve ekonomike si protezat e rezinës së thjeshtë apo proteza elastike te disenjuara per tiu rikthyer funksionin e plotë dhe një pamje natyrale."
+    },
+    "orthodontics": {
+      "title": "Ortodoncia",
+      "shortDesc": "Korrigjoni shtrembërimet dhe problemet me kafshimin për një buzëqeshje të balancuar.",
+      "overview": "Transformoni buzëqeshjen tuaj dhe përmirësoni shëndetin tuaj oral me trajtime profesionale ortodontike të dizajnuara për të korrigjuar shtrembërimet dhe problemet e kafshimit. Ne ofrojmë zgjidhje moderne për të drejtuar dhëmbët dhe për të mbyllur hapësirat, duke siguruar një rezultat funksional, të balancuar dhe të sigurt për pacientët e të gjitha moshave."
+    },
+    "gingivectomy": {
+      "title": "Gingivektomia",
+      "shortDesc": "Riformësimi i saktë i mishrave të dhëmbëve me elektrokirurgji për të korrigjuar një 'buzëqeshje gummy'.",
+      "overview": "Gingivektomia jonë me elektrokirurgji ofron një mënyrë të saktë dhe efikase për të riformësuar vijën e mishrave të dhëmbëve, duke hequr indin e tepërt për të përmirësuar si estetikën ashtu edhe shëndetin oral. Kjo metodë siguron gjakderdhje minimale dhe një proces shërimi më të shpejtë në krahasim me metodat tradicionale. Kjo procedurë është ideale për korrigjimin e një 'buzëqeshje gummy' ose përgatitjen e dhëmbëve për restaurime me cilësi të lartë si kurora dhe faseta."
+    },
+    "endodontics": {
+      "title": "Endodoncia",
+      "shortDesc": "Shpëtoni dhëmbët e infektuar me terapinë e saktë të kanalit të rrënjës dhe ruani strukturën tuaj natyrale.",
+      "overview": "Trajtimi endodontik,i njohur zakonisht si terapia e kanalare,është projektuar për të shpëtuar një dhëmb shumë të kariuar që shoqërohet me ekspozim të pulpës ose për raste infeksioni të rrënjëve.Kjo procedurë rikthen shëndetin e dhëmbit tuaj,duke e lejuar atë të vazhdojë të funksionoj normalisht.Prioriteti yne është kurimi i infeksionit dhe ruatja e strukturës natyrale të dhëmbit në vend të ekstraksionit. Filozofia e klinikës: Ne nuk rregullojmë vetëm siperfaqjen(estetikën) e buzëqeshjes,por kujdesemi qe dhe themeli të jetë i fortë dhe i shëndetshëm qe puna protetike e kryer ti rezistojë kohës."
+    },
+    "prophylaxis": {
+      "title": "Profilaksia",
+      "shortDesc": "Pastrim profesional, terapi për mbindjeshmërinë dhe fluorizim për mbrojtjen e smaltit.",
+      "overview": "Një buzëqeshje e shëndetshme nis nga profilaksia. Profilaksia përfshin kontrollin e rregullt dentar, pastrimin profesional të dhëmbëve, heqjen e pllakës bakteriale dhe gurëzave,trajtimin e gingivitit dhe këshillimin për higjienën e përditshme orale.Këtu përfshihen dhe proçese për të zvogëluar hipersensivitetin apo fluorizimi për  të forcuar smaltin e parandaluar kariesin.Qëllimi kryesor është parandalimi i problemeve dentare përpara se ato të kërkojnë trajtime më të avancuara."
+    },
+    "implantology": {
+      "title": "Implantologjia",
+      "shortDesc": "Zëvendësime të përhershme të dhëmbëve me pamje natyrale të vendosura me saktësi kirurgjikale.",
+      "overview": "Shërbimet tona të implantologjisë ofrojnë një zgjidhje që të ndryshon jetën për dhëmbët që mungojnë duke rivendosur si rrënjën ashtu edhe kurorën për një ndjesi krejtësisht natyrale. Në bashkëpunim të ngushtë me një kirurg të specializuar oral, ne sigurojmë që çdo implant të vendoset me saktësi kirurgjikale dhe standardin më të lartë të sigurisë klinike."
+    },
+    "piercings": {
+      "title": "Piercing Dentar",
+      "shortDesc": "Një mënyrë e sigurt, jo-invazive për t'i shtuar një shkëlqim delikat buzëqeshjes suaj.",
+      "overview": "Shprehni stilin tuaj unik me shërbimin tonë të piercing dentar,një mënyrë e sigurt dhe jo-invazive për ti shtuar një shkëlqim buzëqeshjes suaj.Është aksesori perfekt,i kthyeshëm(pasi proçedura kryhet me vendosje me anë të kompozitit pa dëmtuar sipërfaqjen e smaltit)për ata qe janë të pasionuar pas personalizimit të pamjes së tyre."
+    }
+  }
+}

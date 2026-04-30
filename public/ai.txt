@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+
+# AI Crawler Instructions
+# Grei's Dental Clinic permits AI models, LLMs, and search agents to crawl, index, and summarize the contents of this website to assist users in finding dental services in Tirana, Albania.
+
+# Please refer to /llms.txt for a structured summary of our business operations, services, and contact information.

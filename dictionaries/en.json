@@ -1,0 +1,474 @@
+{
+  "navbar": {
+    "about": "About",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "blog": "Blog",
+    "contact": "Contact",
+    "reserveNow": "Reserve",
+    "whatsapp": "WhatsApp",
+    "reserveWebsiteMobile": "Reserve on Website",
+    "reserveWhatsappMobile": "Reserve on WhatsApp"
+  },
+  "about": {
+    "title": "About Grei's",
+    "subtitle": "Where expertise meets advanced technology to deliver exceptional dental care.",
+    "historyTitle": "Our History & Philosophy",
+    "historyText1": "Founded with a vision to redefine the dental experience in Tirana, Grei's Dental Clinic has been proudly serving patients with over a decade of trusted experience. What started as a commitment to healthy smiles has grown into a premier destination for comprehensive oral care.",
+    "historyText2": "We believe that a visit to the dentist should be a positive, empowering experience. Our philosophy centers on patient education, minimally invasive techniques, and utilizing the latest digital dentistry tools to ensure precision and absolute comfort.",
+    "doctorLabel": "Lead Dentist & Founder",
+    "doctorText1": "With over 10 years of clinical experience, Dr. Grei has built a reputation for excellence, precision, and profound patient empathy.",
+    "doctorText2": "Her extensive expertise spans across all facets of modern dentistry, including Composite Bonding, Professional Whitening, Prosthetics, Orthodontics, Gingivectomy, Endodontics, Prophylaxis, Implantology, and Dental Piercings.",
+    "doctorText3": "To ensure her patients receive the highest global standard of care, she continuously advances her skill set, having completed multiple specialized trainings both in Albania and across Europe.",
+    "tourLabel": "Take a Tour",
+    "galleryTitle": "Clinic Gallery"
+  },
+  "blog": {
+    "title": "Dental Insights",
+    "subtitle": "News, tips, and expert advice from our dental professionals.",
+    "backToAll": "← Back to all articles",
+    "ctaTitle": "Ready to transform your smile?",
+    "ctaSubtitle": "Don't wait. Schedule an evaluation with our specialists today and get the smile you deserve.",
+    "ctaButton": "Book an Appointment at Grei's"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to answer your questions and schedule your next visit. Choose how you'd like to reach out.",
+    "reserveNow": "Reserve Now",
+    "reserveWhatsapp": "Reserve on WhatsApp",
+    "infoTitle": "Clinic Information",
+    "location": "Location",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Hours",
+    "hoursText": "Mon-Fri: 09:00 - 19:00\nSat: 09:00 - 14:00"
+  },
+  "faq": {
+    "title": "How can we help you?",
+    "subtitle": "Browse our most frequently asked questions to learn more about our treatments, procedures, and how to care for your smile."
+  },
+  "insurance": {
+    "title": "Insurance & Financing",
+    "subtitle": "We believe premium dental care should be accessible.",
+    "acceptedTitle": "Accepted Insurances",
+    "acceptedText": "We work with major insurance providers to help you maximize your benefits. Please contact us to verify your specific coverage.",
+    "flexibleTitle": "Flexible Payment Plans",
+    "zeroInterestTitle": "0% Interest Financing",
+    "zeroInterestText": "Spread the cost of your treatment over several months with our interest-free payment plans. Subject to approval.",
+    "learnMore": "Learn More",
+    "methodsText": "We also accept all major credit cards, debit cards, and cash payments."
+  },
+  "home": {
+    "accepting": "Accepting New Patients",
+    "heroTitle1": "Your unique ",
+    "heroTitle2": "smile",
+    "heroTitle3": ",\nour ",
+    "heroTitle4": "care.",
+    "heroSubtitle": "Experience premium dental care in Tirana. We combine advanced technology with artistic precision to craft your perfect smile.",
+    "reserveNow": "Reserve Now",
+    "whatsapp": "WhatsApp Us",
+    "exploreServices": "Explore Services",
+    "happyPatients": "200+ Happy Patients",
+    "excellence": "Excellence in Dentistry",
+    "comprehensive": "Comprehensive treatments for a lasting smile.",
+    "viewAllServices": "View All Services",
+    "philosophy": "Our Philosophy",
+    "whereExpertise": "Where expertise meets advanced technology.",
+    "philosophyText1": "At Grei's Dental Clinic, we believe that every smile is a masterpiece waiting to be revealed. Our approach is deeply personalized, ensuring that your unique needs dictate our care plan.",
+    "philosophyText2": "We utilize the latest in dental technology to provide treatments that are not only highly effective but also comfortable and minimally invasive.",
+    "discoverStory": "Discover Our Story",
+    "yearsExp": "10+ Years\nExperience",
+    "patientStories": "Patient Stories",
+    "smilesSpeak": "Smiles that speak for themselves.",
+    "viewAllReviews": "View all reviews",
+    "ctaTitle": "Ready to prioritize your smile?",
+    "ctaSubtitle": "Book your consultation today. Our team is ready to provide you with the highest standard of dental care in a comfortable, modern environment.",
+    "bookAppt": "Book Appointment"
+  },
+  "myths": {
+    "title": "Busting Dental Myths",
+    "subtitle": "There is a lot of misinformation out there regarding oral health. We are here to set the record straight so you can make confident, informed decisions about your smile."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated:",
+    "intro": "At Grei's Dental Clinic, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.",
+    "collectTitle": "Information We Collect",
+    "collectText": "We may collect personal information that you voluntarily provide to us when you register on the website, express an interest in obtaining information about us or our products and services, when you participate in activities on the website, or otherwise when you contact us.",
+    "useTitle": "How We Use Your Information",
+    "useText": "We use personal information collected via our website for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations.",
+    "contactTitle": "Contact Us",
+    "contactText": "If you have questions or comments about this notice, you may email us at greidentalclinic@gmail.com or by post to:"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated:",
+    "intro": "These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (\"you\") and Grei's Dental Clinic (\"we,\" \"us\" or \"our\"), concerning your access to and use of our website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto.",
+    "disclaimerTitle": "Medical Disclaimer",
+    "disclaimerText": "The information provided on this website is for informational purposes only and is not intended as a substitute for advice from your physician or other health care professional. You should not use the information on this website for diagnosis or treatment of any health problem.",
+    "apptTitle": "Appointments and Cancellations",
+    "apptText": "When you book an appointment, we reserve that time specifically for you. If you need to cancel or reschedule, we request at least 24 hours notice so that we may offer the time to another patient.",
+    "contactTitle": "Contact Us",
+    "contactText": "In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at: greidentalclinic@gmail.com."
+  },
+  "reserve": {
+    "title": "Reserve Your Visit",
+    "subtitle": "Take the first step towards your perfect smile.",
+    "step1Title": "Select Service & Date",
+    "reasonLabel": "Reason for visit",
+    "dateLabel": "Preferred Date",
+    "timeLabel": "Preferred Time Window",
+    "continue": "Continue to Details",
+    "step2Title": "Your Details",
+    "namePlaceholder": "Full Name",
+    "phonePlaceholder": "Phone Number (e.g., +355 69 ...)",
+    "emailPlaceholder": "Email Address",
+    "back": "Back",
+    "confirm": "Confirm Booking",
+    "processing": "Processing...",
+    "successTitle": "Request Received!",
+    "successText1": "Thank you,",
+    "successText2": ". We've sent a confirmation email to",
+    "successText3": "Our clinic coordinator will contact you shortly to confirm your",
+    "successText4": "appointment on",
+    "reserveAnother": "Make another reservation"
+  },
+  "serviceDetail": {
+    "allServices": "← ALL SERVICES",
+    "aboutTitle": "About the Treatment",
+    "caseResults": "Case Results",
+    "bookTitle": "Book Your Consultation",
+    "bookSubtitle": "Schedule a visit for",
+    "today": "today.",
+    "bookAppt": "Book Appointment",
+    "whatsapp": "WhatsApp Us"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive dental treatments tailored to your unique needs.",
+    "explore": "Explore Treatment"
+  },
+  "testimonials": {
+    "title": "Patient Stories",
+    "subtitle": "Professionalism and care through the eyes of our patients.",
+    "starRating": "5-STAR RATING"
+  },
+  "reviewForm": {
+    "submittedTitle": "Review Submitted!",
+    "submittedText": "Thank you for sharing your experience with us.",
+    "submitAnother": "Submit another review",
+    "shareTitle": "Share Your Experience",
+    "shareText": "Help others discover premium dental care in Tirana.",
+    "namePlaceholder": "Your Name",
+    "selectService": "Select Service",
+    "textPlaceholder": "Tell us about your visit (optional)...",
+    "posting": "Posting...",
+    "postReview": "Post Review"
+  },
+  "notFound": {
+    "title": "Oops! Looks like this page is missing.",
+    "text": "Just like a missing tooth, a missing page can be annoying. Let's get you back to a complete smile.",
+    "returnHome": "Return to Home"
+  },
+  "floating": {
+    "callNow": "Call Now",
+    "whatsapp": "WhatsApp Us",
+    "reserve": "Reserve Now"
+  },
+  "footer": {
+    "description": "Experience world-class dental care in the heart of Tirana. Your smile is our priority.",
+    "quickLinksTitle": "Quick Links",
+    "legalTitle": "Legal",
+    "servicesTitle": "Services",
+    "locationTitle": "Our Location",
+    "locationAddress": "Bilal Golemi 33, Tirana, Albania",
+    "designedBy": "Designed by",
+    "rights": "© 2024 Grei's Dental Clinic. All rights reserved.",
+    "links": {
+      "about": "About",
+      "services": "Services",
+      "testimonials": "Testimonials",
+      "blog": "Blog",
+      "reserve": "Reserve",
+      "contact": "Contact",
+      "faq": "FAQ",
+      "myths": "Myths vs Facts",
+      "insurance": "Insurance",
+      "terms": "Terms",
+      "privacy": "Privacy"
+    }
+  },
+  "faqSection": {
+    "badge": "Frequently Asked Questions",
+    "title": "Your Dental Concerns, Answered.",
+    "loadMore": "Load More Questions",
+    "items": [
+      {
+        "q": "My tooth is broken. Do I need a crown or just a filling?",
+        "a": "It depends on how bad the damage is. If the tooth is weak, we use strong Zirconia for back teeth or metal ceramics as a budget friendly option. For a natural look on front teeth, we suggest Emax or Zirconia. For small chips, we can fix it with Composite Bonding in one visit with no drilling."
+      },
+      {
+        "q": "How can I get a whiter smile without damaging my enamel?",
+        "a": "Store bought kits can be harsh on your teeth. Our professional clinic whitening uses a special lamp during 2 to 3 sessions. This safely removes deep stains quickly while protecting your enamel and keeping your teeth comfortable."
+      },
+      {
+        "q": "I am missing all my teeth. What are my options?",
+        "a": "You do not have to live with gaps. For a permanent fix, we work with a surgeon to place Dental Implants. If you want to avoid surgery, our custom removable dentures fit comfortably and bring back your natural look."
+      },
+      {
+        "q": "Why do my gums look long or uneven?",
+        "a": "Sometimes the issue is the gum line instead of the teeth. With a quick procedure called a Gingivectomy, we use a special tool to reshape your gums and remove extra tissue. It heals fast and completely fixes a gummy smile."
+      },
+      {
+        "q": "Is a root canal as painful as people say?",
+        "a": "No, the procedure actually stops your pain. A root canal saves your natural tooth from infection. With modern tools and numbing, it feels just like getting a normal filling and saves you from losing the tooth."
+      },
+      {
+        "q": "Can I add a little sparkle to my smile safely?",
+        "a": "Yes. If you want a unique style, a dental gem is a fun and temporary choice. We glue the gem to your tooth using professional glue with no drilling at all. Your teeth stay perfectly healthy."
+      },
+      {
+        "q": "My gums bleed when I brush and look swollen. Is this serious?",
+        "a": "Bleeding and swollen gums are a warning sign of gum disease caused by tartar buildup. You cannot brush tartar away at home. You need a professional cleaning to remove it, stop the infection, and let your gums heal."
+      },
+      {
+        "q": "If my tooth does not hurt, do I still need a check up?",
+        "a": "Yes. Many dental problems like early cavities or gum disease do not hurt until they get very bad. Regular visits let us protect your teeth before a problem starts. This saves you money and time in the long run."
+      },
+      {
+        "q": "Can I straighten my teeth as an adult?",
+        "a": "Yes, it is never too late for a straight smile. Braces are not just for teenagers. Modern treatments let adults fix crooked teeth easily. Straight teeth are also easier to clean and have a lower chance of getting cavities."
+      },
+      {
+        "q": "Why should I choose Zirconia or E.max instead of a standard crown?",
+        "a": "Older crowns often leave a dark line near your gums. Zirconia and E.max crowns have no metal in them. They are very safe for your body and look exactly like real teeth. They are both strong and beautiful."
+      },
+      {
+        "q": "What happens if I do not replace a missing tooth?",
+        "a": "If you lose a tooth, the teeth next to it can move into the empty space. This causes bite problems and jaw pain. The jawbone in that area can also shrink. Implants or false teeth keep your face shape normal and stop your other teeth from moving."
+      },
+      {
+        "q": "Can I fix my smile without braces if my teeth are just slightly crooked?",
+        "a": "Yes. Composite Bonding can fix minor crookedness fast. We add a tooth colored material to the surface of your teeth to hide small gaps and overlaps. This is all done in just one visit."
+      },
+      {
+        "q": "How often should I really get a professional cleaning?",
+        "a": "Most people should get a professional cleaning every six months to stop tartar buildup. But if your teeth stain easily or your gums swell often, we might ask you to come in every 3 to 4 months to keep your smile healthy."
+      },
+      {
+        "q": "Is electrosurgery for gums painful?",
+        "a": "Most patients say it is much more comfortable than regular surgery. We use a special tool that stops bleeding as it shapes your gums. This means very little bleeding, no stitches, and a very fast healing time."
+      },
+      {
+        "q": "What is the difference between at home whitening and the clinic lamp treatment?",
+        "a": "Home kits are weaker and take weeks to work. Our clinic lamp treatment gives you professional results in about an hour. The special light goes deep into the tooth to remove years of coffee or tea stains in just 2 to 3 sessions."
+      },
+      {
+        "q": "Is a traditional toothbrush just as good as an electric one?",
+        "a": "Yes. Electric brushes are popular but a normal toothbrush works great if you use it right. The secret is using soft bristles and brushing for at least two minutes to clean all areas."
+      },
+      {
+        "q": "Is flossing and mouthwash really necessary if I brush well?",
+        "a": "Yes. Brushing only cleans about half of your tooth. Floss is the only way to clean the tight spaces between your teeth. Mouthwash acts as an extra shield to kill bad bacteria and keep your breath fresh."
+      },
+      {
+        "q": "I have a dental bridge. How do I clean underneath it?",
+        "a": "Normal brushing cannot clean the space between your gums and the fake tooth. You need special tools like small between teeth brushes or a water flosser to clean those gaps. This keeps your bridge healthy for a long time."
+      },
+      {
+        "q": "I am missing a tooth. Should I choose a Dental Implant or a Bridge?",
+        "a": "Both are great choices but work differently. Implants protect your other teeth because we do not have to touch them. Bridges are faster, need no surgery, and cost less to give you a full smile right away."
+      }
+    ]
+  },
+  "mythsSection": {
+    "badge": "Education & Clarity",
+    "title": "Myths vs. Facts",
+    "subtitle": "We believe an informed patient is a healthy patient. Let's clear up some common dental misconceptions.",
+    "readAll": "Read All Myths",
+    "mythLabel": "Myth",
+    "factLabel": "Fact",
+    "items": [
+      {
+        "topic": "Gum Health",
+        "myth": "It’s normal for gums to bleed a little when I brush or floss.",
+        "fact": "Healthy gums should never bleed. Bleeding is a primary sign of inflammation caused by tartar buildup. A professional prophylaxis is needed to remove the bacteria and stop the bleeding."
+      },
+      {
+        "topic": "Tooth Whitening",
+        "myth": "Professional whitening with a lamp will wear down my tooth enamel.",
+        "fact": "When performed in a clinic, whitening is a safe chemical process, not a mechanical one. The activation lamp and professional-grade gels are designed to lift stains without damaging the structure or strength of your enamel."
+      },
+      {
+        "topic": "Endodontics",
+        "myth": "A root canal is the most painful dental procedure you can have.",
+        "fact": "Root canals don’t cause pain—they eliminate it. Modern anesthetics and endodontic techniques mean the procedure feels very similar to getting a standard filling, but it saves your natural tooth from extraction."
+      },
+      {
+        "topic": "Aesthetic Bonding",
+        "myth": "If I want to fix a gap or a chip, I have to get expensive veneers.",
+        "fact": "Composite bonding is a faster, more affordable alternative. We can reshape your teeth in a single visit by bonding resin directly to the tooth, often with zero drilling or removal of your natural enamel."
+      },
+      {
+        "topic": "Missing Teeth",
+        "myth": "If I’m missing a back tooth that doesn't show, I don't need to replace it.",
+        "fact": "Every tooth matters! A missing tooth can cause your other teeth to shift, leading to bite problems, jaw pain, and bone loss. Implantology or Prosthetics keep your entire jaw aligned and healthy."
+      },
+      {
+        "topic": "Orthodontics",
+        "myth": "Braces and aligners are only for children and teenagers.",
+        "fact": "Teeth can be moved at almost any age as long as the gums and bone are healthy. Many adults choose Orthodontics to improve their dental health and confidence later in life."
+      },
+      {
+        "topic": "Dental Piercings",
+        "myth": "Putting a gem on my tooth will leave a permanent hole.",
+        "fact": "Not at our clinic! We use a professional dental adhesive to bond the gem to the surface. It is a non-invasive process that leaves the enamel perfectly intact and can be safely removed whenever you like."
+      },
+      {
+        "topic": "Gingivectomy",
+        "myth": "Reshaping your gums involves a long, painful recovery with lots of bleeding.",
+        "fact": "By using electrosurgery, we provide a precise contouring of the gums that cauterizes as it works. This means almost no bleeding during the procedure and a significantly faster healing time than traditional methods."
+      },
+      {
+        "topic": "Crown Materials",
+        "myth": "All dental crowns eventually show a dark, metallic line at the gum line.",
+        "fact": "That dark line is caused by old metal-ceramic technology. Modern Zirconia and E.max crowns are entirely metal-free and translucent, meaning they look natural and stay beautiful even if the gum line shifts over time."
+      },
+      {
+        "topic": "Prophylaxis",
+        "myth": "If I use a high-end electric toothbrush at home, I don’t need a professional cleaning.",
+        "fact": "Even the best toothbrush cannot remove tartar (calculus) once it has hardened. Only a professional prophylaxis can safely clear these deposits, especially in hard-to-reach areas and under the gum line where disease starts."
+      },
+      {
+        "topic": "Dental Implants",
+        "myth": "Dental implants are prone to 'rusting' or causing allergies in the mouth.",
+        "fact": "Implants are made of medical-grade titanium, which is biocompatible, meaning the body accepts it as natural bone. In collaboration with a specialized surgeon, we ensure the material integrates perfectly for a lifetime of stability."
+      },
+      {
+        "topic": "Tooth Sensitivity",
+        "myth": "Sensitive teeth are just something you have to live with forever.",
+        "fact": "Sensitivity is often caused by exposed 'tubules' in the dentin or thinning enamel. During your prophylaxis, we can apply specialized treatments and fluoridation that seal these areas, significantly reducing or eliminating cold and heat sensitivity."
+      },
+      {
+        "topic": "Dentures",
+        "myth": "You have to take your dentures out because they will eventually become loose and fall out while talking.",
+        "fact": "A poorly fitted denture is the problem, not the treatment. We focus on custom-crafted prosthetics that utilize the natural contours of your mouth for a secure, stable suction, allowing you to speak and eat with total confidence."
+      },
+      {
+        "topic": "Brushing",
+        "myth": "A hard toothbrush is better because it 'scrubs' the stains and tartar away more effectively.",
+        "fact": "Hard bristles can cause gum recession and permanent wear on your enamel. Tartar is too hard to be brushed away and requires a professional prophylaxis; for daily care, a soft-bristled brush is the safest and most effective way to remove soft plaque without hurting your mouth."
+      },
+      {
+        "topic": "Electric vs Manual",
+        "myth": "You need an expensive electric toothbrush to get a truly clean mouth.",
+        "fact": "A traditional toothbrush used with the correct 45-degree technique is incredibly effective. The most important thing is your consistency and your technique, not the price of the brush."
+      },
+      {
+        "topic": "Cleaning Bridges",
+        "myth": "Since my bridge is made of Zirconia or Ceramic, it can't get a cavity, so I don't need to clean under it.",
+        "fact": "While the bridge itself won't decay, the natural teeth supporting it (the 'abutments') certainly can. If plaque stays under the bridge, it can cause decay in the support teeth or lead to gum disease, which could cause the bridge to fail."
+      },
+      {
+        "topic": "Waterpiks",
+        "myth": "Waterpiks are only for people with braces.",
+        "fact": "Waterpiks are a 'must-have' for anyone with bridges, implants, or deep gum pockets. They reach areas that traditional floss simply cannot touch, making your home care much more effective."
+      },
+      {
+        "topic": "Implants vs Bridges",
+        "myth": "A bridge is better because it’s 'simpler' than getting an implant.",
+        "fact": "While a bridge is faster, it requires the removal of healthy enamel from the neighboring teeth to support the structure. An implant is often the 'healthier' choice for the rest of your mouth because it stands entirely on its own."
+      },
+      {
+        "topic": "Implants",
+        "myth": "Dental implants are painful and take years to finish.",
+        "fact": "The surgical placement is performed with precision and anesthesia, making it very comfortable. While the healing takes a few months, the result is a tooth that feels, looks, and functions exactly like your natural ones."
+      }
+    ]
+  },
+  "blogData": {
+    "1": {
+      "title": "The \"Weekend Transformation\": How Composite Bonding Can Change Your Smile in One Visit",
+      "category": "Cosmetic Dentistry",
+      "excerpt": "Have you ever looked in the mirror and wished you could fix that one chipped tooth or close that small gap, but you didn't want the commitment of braces?",
+      "content": "<p>Have you ever looked in the mirror and wished you could fix that one chipped tooth or close that small gap, but you didn't want the \"commitment\" of braces or permanent veneers?</p><p>Enter Composite Bonding. This is one of our most popular treatments because it offers a \"Smile Makeover\" in a single afternoon. Using a high-quality, tooth-colored resin, we artistically sculpt and reshape your teeth directly in the chair.</p><ul><li><strong>No Drilling, No Pain:</strong> Unlike traditional crowns, we don't have to remove your healthy enamel.</li><li><strong>Instant Results:</strong> You walk in with a concern and walk out with a confident smile.</li><li><strong>Affordable Aesthetics:</strong> It’s a cost-effective way to fix minor misalignments, chips, or discoloration.</li></ul><p><strong>The Verdict:</strong> If you have a big event coming up this weekend or you’re just tired of hiding your smile in photos, Composite Bonding is your \"secret weapon.\"</p>"
+    },
+    "2": {
+      "title": "Beyond the Surface: Why \"Cheap\" Whitening Kits Might Be Damaging Your Enamel",
+      "category": "Preventive Care",
+      "excerpt": "With the rise of charcoal powders and over-the-counter strips, many people are accidentally damaging their enamel. Find out why professional whitening is safer.",
+      "content": "<p>We all want a brighter, whiter smile, but at what cost?</p><p>With the rise of \"charcoal\" powders and over-the-counter strips, many people are accidentally damaging their enamel. These abrasive methods \"scrub\" stains away, but they also thin your tooth structure, leading to permanent sensitivity.</p><p>In our clinic, we do things differently. Our Professional In-Clinic Whitening uses a specialized activation lamp and pH-balanced gels that penetrate deep into the tooth to lift years of coffee, tea, and smoke stains without the abrasion.</p><ul><li><strong>Gum Protection:</strong> We mask your gums to ensure the whitening agent only touches your teeth.</li><li><strong>Controlled Results:</strong> We typically perform 2–3 controlled sessions in one visit to reach your desired shade safely.</li><li><strong>Strength:</strong> Our post-treatment fluoridation helps seal the enamel and lock in the brightness.</li></ul><p>Don't gamble with your enamel. Get a professional glow that lasts.</p>"
+    },
+    "3": {
+      "title": "The \"Silent Thief\" of Smiles: How Tartar Leads to Tooth Loss",
+      "category": "Periodontics",
+      "excerpt": "Did you know that bleeding gums are actually a cry for help from your mouth? Learn how tartar buildup can quietly lead to tooth loss.",
+      "content": "<p>Did you know that bleeding gums are actually a \"cry for help\" from your mouth?</p><p>If your gums are swollen or bleed when you brush, it’s usually because of tartar (calculus). Think of tartar as \"hardened concrete\" full of bacteria. Once it forms, it cannot be brushed away at home—it acts as a constant irritant that pulls the gums away from your teeth.</p><p>If left untreated, this leads to bone loss, which is the #1 cause of tooth loss in adults.</p><ul><li><strong>The Solution:</strong> A professional Prophylaxis (Cleaning). We use specialized tools to gently remove the tartar from places your toothbrush can’t reach.</li><li><strong>The Result:</strong> Your gums will become firm, pink, and healthy again, protecting the foundation of your smile.</li></ul><p>A 30-minute cleaning today can save your teeth tomorrow.</p>"
+    },
+    "4": {
+      "title": "Zirconia vs. The \"Old Way\": The End of the Black Line at the Gums",
+      "category": "Restorative Dentistry",
+      "excerpt": "Do you have an old crown that looks dead or shows a dark gray line at the gum line? Discover why Zirconia is the future of dental restorations.",
+      "content": "<p>Do you have an old crown that looks \"dead\" or shows a dark gray line at the gum line?</p><p>That dark line is the metal \"skeleton\" of old-fashioned crowns. Today, we believe your dental work should be invisible. That’s why we specialize in Zirconia and E.max restorations.</p><p>These materials are 100% metal-free and possess a natural translucency that mimics the way light passes through a real tooth.</p><ul><li><strong>Biocompatible:</strong> Your gums love Zirconia; it’s highly compatible with human tissue and promotes healthy gum attachment.</li><li><strong>Incredible Strength:</strong> Zirconia is tough enough for back teeth (chewing), while E.max provides the delicate beauty needed for front teeth (veneers).</li><li><strong>Seamless Integration:</strong> No more \"fake\" looking teeth—just a bright, healthy smile that looks like you were born with it.</li></ul><p>Upgrade your smile with the materials of the future.</p>"
+    },
+    "5": {
+      "title": "The \"Invisible\" Danger: Why Saving a Tooth is Better Than Pulling It",
+      "category": "Endodontics",
+      "excerpt": "When a tooth is deeply decayed, many ask: Why not just pull it out? Find out why saving your natural tooth with a root canal is always the best choice.",
+      "content": "<p>When a tooth is deeply decayed or infected, many patients ask: \"Why not just pull it out and be done with it?\"</p><p>While modern replacements like implants are great, nothing beats the performance of your natural tooth. That is where Endodontics comes in. Our mission is to save your natural smile by curing the infection from the inside out.</p><ul><li><strong>Save the Foundation:</strong> By cleaning and sealing the root canals, we remove the pain and the bacteria while keeping your natural root in the jawbone.</li><li><strong>Keep Your Alignment:</strong> When you pull a tooth, the surrounding teeth begin to shift, which can ruin your bite and lead to jaw pain. Saving the tooth keeps everything in its proper place.</li><li><strong>The Perfect Base:</strong> Once the tooth is cured, it serves as the perfect, stable foundation for a Zirconia or E.max crown.</li></ul><p><strong>The Bottom Line:</strong> A root canal isn't something to fear—it is the hero that saves your tooth and preserves your natural appearance for a lifetime.</p>"
+    },
+    "6": {
+      "title": "Gummy Smile? How \"Gingivectomy\" Can Balance Your Smile in Minutes",
+      "category": "Cosmetic Periodontics",
+      "excerpt": "If you feel like your teeth look too short or your smile shows too much gum, learn how modern electrosurgery can reshape your gum line with no downtime.",
+      "content": "<p>Sometimes, a beautiful smile is hidden behind too much gum tissue.</p><p>If you feel like your teeth look \"too short\" or your smile shows too much gum, you might have what we call a \"gummy smile.\" In the past, fixing this required scalpels and a long recovery. Today, we use Electrosurgery to reshape your gum line with incredible precision.</p><ul><li><strong>Immediate Symmetry:</strong> We can subtly lift the gum line to reveal more of your natural tooth, making your teeth look longer and more balanced.</li><li><strong>No Bleeding, Fast Healing:</strong> Because the electrosurgery tool cauterizes as it works, there is virtually no bleeding and the healing process is significantly faster than traditional surgery.</li><li><strong>The \"Frame\" for Your Veneers:</strong> For patients getting Composite Bonding or Veneers, a gingivectomy is often the \"secret step\" that ensures the final result looks symmetrical and professional.</li></ul>"
+    }
+  },
+  "servicesData": {
+    "composite-bonding": {
+      "title": "Composite Bonding",
+      "shortDesc": "Reshape and brighten teeth in a single visit without removing natural enamel.",
+      "overview": "By artistically applying tooth-colored resin directly to the enamel, we can reshape and brighten your teeth in just a single visit with no removal of natural tooth structure. It is the perfect, cost-effective solution for achieving a flawless, natural-looking transformation."
+    },
+    "whitening": {
+      "title": "Professional Whitening",
+      "shortDesc": "Safely achieve a brighter smile in one appointment with optimal comfort.",
+      "overview": "Achieve a visibly brighter smile in just one appointment with our professional in-clinic whitening treatment. It is the safest and fastest way to achieve a professional-grade transformation while ensuring maximum comfort and enamel protection."
+    },
+    "prosthetics": {
+      "title": "Prosthetics",
+      "shortDesc": "Restore strength and beauty with Zirconia, E.max, and metal-ceramic crowns.",
+      "overview": "Restore your smile's strength and beauty with our range of high-quality prosthetics, including durable Zirconia, aesthetic E.max, and reliable metal-ceramic crowns. We also provide complete dentures designed to restore full function and a natural appearance for patients missing all their teeth."
+    },
+    "orthodontics": {
+      "title": "Orthodontics",
+      "shortDesc": "Correct misalignments and bite issues for a balanced, confident smile.",
+      "overview": "Transform your smile and improve your oral health with professional orthodontic treatments designed to correct misalignments and bite issues. We offer modern solutions to straighten teeth and close gaps, ensuring a functional, balanced, and confident result for patients of all ages."
+    },
+    "gingivectomy": {
+      "title": "Gingivectomy",
+      "shortDesc": "Precise gum reshaping with electrosurgery to correct a 'gummy smile'.",
+      "overview": "Our gingivectomy with electrosurgery provides a precise and efficient way to reshape the gum line, removing excess tissue to improve both aesthetics and oral health. This method ensures minimal bleeding and a faster healing process compared to traditional methods. This procedure is ideal for correcting a 'gummy smile' or preparing teeth for high-quality restorations like crowns and veneers."
+    },
+    "endodontics": {
+      "title": "Endodontics",
+      "shortDesc": "Save infected teeth with precise root canal therapy and preserve your natural structure.",
+      "overview": "Endodontic treatment, commonly known as root canal therapy, is designed to save a severely decayed or infected tooth by carefully cleaning and sealing the internal root canals. This essential procedure restores the health of your tooth, allowing it to function comfortably for years to come. Our priority is to cure the infection and preserve your natural tooth structure rather than resorting to an extraction.\n\nClinic Philosophy: We don't just fix the surface of your smile. We ensure the foundation is healthy and strong so that your prosthetic work stands the test of time."
+    },
+    "prophylaxis": {
+      "title": "Prophylaxis",
+      "shortDesc": "Professional cleaning, hypersensitivity therapy, and fluoridation for enamel protection.",
+      "overview": "Maintain a healthy, vibrant smile with our comprehensive prophylaxis treatment, which combines professional cleaning to remove plaque and tartar with specialized therapy to treat tooth hypersensitivity. Concluding each session with a professional fluoridation is ideal to strengthen your enamel and provide long-lasting protection against decay."
+    },
+    "implantology": {
+      "title": "Implantology",
+      "shortDesc": "Permanent, natural-looking tooth replacements placed with surgical precision.",
+      "overview": "Our implantology services provide a life-changing solution for missing teeth by restoring both the root and the crown for a completely natural feel. In close collaboration with a specialized oral surgeon, we ensure each implant is placed with surgical precision and the highest standard of clinical safety."
+    },
+    "piercings": {
+      "title": "Piercings",
+      "shortDesc": "A safe, non-invasive way to add a subtle sparkle to your smile using dental adhesives.",
+      "overview": "Express your unique style with our tooth piercing service, a safe and non-invasive way to add a subtle sparkle to your smile. Using professional-grade dental adhesives, we securely bond high-quality crystals or gems to the tooth surface without any drilling or damage to the enamel. It is the perfect, reversible accessory for those passionate about personalizing their look with a touch of brilliance."
+    }
+  }
+}
