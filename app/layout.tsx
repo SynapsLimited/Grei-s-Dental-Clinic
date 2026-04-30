@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Syne, Manrope } from 'next/font/google';
+import Script from 'next/script'; // <-- Imported Next.js Script component
 import './globals.css';
 import { Providers } from '@/app/providers';
 import { Navbar } from '@/components/navbar';
@@ -150,6 +151,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="min-h-screen flex flex-col font-sans antialiased">
+        {/* Google Tag Manager (gtag.js) */}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=AW-17021825144`}
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-17021825144');
+            `,
+          }}
+        />
+
         <LanguageProvider>
           <Providers
             attribute="class"
